@@ -22,20 +22,28 @@ function Footer() {
                     </a>
                 </div>
                 <div className="d-flex justify-content-center align-items-center">
+                    <a href="https://www.linkedin.com/in/adriana-saty-bertelli/" target="_blank" rel="noopener noreferrer">
                     <img src={ln} alt="ln" className="linkedin"></img>
                     <p className="icon-name linkedin">Linkedin</p>
+                    </a>
                 </div>
                 <div className="d-flex justify-content-center align-items-center">
-                    <img src={github} alt="github" className="github"></img>
-                    <p className="icon-name github">Github</p>
+                    <a href="https://github.com/AdrianaSaty" target="_blank" rel="noopener noreferrer">
+                        <img src={github} alt="github" className="github"></img>
+                        <p className="icon-name github">Github</p>
+                    </a>
                 </div>
                 <div className="d-flex justify-content-center align-items-center">
-                    <img src={insta} alt="insta" className="instagram"></img>
-                    <p className="icon-name instagram">Instagram</p>
+                    <a href="https://instagram.com/adrisaty" target="_blank" rel="noopener noreferrer">
+                        <img src={insta} alt="insta" className="instagram"></img>
+                        <p className="icon-name instagram">Instagram</p>
+                    </a>
                 </div>
                 <div className="d-flex justify-content-center align-items-center">
-                    <img src={fb} alt="fb" className="facebook"></img>
-                    <p className="icon-name facebook">Facebook</p>
+                    <a href="https://instagram.com/adrisaty" target="_blank" rel="noopener noreferrer">
+                        <img src={fb} alt="fb" className="facebook"></img>
+                        <p className="icon-name facebook">Facebook</p>
+                    </a>
                 </div>
             </div>
             <div className="name-countries">
