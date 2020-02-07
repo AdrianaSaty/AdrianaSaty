@@ -17,7 +17,7 @@ function Home() {
                         <img src={curriculum} alt="curriculum"></img>
                         <div className="">
                             <h3>Freelancer</h3>
-                            <p className="txt-justify">
+                            <p className="feature-txt">
                                 Faço sites utilizando as tecnologias mais recentes do mercado.
                                 Entre em contato comigo e faça um orçamento! :)
                         </p>
@@ -28,7 +28,7 @@ function Home() {
                             <img src={computer} alt="computer"></img>
                             <div className="">
                                 <h3>Experiência</h3>
-                                <p className="txt-justify">
+                                <p className="feature-txt">
                                     Atualmente trabalho como desenvolvedora Frontend no Santander
                                     e professora assistente no Bootcamp da Ironhack.
                                 </p>

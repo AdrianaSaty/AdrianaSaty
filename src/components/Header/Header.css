@@ -31,7 +31,7 @@ p {
 
 @media (min-width: 450px) {
   .header {
-    height: calc(100vh - 44px);
+    height: calc(100vh - 50px);
   }
 
   .txt-header {
@@ -42,7 +42,7 @@ p {
     padding-right: 200px;
     height: 85vh;
     position: relative;
-    top: 33px;
+    top: 30px;
   }
 
   p {

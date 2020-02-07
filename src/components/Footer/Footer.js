@@ -15,25 +15,27 @@ function Footer() {
     return (
         <div className="footer">
             <div className="links">
-                <div className="d-flex justify-content-center align-items-center">
-                    <img src={email} alt="email" className="email"></img>
-                    <p className="icon-name email">E-mail</p>
+                <div className="d-flex justify-content-center align-items-center teste">
+                    <a href="mailto:adri-saty@hotmail.com" class="email-lnk">
+                        <img src={email} alt="email" className="email"></img>
+                        <p className="icon-name email">E-mail</p>
+                    </a>
                 </div>
                 <div className="d-flex justify-content-center align-items-center">
-                    <img src={ln} alt="ln" className="ln"></img>
+                    <img src={ln} alt="ln" className="linkedin"></img>
                     <p className="icon-name linkedin">Linkedin</p>
                 </div>
                 <div className="d-flex justify-content-center align-items-center">
-                    <img src={github} alt="insta" className="insta"></img>
+                    <img src={github} alt="github" className="github"></img>
                     <p className="icon-name github">Github</p>
                 </div>
                 <div className="d-flex justify-content-center align-items-center">
-                    <img src={insta} alt="insta" className="insta"></img>
+                    <img src={insta} alt="insta" className="instagram"></img>
                     <p className="icon-name instagram">Instagram</p>
                 </div>
                 <div className="d-flex justify-content-center align-items-center">
-                    <img src={fb} alt="fb"></img>
-                    <p className="icon-name fb">Facebook</p>
+                    <img src={fb} alt="fb" className="facebook"></img>
+                    <p className="icon-name facebook">Facebook</p>
                 </div>
             </div>
             <div className="name-countries">
@@ -43,7 +45,7 @@ function Footer() {
                     <img src={espanha} alt="espanha"></img>
                     <img src={alemanha} alt="alemanha"></img>
                 </div>
-                <p className="txt-center">
+                <p className="txt-center powered-by">
                     Powered by AdrianaSaty
                 </p>
             </div>

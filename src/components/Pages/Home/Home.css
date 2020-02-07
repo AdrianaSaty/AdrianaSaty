@@ -2,7 +2,7 @@
   height: 55vh;
   width: 100%;
   background-color: white;
-  padding: 0 20px;
+  padding: 0 40px 0 20px;
   color: black;
 }
 
@@ -22,10 +22,14 @@
   display: flex;
 }
 
+.feature-txt {
+    text-align: left;
+}
+
 @media (min-width: 450px) {
   .section {
     padding: 0 230px;
-    height: calc(100vh - 170px);
+    height: calc(100vh - 157px);
   }
 
   .section img {
@@ -55,4 +59,8 @@
   .feature2 p {
     width: 300px;
   }
+
+  .feature-txt {
+    text-align: justify;
+}
 }

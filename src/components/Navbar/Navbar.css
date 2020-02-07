@@ -26,6 +26,6 @@ li a:hover {
 
 @media (min-width: 450px) {
   .navbar {
-    height: 44px;
+    height: 50px;
   }
 }
