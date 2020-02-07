@@ -1,0 +1,31 @@
+.navbar {
+  background-color: black;
+  height: 37px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+li a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #b8b8bb;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  color: white;
+}
+
+@media (min-width: 450px) {
+  .navbar {
+    height: 44px;
+  }
+}

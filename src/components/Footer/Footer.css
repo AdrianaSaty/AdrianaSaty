@@ -1,0 +1,118 @@
+.footer {
+    background-color: #F5F5F7;
+    justify-content: space-around;
+}
+
+.footer p {
+    color: #b8b8bb;
+}
+
+.icon-name {
+    display: none;
+}
+
+.email:hover {
+     color: #F44336;
+}
+
+.linkedin:hover {
+    color: #1975D2;
+}
+
+.instagram:hover {
+    color: #A229A8;
+}
+
+.fb:hover {
+    color: #1975D2;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.links img {
+    height: 23px;
+    margin: 0 10px;
+    filter: grayscale(100%);
+}
+
+.links img:hover {
+    height: 30px;
+    filter: grayscale(0%);
+}
+
+.name-countries {
+    padding: 5px 0;
+}
+
+.countries {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+
+}
+
+.countries img {
+    height: 23px;
+    margin: 0 2px;
+    margin: 0 10px;
+    filter: grayscale(100%);
+}
+
+.countries img:hover {
+    height: 30px;
+    filter: grayscale(0%);
+}
+
+@media (min-width: 450px) { 
+    .links {
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 100px;
+    }
+
+    .links img {
+        height: 40px;
+    }
+
+    .links img:hover {
+        height: 40px;
+    }
+
+    .footer img {
+        height: 30px;
+        margin: 0 10px;
+    }
+
+    .name-countries {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 190px 20px 190px;
+
+    }
+
+    .countries {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 20px;
+    }
+
+    .countries img {
+        height: 40px;
+        margin: 0 10px;
+    }
+
+    .countries img:hover {
+        height: 40px;
+    }
+
+    .icon-name {
+        display: initial;
+    }
+
+
+}
