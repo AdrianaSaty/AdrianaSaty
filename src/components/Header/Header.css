@@ -21,8 +21,9 @@
 
 .img-header {
   height: 40vh;
-  position: relative;
-  top: 19px;
+  position: absolute;
+  top: 70px;
+  right: 0px;
 }
 
 p {
