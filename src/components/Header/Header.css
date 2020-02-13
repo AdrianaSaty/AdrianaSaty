@@ -9,11 +9,6 @@
   text-align: center;
 }
 
-.teste {
-  display: flex;
-  justify-content: space-around;
-}
-
 .txt-header {
   display: flex;
   flex-direction: column;
@@ -28,7 +23,9 @@
 }
 
 .img-header img {
-  height: 40vh;
+  /* height: 40vh; */
+  width: 100%;
+  height: 100%;
   padding-left: 20px;
 }
 
@@ -47,7 +44,8 @@ p {
   }
 
   .img-header img {
-    height: 85vh;
+    height: 80vh;
+    width: auto;
     margin: 0 auto;
   }
 }
