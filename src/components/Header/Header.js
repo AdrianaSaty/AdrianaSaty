@@ -9,7 +9,7 @@ function Header() {
     return (
         <div className="header"> 
         <div className="container m-0">
-            <div className="row teste">
+            <div className="row">
                 <div className="col-4 txt-header">
                     <h1 className="pb-1 text-left">
                         Adriana Saty<br />

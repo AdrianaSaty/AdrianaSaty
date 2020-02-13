@@ -7,7 +7,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 100%;
+  width: 100% ;
   display: flex;
   justify-content: space-around;
 }
@@ -15,7 +15,7 @@ ul {
 li a {
   display: block;
   padding: 8px 16px;
-  text-decoration: none;
+  text-decoration: none !important;
   color: #b8b8bb;
 }
 
@@ -27,5 +27,9 @@ li a:hover {
 @media (min-width: 450px) {
   .navbar {
     height: 50px;
+  }
+
+  li a {
+    padding: 0 16px;
   }
 }
