@@ -9,14 +9,14 @@ import eua from '../../img/eua.png'
 import espanha from '../../img/espanha.png'
 import alemanha from '../../img/alemanha.png'
 import('./Footer.css');
-
+// #959596
 function Footer() {
 
     return (
         <div className="footer">
             <div className="links">
                 <div className="d-flex justify-content-center align-items-center teste">
-                    <a href="mailto:adri-saty@hotmail.com" class="email-lnk">
+                    <a href="mailto:adri-saty@hotmail.com" className="email-lnk">
                         <img src={email} alt="email" className="email"></img>
                         <p className="icon-name email">E-mail</p>
                     </a>
@@ -53,7 +53,7 @@ function Footer() {
                     <img src={espanha} alt="espanha"></img>
                     <img src={alemanha} alt="alemanha"></img>
                 </div>
-                <p className="txt-center powered-by">
+                <p className="text-center powered-by">
                     Powered by AdrianaSaty
                 </p>
             </div>

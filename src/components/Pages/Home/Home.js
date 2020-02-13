@@ -10,9 +10,9 @@ function Home() {
         <div className="home">
             <Header />
             <div className="section">
-                <h1 className="txt-center pt-4"> Sobre mim</h1> <br />
+                <h1 className="text-center pt-4"> Sobre mim</h1> <br />
 
-                <div>
+                <div className="position-relative">
                     <div className="feature1">
                         <img src={curriculum} alt="curriculum"></img>
                         <div className="">
