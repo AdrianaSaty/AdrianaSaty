@@ -15,9 +15,13 @@ function Header() {
                         Adriana Saty<br />
                     </h1>
                     <h2 className="text-left">
+                        Frontend <br />
+                        Developer <br />
+                    </h2>
+                    {/* <h2 className="text-left">
                         Desenvolvedora <br />
                         Frontend <br />
-                    </h2>
+                    </h2> */}
                 </div>
                 <div className="col-8 img-header">
                     <img src={selfie} alt="cerejeira" className="d-block"></img>

@@ -15,6 +15,14 @@
   margin: 10px 0;
 }
 
+a {
+  color: black
+}
+
+a:hover {
+  color: rgb(104, 15, 34);
+}
+
 .feature-txt {
   text-align: left;
   width: 100%;
