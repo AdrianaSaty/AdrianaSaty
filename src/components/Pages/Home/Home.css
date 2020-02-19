@@ -1,66 +1,54 @@
-.section {
-  height: 55vh;
+.section1 {
   width: 100%;
   background-color: white;
-  padding: 0 40px 0 20px;
   color: black;
 }
 
-.section img {
-  width: 80px;
-  height: 100%;
+.section1 img {
+  width: 90px;
   margin-right: 10px;
 }
 
-.feature1 {
+.feature {
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
+  margin: 10px 0;
 }
 
-.feature2 > div {
-  display: flex;
+a {
+  color: black
+}
+
+a:hover {
+  color: rgb(104, 15, 34);
 }
 
 .feature-txt {
-    text-align: left;
+  text-align: left;
+  width: 100%;
 }
 
 @media (min-width: 450px) {
-  .section {
+  .section1 {
     padding: 0 230px;
-    height: calc(100vh - 157px);
   }
 
-  .section img {
+  .section1 img {
     width: 200px;
-    height: 100%;
     margin-right: 10px;
   }
 
-  .feature1 {
-    justify-content: flex-start;
-    margin-bottom: 0px;
+  .feature {
+    width: 50%;
   }
 
-  .feature1 p {
-    width: 300px;
-  }
-
-  .feature2 {
-    /* margin-bottom: 80px; */
-  }
-
-  .feature2 > div {
-    justify-content: flex-end;
-    width: 105%;
-  }
-
-  .feature2 p {
-    width: 300px;
+  .feature-left  {
   }
 
   .feature-txt {
-    text-align: justify;
-}
+    width: 100%;
+  }
+  .feature-right {
+    flex-direction: row-reverse;
+  }
 }
