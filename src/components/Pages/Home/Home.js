@@ -1,4 +1,5 @@
 import React from 'react';
+import Navbar from '../../Navbar/Navbar'
 import Header from '../../Header/Header'
 import curriculum from './../../../img/curriculum.png';
 import computer from '../../../img/computer.png';
@@ -9,6 +10,7 @@ function Home() {
 
     return (
         <div className="home">
+            <Navbar />
             <Header />
             <div className="section1">
                 <h1 className="text-center pt-4"> About me</h1>
