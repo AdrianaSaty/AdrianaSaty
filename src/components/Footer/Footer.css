@@ -11,7 +11,6 @@
     display: none;
 }
 
-
 .links {
     display: flex;
     justify-content: center;
@@ -66,7 +65,11 @@
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
+}
 
+.countries button {
+    background-color: transparent;
+    border: none;
 }
 
 .countries img {

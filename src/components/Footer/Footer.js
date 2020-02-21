@@ -3,15 +3,20 @@ import fb from '../../img/facebook.png';
 import ln from '../../img/linkedin.png';
 import insta from '../../img/instagram.png';
 import email from '../../img/email.png';
-import github from '../../img/github.png'
-import brasil from '../../img/brasil.png'
-import eua from '../../img/eua.png'
-import espanha from '../../img/espanha.png'
-import alemanha from '../../img/alemanha.png'
+import github from '../../img/github.png';
+import brasil from '../../img/brasil.png';
+import eua from '../../img/eua.png';
+import espanha from '../../img/espanha.png';
+import alemanha from '../../img/alemanha.png';
+import i18next from 'i18next';
 import('./Footer.css');
 // #959596
 function Footer() {
 
+    function handleClick(lang) {
+        i18next.changeLanguage(lang);
+        window.scrollTo( 0, 1000 );
+    }
     return (
         <div className="footer">
             <div className="links">
@@ -48,10 +53,10 @@ function Footer() {
             </div>
             <div className="name-countries">
                 <div className="countries">
-                    <img src={brasil} alt="brasil"></img>
-                    <img src={eua} alt="eua"></img>
-                    <img src={espanha} alt="espanha"></img>
-                    <img src={alemanha} alt="alemanha"></img>
+                    <button onClick={() => handleClick('en')}><img src={eua} alt="eua"></img> </button>
+                    <button onClick={() => handleClick('pt')}><img src={brasil} alt="brasil"></img></button>
+                    <button onClick={() => handleClick('deu')}><img src={alemanha} alt="alemanha"></img></button>
+                    <button><img src={espanha} alt="espanha"></img></button>
                 </div>
                 <p className="text-center powered-by">
                     Powered by AdrianaSaty

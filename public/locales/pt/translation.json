@@ -1,0 +1,35 @@
+{
+  "----------->Navbar": { "Navbar": "Navbar" },
+  "NavBarAbout": {
+    "1": "Sobre"
+  },
+  "NavBarFreelance": {
+    "1": "Freelas"
+  },
+  "NavBarBackground": {
+    "1": "Experiência"
+  },
+  "----------->": { "Home": "Home" },
+  "Frontend": {
+    "1": "Desenvolvedora"
+  },
+  "Developer": {
+    "1": "Frontend"
+  },
+  "----------->Home": { "Home": "Home" },
+  "AboutMe": {
+    "1": "Sobre mim"
+  },
+  "Freelance": {
+    "1": "Freelance"
+  },
+  "FreelanceText": {
+    "1": "Faço sites utilizando as tecnologias mais recentes do mercado. Entre em contato comigo e faça um orçamento! :)"
+  },
+  "Background": {
+    "1": "Background"
+  },
+  "BackgroundText": {
+    "1": "Atualmente trabalho como desenvolvedora Frontend no Santander e professora assistente no Bootcamp da Ironhack."
+  }
+}
