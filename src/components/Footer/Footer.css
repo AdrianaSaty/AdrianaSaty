@@ -67,6 +67,11 @@
     padding-bottom: 10px;
 }
 
+.countries button {
+    background-color: transparent;
+    border: none;
+}
+
 .countries img {
     height: 23px;
     margin: 0 2px;
