@@ -23,32 +23,28 @@ a:hover {
   color: rgb(104, 15, 34);
 }
 
-.feature-txt {
-  text-align: left;
-  width: 100%;
+@media (max-width: 1400px) {
+  .section1 {
+    margin: 0 auto;
+    width: 1000px;
+  }
 }
 
-@media (min-width: 450px) {
+@media (max-width: 800px) {
   .section1 {
-    padding: 0 230px;
+    margin: 0 auto;
+    width: 500px;
+  }
+}
+
+@media (max-width: 450px) {
+  .section1 {
+    margin: 0 auto;
+    width: 300px;
   }
 
   .section1 img {
     width: 200px;
     margin-right: 10px;
-  }
-
-  .feature {
-    width: 50%;
-  }
-
-  .feature-left  {
-  }
-
-  .feature-txt {
-    width: 100%;
-  }
-  .feature-right {
-    flex-direction: row-reverse;
   }
 }
