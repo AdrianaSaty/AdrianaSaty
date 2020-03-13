@@ -1,0 +1,35 @@
+.onlyHover {
+    display: none;
+    z-index: 1;
+    transition: display 10s;
+    /* position: relative; */
+    position: relative;
+    top: 20px;
+    left: -50px;
+    padding: 0 20px 20px 50px;
+    background: #f2f2f2;
+
+}
+
+.timeline-content:hover .onlyHover {
+    display: block;
+    animation-name: slow-dropdown;
+    transform: translateY(0);
+    animation-duration: 2s;
+    transition-timing-function: linear
+}
+/* 
+@keyframes slow-dropdown {
+    from {background-color: red;}
+    to {
+        background-color: yellow;
+        display: block;
+    }
+} */
+
+
+.dropdown {
+    width: 25px;
+    display: block;
+    margin: 10px auto;
+}

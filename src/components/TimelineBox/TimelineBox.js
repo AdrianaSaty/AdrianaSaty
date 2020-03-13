@@ -1,22 +1,28 @@
 import React from 'react';
+import dropdown from '../../img/dropdown.png';
+// import ironhackFriends from '../../img/ironhackFriends.jpg';
+
 import('./TimelineBox.css');
 
 function TimelineBox(props) {
-    let timelineDescription = props.timelineDescription
     return (
         <div class="timeline">
-        <span class="timeline-icon"></span>
-        <span class="year">{ props.timelineYear }</span>
-        <div class="timeline-content">
-            <div class="backgound-img">
-                <img src={ props.img } alt={ props.img } />
+            <span class="timeline-icon"></span>
+            <span class="year">{props.timelineYear}</span>
+            <div class="timeline-content">
+                <div class="background-div-img">
+                    <img src={props.img} alt={props.img} className="background-img" />
+                </div>
+                
+                <h3 class="title">{props.timelineTitle}</h3>
+                <span class="post">{props.timelinePost}</span>
+                <p class="description" dangerouslySetInnerHTML={{ __html:  props.timelineDescription }} />
+                <div className="onlyHover">
+                    {/* conteudo extra */}
+                </div>
+                    <img className="dropdown" src={dropdown} alt="dropdown" />
             </div>
-            <h3 class="title">{ props.timelineTitle }</h3>
-            <span class="post">{ props.timelinePost }</span>
-            <p class="description" dangerouslySetInnerHTML= {{ __html: timelineDescription }}/>
-
         </div>
-    </div>
     )
 }
 

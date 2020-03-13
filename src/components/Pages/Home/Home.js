@@ -14,7 +14,7 @@ function Home() {
             <Header />
             <div className="section1">
                 <h1 className="text-center pt-4">
-                    {t('AboutMe.1')}
+                    {t('AboutMe.0')}
                 </h1>
                 <div className="container">
                     <div className="row">
@@ -22,9 +22,9 @@ function Home() {
                         <div className="feature col-md-6">
                             <img src={curriculum} alt="curriculum"></img>
                             <div className="">
-                                <h3><Link to="/freelance">{t('Freelance.1')}</Link></h3>
+                                <h3><Link to="/freelance">{t('Freelance.0')}</Link></h3>
                                 <p>
-                                    {t('FreelanceText.1')}
+                                    {t('FreelanceText.0')}
                                 </p>
                             </div>
                         </div>
@@ -36,9 +36,9 @@ function Home() {
                         <div className="feature">
                             <img src={computer} alt="computer"></img>
                             <div className="">
-                                <h3><Link to="/background">{t('Background.1')}</Link></h3>
+                                <h3><Link to="/background">{t('Background.0')}</Link></h3>
                                 <p>
-                                    {t('BackgroundText.1')}
+                                    {t('BackgroundText.0')}
                                 </p>
                             </div>
                         </div>

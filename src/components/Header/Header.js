@@ -15,8 +15,8 @@ function Header() {
                             Adriana Saty<br />
                         </h1>
                         <h2 className="text-left">
-                            {t('Frontend.1')}<br />
-                            {t('Developer.1')}<br />
+                            {t('Frontend.0')}<br />
+                            {t('Developer.0')}<br />
                         </h2>
                     </div>
                     <div className="col-8 img-header">

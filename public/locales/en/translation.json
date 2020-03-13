@@ -16,7 +16,7 @@
   "Developer": {
     "0": "Developer"
   },
-  "----------->Home": { "Home": "Home" },
+  "----------->HomePage": { "HomePage": "HomePage" },
   "AboutMe": {
     "0": "About me"
   },
@@ -32,7 +32,7 @@
   "BackgroundText": {
     "0": "Currently I work at Santander Bank as Frontend Developer and at Ironhack Bootcamp as Teacher Assistant"
   },
-  "----------->Background": { "Background": "Background" },
+  "----------->BackgroundPage": { "BackgroundPage": "BackgroundPage" },
   "AcademicBackground": {
     "0": "Academic Background"
   },
@@ -43,18 +43,14 @@
 
   },
   "AcademicTimelineTitle": {
-    "0": "Ironhack Bootcamp",
+    "0": "Ironhack Bootcamp⠀⠀⠀⠀⠀⠀⠀⠀⠀",
     "1": "University of Applied Sciences - Frankfurt am Main",
     "2": "Universidade Federal do Paraná"
-
   },
   "AcademicTimelineDescription": {
     "0": "Bootcamp of Web Development. Subjects: HTML, CSS, Javascript, Node, Express, Mongo and REACT.",
     "1": "I got an government scholarship to study for one and half year at Germany. There, I studied at Fachhochshule Frankfurt am Main (University of Applied Sciences) electrical engineer in renewable energy field. I also did some subjects about programming, finances and business.",
     "2": "I studied electrical engineer, and there I made some volunteer work. Like 'Luz, Ciência e Emoção' and 'Projeto Lux'."
-  },
-  "AcademicImage": {
-    "0": "ironhack"
   },
   "ProfessionalBackground": {
     "0": "Professional Background"
@@ -82,7 +78,12 @@
     "1": "Current working at a startup of Santander: Empréstimos Sim. Using Vue.js, Typescript, Git, CSS",
     "2": "Worked at Santander and Sky clients, using Vue.js, Typescript, Git, CSS",
     "3": "Intern at 'Talent Factory' program: <br /> - Development of projects focused on quality improvement, performance and cost reduction<br /> - Support of Head of Production with PDCA Cycle, 5S and Kaizen Methodology<br /> - Experience in different positions at the factory, like Operator (working with weld spot), Senior Operator and Quality Analyst<br />"
+  },
+  "----------->AboutPage": { "AboutPage": "AboutPage" },
+  "About": {
+    "0": "Write about me page"
   }
+
 
 }
 
