@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../../Navbar/Navbar'
 import Footer from '../../Footer/Footer';
-import('./ErrorPage.css');
+import './ErrorPage.css';
 
 function ErrorPage() {
 

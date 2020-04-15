@@ -6,7 +6,7 @@ import computer from '../../../img/computer.png';
 import Footer from '../../Footer/Footer';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import('./Home.css');
+import './Home.css';
 
 function Home() {
     const { t } = useTranslation();

@@ -7,7 +7,7 @@ import accenture from '../../../img/logo-accenture.png';
 import renault from '../../../img/logo-renault.png';
 import { useTranslation } from 'react-i18next';
 
-import('./Background.css');
+import './Background.css';
 
 function Background() {
     const { t } = useTranslation();

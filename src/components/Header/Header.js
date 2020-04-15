@@ -1,7 +1,7 @@
 import React from 'react';
 import selfie from '../../img/Adriana.png';
 import { useTranslation } from 'react-i18next';
-import('./Header.css');
+import './Header.css';
 
 function Header() {
     const { t } = useTranslation();

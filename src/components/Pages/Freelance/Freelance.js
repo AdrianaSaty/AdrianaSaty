@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from '../../Navbar/Navbar'
 import Footer from '../../Footer/Footer';
-import('./Freelance.css');
+import './Freelance.css';
 
 function Freelance() {
 
