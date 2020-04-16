@@ -1,17 +1,17 @@
 import React from 'react';
-import Navbar from '../../Navbar/Navbar'
-import Footer from '../../Footer/Footer';
+import { useTranslation } from 'react-i18next';
+
 import './About.css';
 
+
 function About() {
+    const { t } = useTranslation();
 
     return (
         <div className="about">
-            <Navbar />
             <div>
-                oi
+                {t('About.0')} 
             </div>
-            <Footer />
         </div>
     )
 }

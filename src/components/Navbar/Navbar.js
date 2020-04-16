@@ -11,9 +11,9 @@ function Navbar() {
         <div className="navbar">
             <ul>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">{t('NavBarAbout.1')}</Link></li>
-                <li><Link to="/freelance">{t('NavBarFreelance.1')}</Link></li>
-                <li><Link to="/background">{t('NavBarBackground.1')}</Link></li>
+                <li><Link to="/about">{t('NavBarAbout.0')}</Link></li>
+                {/* <li><Link to="/freelance">{t('NavBarFreelance.0')}</Link></li> */}
+                <li><Link to="/background">{t('NavBarBackground.0')}</Link></li>
             </ul>
         </div>
     )
