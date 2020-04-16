@@ -56,7 +56,7 @@ function Footer() {
                     <button onClick={() => handleClick('en')}><img src={eua} alt="eua"></img> </button>
                     <button onClick={() => handleClick('pt')}><img src={brasil} alt="brasil"></img></button>
                     <button onClick={() => handleClick('deu')}><img src={alemanha} alt="alemanha"></img></button>
-                    <button><img src={espanha} alt="espanha"></img></button>
+                    <button onClick={() => handleClick('es')}><img src={espanha} alt="espanha"></img></button>
                 </div>
                 <p className="text-center powered-by">
                     Powered by AdrianaSaty

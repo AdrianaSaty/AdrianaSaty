@@ -32,7 +32,7 @@ const professionalTimelineImages = [
 
 const professionalExtraContent = [
     <></> ,
-    <iframe width="120%" src="https://www.youtube.com/embed/SSx52ZIkXwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+    <iframe width="120%" src="https://www.youtube.com/embed/SSx52ZIkXwA"  title ="sim-video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
 
 ]
 
