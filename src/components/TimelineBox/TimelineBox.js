@@ -18,9 +18,9 @@ function TimelineBox(props) {
                 <span class="post">{props.timelinePost}</span>
                 <p class="description" dangerouslySetInnerHTML={{ __html:  props.timelineDescription }} />
                 <div className="onlyHover">
-                    {/* conteudo extra */}
+                    {props.timelineExtra}
                 </div>
-                    <img className="dropdown" src={dropdown} alt="dropdown" />
+                <img className="dropdown" src={dropdown} alt="dropdown" />
             </div>
         </div>
     )

@@ -23,6 +23,10 @@ p {
     text-align: left;
 }
 
+.extra-content {
+    width: 120%;
+}
+
 .main-timeline{
     overflow: hidden;
     position: relative;

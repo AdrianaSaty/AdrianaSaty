@@ -8,15 +8,10 @@ import accenture from '../../../img/logo-accenture.png';
 import renault from '../../../img/logo-renault.png';
 import './Background.css';
 
-// import ironhackFriends from '../../../img/ironhackFriends.jpg';
+import ironhackFriends from '../../../img/ironhackFriends.jpg';
 
 import { useTranslation } from 'react-i18next';
 
-const academicTimelineImages = [
-    ironhack,
-    frankfurt,
-    ufpr,
-];
 
 const professionalTimelineImages = [
     ironhack,
@@ -25,6 +20,23 @@ const professionalTimelineImages = [
     renault
 ]
 
+
+const academicTimelineImages = [
+    ironhack,
+    frankfurt,
+    ufpr,
+];
+
+const academicExtraContent = [
+    <img src={ironhackFriends} alt={ironhackFriends} className="extra-content" />,
+
+]
+
+const professionalExtraContent = [
+    <></> ,
+    <iframe width="120%" src="https://www.youtube.com/embed/SSx52ZIkXwA"  title ="sim-video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+
+]
 
 function Background() {
     const { t } = useTranslation();
@@ -42,6 +54,7 @@ function Background() {
                                             img={valueImg}
                                             timelineTitle={t('AcademicTimelineTitle.' + index )}
                                             timelineDescription={t('AcademicTimelineDescription.' + index )}
+                                            timelineExtra={academicExtraContent[index]}
                                         />
                             })}
                             
@@ -63,6 +76,8 @@ function Background() {
                                             timelineTitle={t('ProfessionalTimelineTitle.' + index )}
                                             timelinePost={t('ProfessionalTimelinePost.' + index )}
                                             timelineDescription={t('ProfessionalTimelineDescription.' + index )}
+                                            timelineExtra={professionalExtraContent[index]}
+
                                         />
                             })}
 
