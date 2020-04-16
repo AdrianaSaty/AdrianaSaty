@@ -8,7 +8,7 @@ import brasil from '../../img/brasil.png'
 import eua from '../../img/eua.png'
 import espanha from '../../img/espanha.png'
 import alemanha from '../../img/alemanha.png'
-import('./Footer.css');
+import './Footer.css';
 // #959596
 function Footer() {
 

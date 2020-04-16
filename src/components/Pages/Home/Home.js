@@ -3,7 +3,7 @@ import Header from '../../Header/Header'
 import curriculum from './../../../img/curriculum.png';
 import computer from '../../../img/computer.png';
 import Footer from '../../Footer/Footer';
-import('./Home.css');
+import './Home.css';
 function Home() {
 
     return (

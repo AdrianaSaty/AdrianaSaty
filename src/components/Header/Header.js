@@ -1,7 +1,7 @@
 import React from 'react';
 // import cerejeira from '../../img/Cerejeira.jpg';
 import selfie from '../../img/Adriana.png';
-import('./Header.css');
+import './Header.css';
 
 
 function Header() {
