@@ -1,6 +1,6 @@
 import React from 'react';
 // import cerejeira from '../../img/Cerejeira.jpg';
-import selfie from '../../img/Adriana.png';
+import selfie from '../../img/Adriana.webp';
 import './Header.css';
 
 
@@ -20,7 +20,7 @@ function Header() {
                     </h2>
                 </div>
                 <div className="col-8 img-header">
-                    <img src={selfie} alt="cerejeira" className="d-block"></img>
+                    <img src={selfie} alt="Adriana Saty Selfie" className="d-block"></img>
                 </div>
             </div>
         </div>
