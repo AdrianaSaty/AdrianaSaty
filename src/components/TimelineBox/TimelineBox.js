@@ -2,7 +2,7 @@ import React from 'react';
 import dropdown from '../../img/dropdown.png';
 // import ironhackFriends from '../../img/ironhackFriends.jpg';
 
-import('./TimelineBox.css');
+import './TimelineBox.css';
 
 function TimelineBox(props) {
     return (

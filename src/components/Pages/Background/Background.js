@@ -6,6 +6,7 @@ import ufpr from '../../../img/logo-ufpr.png';
 import santander from '../../../img/logo-santander.png';
 import accenture from '../../../img/logo-accenture.png';
 import renault from '../../../img/logo-renault.png';
+import './Background.css';
 
 // import ironhackFriends from '../../../img/ironhackFriends.jpg';
 
@@ -24,7 +25,6 @@ const professionalTimelineImages = [
     renault
 ]
 
-import('./Background.css');
 
 function Background() {
     const { t } = useTranslation();

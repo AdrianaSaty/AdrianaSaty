@@ -9,7 +9,7 @@ import eua from '../../img/eua.png';
 import espanha from '../../img/espanha.png';
 import alemanha from '../../img/alemanha.png';
 import i18next from 'i18next';
-import('./Footer.css');
+import './Footer.css';
 // #959596
 function Footer() {
 

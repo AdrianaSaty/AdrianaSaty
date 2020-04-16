@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-import('./About.css');
+import './About.css';
 
 function About() {
     const { t } = useTranslation();

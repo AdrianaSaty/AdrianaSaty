@@ -1,5 +1,5 @@
 import React from 'react';
-import('./Freelance.css');
+import './Freelance.css';
 
 function Freelance() {
 
