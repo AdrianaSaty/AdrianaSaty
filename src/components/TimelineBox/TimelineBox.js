@@ -6,17 +6,17 @@ import './TimelineBox.css';
 
 function TimelineBox(props) {
     return (
-        <div class="timeline">
-            <span class="timeline-icon"></span>
-            <span class="year">{props.timelineYear}</span>
-            <div class="timeline-content">
-                <div class="background-div-img">
+        <div className="timeline">
+            <span className="timeline-icon"></span>
+            <span className="year">{props.timelineYear}</span>
+            <div className="timeline-content">
+                <div className="background-div-img">
                     <img src={props.img} alt={props.img} className="background-img" />
                 </div>
                 
-                <h3 class="title">{props.timelineTitle}</h3>
-                <span class="post">{props.timelinePost}</span>
-                <p class="description" dangerouslySetInnerHTML={{ __html:  props.timelineDescription }} />
+                <h3 className="title">{props.timelineTitle}</h3>
+                <span className="post">{props.timelinePost}</span>
+                <p className="description" dangerouslySetInnerHTML={{ __html:  props.timelineDescription }} />
                 <div className="onlyHover">
                     {props.timelineExtra}
                 </div>

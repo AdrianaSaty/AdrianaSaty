@@ -43,11 +43,11 @@ function Background() {
 
     return (
         <div className="background">
-            <h1 class="pt-5 pb-5">{t('AcademicBackground.0')}</h1>
-            <div class="container pb-5">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="main-timeline">
+            <h1 className="pt-5 pb-5">{t('AcademicBackground.0')}</h1>
+            <div className="container pb-5">
+                <div className="row">
+                    <div className="col-md-12">
+                        <div className="main-timeline">
                             {academicTimelineImages.map((valueImg, index) => {
                                 return <TimelineBox 
                                             timelineYear={t('AcademicTimelineYear.' + index )} 
@@ -63,11 +63,11 @@ function Background() {
                 </div>
             </div>
 
-            <h1 class="pt-5 pb-5">{t('ProfessionalBackground.0')}</h1>
-            <div class="container pb-5">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="main-timeline">
+            <h1 className="pt-5 pb-5">{t('ProfessionalBackground.0')}</h1>
+            <div className="container pb-5">
+                <div className="row">
+                    <div className="col-md-12">
+                        <div className="main-timeline">
 
                             {professionalTimelineImages.map((valueImg, index) => {
                                 return <TimelineBox 
