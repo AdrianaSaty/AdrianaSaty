@@ -1,13 +1,13 @@
 import React from 'react';
-import fb from '../../img/facebook.png';
-import ln from '../../img/linkedin.png';
-import insta from '../../img/instagram.png';
-import email from '../../img/email.png';
-import github from '../../img/github.png';
-import brasil from '../../img/brasil.png';
-import eua from '../../img/eua.png';
-import espanha from '../../img/espanha.png';
-import alemanha from '../../img/alemanha.png';
+import fb from '../../img/logos/facebook.png';
+import ln from '../../img/logos/linkedin.png';
+import insta from '../../img/logos/instagram.png';
+import email from '../../img/logos/email.png';
+import github from '../../img/logos/github.png';
+import brasil from '../../img/logos/brasil.png';
+import eua from '../../img/logos/eua.png';
+import espanha from '../../img/logos/espanha.png';
+import alemanha from '../../img/logos/alemanha.png';
 import i18next from 'i18next';
 import './Footer.css';
 // #959596

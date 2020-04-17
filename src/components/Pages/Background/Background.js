@@ -1,11 +1,11 @@
 import React from 'react';
 import TimelineBox from '../../TimelineBox/TimelineBox'
-import ironhack from '../../../img/logo-ironhack.png';
-import frankfurt from '../../../img/logo-frankfurt.jpg';
-import ufpr from '../../../img/logo-ufpr.png';
-import santander from '../../../img/logo-santander.png';
-import accenture from '../../../img/logo-accenture.png';
-import renault from '../../../img/logo-renault.png';
+import ironhack from '../../../img/logos/logo-ironhack.png';
+import frankfurt from '../../../img/logos/logo-frankfurt.jpg';
+import ufpr from '../../../img/logos/logo-ufpr.png';
+import santander from '../../../img/logos/logo-santander.png';
+import accenture from '../../../img/logos/logo-accenture.png';
+import renault from '../../../img/logos/logo-renault.png';
 import './Background.css';
 
 import ironhackFriends from '../../../img/ironhackFriends.jpg';
