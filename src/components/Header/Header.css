@@ -36,7 +36,7 @@ p {
 @media (min-width: 450px) {
   .header {
     margin: 0;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 37px);
   }
 
   .txt-header {

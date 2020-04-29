@@ -29,12 +29,13 @@ const academicTimelineImages = [
 
 const academicExtraContent = [
     <img src={ironhackFriends} alt={ironhackFriends} className="extra-content" />,
-
+    <iframe className="extra-content" alt='goethe-award' title="goethe-award" src="https://www.youtube.com/embed/hSKdSNHuVX4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+    <iframe className="extra-content" alt='projeto-lux-ufpr' title="projeto-lux-ufpr"  src="https://www.youtube.com/embed/BNRzBmdoSHw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
 ]
 
 const professionalExtraContent = [
     <></> ,
-    <iframe width="120%" src="https://www.youtube.com/embed/SSx52ZIkXwA"  title ="sim-video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+    <iframe className="extra-content" src="https://www.youtube.com/embed/SSx52ZIkXwA"  title ="sim-video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
 
 ]
 
@@ -57,7 +58,6 @@ function Background() {
                                             timelineExtra={academicExtraContent[index]}
                                         />
                             })}
-                            
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,6 @@ function Background() {
 
                                         />
                             })}
-
                         </div>
                     </div>
                 </div>

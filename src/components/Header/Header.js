@@ -1,5 +1,5 @@
 import React from 'react';
-import selfie from '../../img/Adriana.webp';
+import selfie from '../../img/Adriana.png';
 import { useTranslation } from 'react-i18next';
 import './Header.css';
 

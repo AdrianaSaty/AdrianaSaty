@@ -8,7 +8,7 @@ function Navbar() {
     const { t } = useTranslation();
 
     return (
-        <div className="navbar">
+        <div className="nav-bar">
             <ul>
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/about">{t('NavBarAbout.0')}</Link></li>
