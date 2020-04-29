@@ -1,6 +1,7 @@
 import React, { Suspense }  from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
+import './index.css';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import About from './components/Pages/About/About';

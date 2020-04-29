@@ -18,8 +18,7 @@ function Home() {
                 </h1>
                 <div className="container">
                     <div className="row">
-
-                        <div className="feature col-md-6">
+                        <div className="feature col-md-8 animate-left">
                             <img src={curriculum} alt="curriculum"></img>
                             <div className="">
                                 <h3><Link to="/freelance">{t('Freelance.0')}</Link></h3>
@@ -28,23 +27,23 @@ function Home() {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-4">
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-4">
                         </div>
-                        <div className="feature col-md-6">
-                        <div className="feature">
-                            <img src={computer} alt="computer"></img>
-                            <div className="">
-                                <h3><Link to="/background">{t('Background.0')}</Link></h3>
-                                <p>
-                                    {t('BackgroundText.0')}
-                                </p>
+                        <div className="feature col-md-8 animate-right">
+                            <div className="feature">
+                                <img src={computer} alt="computer"></img>
+                                <div className="">
+                                    <h3><Link to="/background">{t('Background.0')}</Link></h3>
+                                    <p>
+                                        {t('BackgroundText.0')}
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    </div>
-                    
+
                 </div>
             </div>
         </div>

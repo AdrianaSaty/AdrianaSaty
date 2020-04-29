@@ -9,13 +9,7 @@ function Section({ title, description }) {
             <p>
                 {description}
             </p>
-
-            <div>
-               
-            </div>
-
         </div>
-
     )
 }
 

@@ -1,50 +1,84 @@
 .section1 {
-  width: 100%;
-  background-color: white;
-  color: black;
+    width: 100%;
+    background-color: white;
+    color: black;
 }
 
 .section1 img {
-  width: 90px;
-  margin-right: 10px;
+    width: 200px;
+    margin-right: 10px;
 }
 
 .feature {
-  display: flex;
-  align-items: center;
-  margin: 10px 0;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
 }
 
 a {
-  color: black
+    color: black
 }
 
 a:hover {
-  color: rgb(104, 15, 34);
+    color: rgb(104, 15, 34);
 }
 
 @media (max-width: 1400px) {
-  .section1 {
-    margin: 0 auto;
-    width: 1000px;
-  }
+    .section1 {
+        margin: 0 auto;
+        width: 1000px;
+    }
 }
 
 @media (max-width: 800px) {
-  .section1 {
-    margin: 0 auto;
-    width: 500px;
-  }
+    .section1 {
+        margin: 0 auto;
+        width: 500px;
+    }
 }
 
 @media (max-width: 450px) {
-  .section1 {
-    margin: 0 auto;
-    width: 300px;
-  }
+    .section1 {
+        margin: 0 auto;
+        width: 300px;
+    }
+    .section1 img {
+        width: 100px;
+        margin-right: 10px;
+    }
+}
 
-  .section1 img {
-    width: 200px;
-    margin-right: 10px;
-  }
+
+/* fadein animation */
+
+.animate-left {
+    position: relative;
+    animation: animateleft 3s
+}
+
+@keyframes animateleft {
+    from {
+        left: -500px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
+}
+
+.animate-right {
+    position: relative;
+    animation: animateright 3s
+}
+
+@keyframes animateright {
+    from {
+        left: 500px;
+        opacity: 0
+    }
+    to {
+        left: 0;
+        opacity: 1
+    }
 }
