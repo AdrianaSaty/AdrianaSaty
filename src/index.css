@@ -1,12 +1,24 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+    font-display: swap;
+}
+
 .app {
     width: 100%;
     margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
     box-sizing: border-box;
-  }
+}
   
   h1 {  font-size: 30px; }
-  h2 {  font-size: 21px; }
+  h2 {  font-size: 21px; font-weight: 300; }
   h3 { font-size: 20px; }
   
   @media (min-width: 450px) {
