@@ -1,0 +1,90 @@
+{
+    "----------->Navbar": { "Navbar": "Navbar" },
+    "NavBarAbout": {
+      "0": "Sobre"
+    },
+    "NavBarFreelance": {
+      "0": "Freelance"
+    },
+    "NavBarBackground": {
+      "0": "Background"
+    },
+    "----------->Header": { "Header": "Header" },
+    "Frontend": {
+      "0": "Frontend"
+    },
+    "Developer": {
+      "0": "Developer"
+    },
+    "----------->HomePage": { "HomePage": "HomePage" },
+    "AboutMe": {
+      "0": "About me"
+    },
+    "Freelance": {
+      "0": "Freelance"
+    },
+    "FreelanceText": {
+      "0": "I like to code things from scratch, and enjoy bringing ideas to life in the browser. "
+    },
+    "Background": {
+      "0": "Background"
+    },
+    "BackgroundText": {
+      "0": "Currently I work at Santander Bank as Frontend Developer and at Ironhack Bootcamp as Teacher Assistant"
+    },
+    "----------->BackgroundPage": { "BackgroundPage": "BackgroundPage" },
+    "AcademicBackground": {
+      "0": "Academic Background"
+    },
+    "AcademicTimelineYear": {
+      "0": "Jun 2019 - Dez 2019",
+      "1": "Ago 2015 - Mar 2016",
+      "2": "Mar 2011 - Jun 2018"
+  
+    },
+    "AcademicTimelineTitle": {
+      "0": "Ironhack Bootcamp⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+      "1": "University of Applied Sciences - Frankfurt am Main",
+      "2": "Universidade Federal do Paraná"
+    },
+    "AcademicTimelineDescription": {
+      "0": "Bootcamp of Web Development. Subjects: HTML, CSS, Javascript, Node, Express, Mongo and REACT.",
+      "1": "I got an government scholarship to study for one and half year at Germany. There, I studied at Fachhochshule Frankfurt am Main (University of Applied Sciences) electrical engineer in renewable energy field. I also did some subjects about programming, finances and business.",
+      "2": "I studied electrical engineer, and there I made some volunteer work. Like 'Luz, Ciência e Emoção' and 'Projeto Lux'."
+    },
+    "ProfessionalBackground": {
+      "0": "Professional Background"
+    },
+    "ProfessionalTimelineYear": {
+      "0": "Jan 2020 - Present",
+      "1": "Nov 2019 - Present",
+      "2": "Ago 2018 - Nov-2019",
+      "3": "Nov 2017 - Ago 2018"
+    },
+    "ProfessionalTimelineTitle": {
+      "0": "Ironhack Bootcamp",
+      "1": "Santander",
+      "2": "Accenture",
+      "3": "Renault"
+    },
+    "ProfessionalTimelinePost": {
+      "0": "Teacher Assistant",
+      "1": "Frontend Developer",
+      "2": "Frontend Developer",
+      "3": "Manufacturing Intern"
+    },
+    "ProfessionalTimelineDescription": {
+      "0": "Helping the main teacher of Ironhack's part-time Web Development course. Subjects: HTML, CSS, Javascript, Node, Express, Mongo and REACT.",
+      "1": "Current working at a startup of Santander: Empréstimos Sim. Using Vue.js, Typescript, Git, CSS",
+      "2": "Worked at Santander and Sky clients, using Vue.js, Typescript, Git, CSS",
+      "3": "Intern at 'Talent Factory' program: <br /> - Development of projects focused on quality improvement, performance and cost reduction<br /> - Support of Head of Production with PDCA Cycle, 5S and Kaizen Methodology<br /> - Experience in different positions at the factory, like Operator (working with weld spot), Senior Operator and Quality Analyst<br />"
+    },
+    "----------->AboutPage": { "AboutPage": "AboutPage" },
+    "About": {
+      "0": "Write about me page"
+    }
+  
+  
+  }
+  
+  
