@@ -88,7 +88,5 @@
     "0": "I made Electrical Engineering and after painful classes of C++, I was sure programming was not for me. When I graduated, I desired to work with something that I could use my love for technology and creativity to make my path a meaningful one. And guess what? I found myself in the programming world and I couldn't feel more engineer as I feel nowadays!",
     "1": "I started this project to learn how to make a website truly from scratch: buy a domain, create the layout, choose the technologies, develop everything, control version code, storage, evaluate SEO and performance, improve, improve, improve, and finally publish it!! What is being used in this project:<br>ㅤ- Javascript (with React)<br>ㅤ- HTML and CSS<br>ㅤ- Github<br>ㅤ- S3 and Cloudfront by Amazon Web Services (AWS)<br>ㅤ- i18next library to translate content. <br>Next steps: learn how to make deployment automation and more about improve site performance"
   }
-
-
 }
 

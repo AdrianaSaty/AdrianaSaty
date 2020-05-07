@@ -9,6 +9,7 @@
 
 .about-text {
     padding: 0 30px;
+    width: 100%;
 }
 
 /* filter: blur(8px); */
@@ -39,6 +40,10 @@
         height: calc(100vh - 37px - 140px);
         object-fit: cover;
         object-position: 11% 0;
+    }
+
+    .about-text {
+        width: 50vw;
     }
 
     .about p {

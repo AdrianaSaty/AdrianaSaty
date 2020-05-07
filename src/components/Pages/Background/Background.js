@@ -29,13 +29,13 @@ const academicTimelineImages = [
 
 const academicExtraContent = [
     <img src={ironhackFriends} alt={ironhackFriends} className="extra-content" />,
-    <iframe className="extra-content" alt='goethe-award' title="goethe-award" src="https://www.youtube.com/embed/hSKdSNHuVX4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
-    <iframe className="extra-content" alt='projeto-lux-ufpr' title="projeto-lux-ufpr"  src="https://www.youtube.com/embed/BNRzBmdoSHw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+    <iframe className="extra-content" alt='goethe-award' title="goethe-award" src="https://www.youtube.com/embed/hSKdSNHuVX4" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
+    <iframe className="extra-content" alt='projeto-lux-ufpr' title="projeto-lux-ufpr"  src="https://www.youtube.com/embed/BNRzBmdoSHw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
 ]
 
 const professionalExtraContent = [
     <></> ,
-    <iframe className="extra-content" src="https://www.youtube.com/embed/SSx52ZIkXwA"  title ="sim-video" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+    <iframe className="extra-content" src="https://www.youtube.com/embed/SSx52ZIkXwA"  title ="sim-video" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
 
 ]
 
@@ -56,6 +56,7 @@ function Background() {
                                             timelineTitle={t('AcademicTimelineTitle.' + index )}
                                             timelineDescription={t('AcademicTimelineDescription.' + index )}
                                             timelineExtra={academicExtraContent[index]}
+                                            key={index}
                                         />
                             })}
                         </div>
@@ -77,7 +78,7 @@ function Background() {
                                             timelinePost={t('ProfessionalTimelinePost.' + index )}
                                             timelineDescription={t('ProfessionalTimelineDescription.' + index )}
                                             timelineExtra={professionalExtraContent[index]}
-
+                                            key={index}
                                         />
                             })}
                         </div>
