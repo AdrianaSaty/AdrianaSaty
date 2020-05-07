@@ -30,7 +30,7 @@
     "0": "Experiência"
   },
   "BackgroundText": {
-    "0": "Atualmente eu trabalho no Santander como Desenvolvedora de Softaware Frontend e no Bootcamp da Ironhack como Professora Assistente"
+    "0": "Atualmente eu trabalho no Santander como Desenvolvedora de Softaware e no Bootcamp da Ironhack como Professora Assistente"
   },
   "----------->BackgroundPage": { "BackgroundPage": "BackgroundPage" },
   "AcademicBackground": {
@@ -85,7 +85,7 @@
     "1": "Sobre esse site"
   },
   "AboutDescription": {
-    "0": "Durante a faculdade de Egenharia eu passei por difícies aulas de C++ e eu tinha certeza que programação não era para mim. Quando eu me formei, eu queria trabalhar com algo que me permitisse usar meu amor por tecnologia e criatividade para trazer com o meu trabalho algo significativo. E adivinha? Eu me encontrei no mundo da programação e não poderia me sentir mais engenheira como eu me sinto hoje!",
+    "0": "Durante a faculdade de Engenharia eu passei por difícies aulas de C++ e eu tinha certeza que programação não era para mim. Quando eu me formei, eu queria trabalhar com algo que me permitisse usar meu amor por tecnologia e criatividade para trazer com o meu trabalho algo significativo. E adivinha? Eu me encontrei no mundo da programação e não poderia me sentir mais engenheira como eu me sinto hoje!",
     "1": "Eu comecei esse projeto para aprender como fazer um site realmente do zero. comprar um domínio, escolher as tecnologias, desenvolver tudo, fazer versionamento de código, armazenar, avaliar a performace e o SEO, aprimorar, aprimorar, aprimorar e finalmente publicar! Tecnologias usadas nesse projeto:<br>ㅤ- Javascript (com React)<br>ㅤ- HTML e CSS<br>ㅤ- Github<br>ㅤ- S3 e Cloudfront da Amazon Web Services (AWS)<br>ㅤ- i18next biblioteca para tradução. <br>Próximos passos: aprender a fazer deploy automatizado e mais sobre como melhorar a performance do site"
   }
 }

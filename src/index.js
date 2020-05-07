@@ -8,12 +8,13 @@ import Home from './components/Pages/Home/Home';
 import Background from './components/Pages/Background/Background';
 import Freelance from './components/Pages/Freelance/Freelance';
 import ErrorPage from './components/Pages/ErrorPage/ErrorPage';
+import Loading from './components/Loading/Loading'
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './index.css';
 import './i18n';
 
 ReactDOM.render(
-    <Suspense fallback={(<div>Loading</div>)}>
+    <Suspense fallback={(<Loading/>)}>
 
     <BrowserRouter>
       <Navbar />

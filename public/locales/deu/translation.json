@@ -14,52 +14,52 @@
       "0": "Frontend"
     },
     "Developer": {
-      "0": "Developer"
+      "0": "Entwicklerin"
     },
     "----------->HomePage": { "HomePage": "HomePage" },
     "AboutMe": {
-      "0": "About me"
+      "0": "Über mich"
     },
     "Freelance": {
       "0": "Freelance"
     },
     "FreelanceText": {
-      "0": "I like to code things from scratch, and enjoy bringing ideas to life in the browser. "
+      "0": "Ich mag es, Dinge von Grund auf neu zu entwickeln und Ideen im Browser zum Leben zu erwecken."
     },
     "Background": {
       "0": "Background"
     },
     "BackgroundText": {
-      "0": "Currently I work at Santander Bank as Frontend Developer and at Ironhack Bootcamp as Teacher Assistant"
+      "0": "Derzeit arbeite ich bei der Santander Bank als Frontend-Entwickler und beim Ironhack Bootcamp als Lehrerassistent"
     },
     "----------->BackgroundPage": { "BackgroundPage": "BackgroundPage" },
     "AcademicBackground": {
-      "0": "Academic Background"
+      "0": "Akademischer Hintergrund"
     },
     "AcademicTimelineYear": {
-      "0": "Jun 2019 - Dez 2019",
-      "1": "Ago 2015 - Mar 2016",
-      "2": "Mar 2011 - Jun 2018"
+      "0": "Juni 2019 - Dez 2019",
+      "1": "Aug 2015 - März 2016",
+      "2": "März 2011 - Juni 2018"
   
     },
     "AcademicTimelineTitle": {
-      "0": "Ironhack Bootcamp⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+      "0": "Ironhack Bootcamp",
       "1": "University of Applied Sciences - Frankfurt am Main",
       "2": "Universidade Federal do Paraná"
     },
     "AcademicTimelineDescription": {
-      "0": "Bootcamp of Web Development. Subjects: HTML, CSS, Javascript, Node, Express, Mongo and REACT.",
-      "1": "I got an government scholarship to study for one and half year at Germany. There, I studied at Fachhochshule Frankfurt am Main (University of Applied Sciences) electrical engineer in renewable energy field. I also did some subjects about programming, finances and business.",
-      "2": "I studied electrical engineer, and there I made some volunteer work. Like 'Luz, Ciência e Emoção' and 'Projeto Lux'."
+      "0": "Full-Stack Webentwickler Bootcamp. Kursfächer: HTML, CSS, Javascript, Node, Express, Mongo und REACT.",
+      "1": "Ich habe ein Regierungsstipendium bekommen, um anderthalb Jahre in Deutschland zu studieren. Dort habe ich an der Fachhochschule Frankfurt am Main Elektroingenieur studiert. Ich habe auch einige Studienfäche über Programmierung, Finanzen und Business gemacht.",
+      "2": "Ich habe Elektrotechnik studiert und als Freiwilliger bei 'Luz, Ciência e Emoção' und 'Projeto Lux' gearbeitet."
     },
     "ProfessionalBackground": {
-      "0": "Professional Background"
+      "0": "Professioneller Hintergrund"
     },
     "ProfessionalTimelineYear": {
-      "0": "Jan 2020 - Present",
-      "1": "Nov 2019 - Present",
-      "2": "Ago 2018 - Nov-2019",
-      "3": "Nov 2017 - Ago 2018"
+      "0": "Jan 2020 - Gegenwart",
+      "1": "Nov 2019 - Gegenwart",
+      "2": "Aug 2018 - Nov-2019",
+      "3": "Nov 2017 - Aug 2018"
     },
     "ProfessionalTimelineTitle": {
       "0": "Ironhack Bootcamp",
@@ -68,25 +68,25 @@
       "3": "Renault"
     },
     "ProfessionalTimelinePost": {
-      "0": "Teacher Assistant",
-      "1": "Frontend Developer",
-      "2": "Frontend Developer",
-      "3": "Manufacturing Intern"
+      "0": "Lehrer-Assistent",
+      "1": "Frontend Entwicklerin",
+      "2": "Frontend Entwicklerin",
+      "3": "Fertigungspraktikantin"
     },
     "ProfessionalTimelineDescription": {
-      "0": "Helping the main teacher of Ironhack's part-time Web Development course. Subjects: HTML, CSS, Javascript, Node, Express, Mongo and REACT.",
-      "1": "Current working at a startup of Santander: Empréstimos Sim. Using Vue.js, Typescript, Git, CSS",
-      "2": "Worked at Santander and Sky clients, using Vue.js, Typescript, Git, CSS",
-      "3": "Intern at 'Talent Factory' program: <br /> - Development of projects focused on quality improvement, performance and cost reduction<br /> - Support of Head of Production with PDCA Cycle, 5S and Kaizen Methodology<br /> - Experience in different positions at the factory, like Operator (working with weld spot), Senior Operator and Quality Analyst<br />"
+      "0": "Ich helfe dem Hauptlehrer von Webentwickler Bootcamp. Kursfächer: HTML, CSS, Javascript, Node, Express, Mongo and REACT.",
+      "1": "Derzeit arbeite ich bei Aktuelle Arbeit bei einem Startup von Santander: 'Empréstimo Sim'. Technologien: Vue.js, Typescript, Git, CSS",
+      "2": "Arbeitete bei Santander und Sky Kunden. Technologien: Vue.js, Typescript, Git, CSS",
+      "3": "Praktikant im 'Talent Factory Programm': <br /> - Entwicklung von Projekten mit Schwerpunkt auf Qualitätsverbesserung, Leistung und Kostenreduzierung <br /> - Unterstützung des Produktionsleiters mit PDCA Cycle, 5S und Kaizen-Methodik <br /> - Erfahrung in verschiedene Positionen im Werk, wie Operator (Arbeiten mit Schweißpunkt), Senior Operator und Qualitätsanalyst <br />"
     },
     "----------->AboutPage": { "AboutPage": "AboutPage" },
     "AboutTitle": {
-      "0": "About me",
-      "1": "About this site"
+      "0": "Über mich",
+      "1": "Über diese Website"
     },
     "AboutDescription": {
-      "0": "I made Electrical Engineering and after painful classes of C++, I was sure programming was not for me. When I graduated, I desired to work with something that I could use my love for technology and creativity to make my path a meaningful one. And guess what? I found myself in the programming world and I couldn't feel more engineer as I feel nowadays!",
-      "1": "I started this project to learn how to make a website truly from scratch: buy a domain, create the layout, choose the technologies, develop everything, control version code, storage, evaluate SEO and performance, improve, improve, improve, and finally publish it!! What is being used in this project:<br>ㅤ- Javascript (with React)<br>ㅤ- HTML and CSS<br>ㅤ- Github<br>ㅤ- S3 and Cloudfront by Amazon Web Services (AWS)<br>ㅤ- i18next library to translate content. <br>Next steps: learn how to make deployment automation and more about improve site performance"
+      "0": "Nach schmerzhaften C ++ Vorlesungen an meiner Universität war ich mir sicher, dass Programmieren nichts für mich war. Nach Abschluss meines Studiums wollte ich mit etwas arbeiten, das ich mit meiner Liebe zur Technologie und Kreativität nutzen konnte, um meinen Weg sinnvoll zu gestalten. Und nun ein Rätsel: Ich habe meinen Weg durch der Programmierwelt gefunden und konnte mich nicht besser als heute fühlen!",
+      "1": "Ich habe dieses Projekt gestartet, um zu lernen, wie man eine Website wirklich von Grund auf neu erstellen kann: eine Domain kaufen, das Layout erstellen, die Technologien auswählen, alles entwickeln, den Versionscode steuern, speichern, SEO und Leistung bewerten, verbessern, verbessern, verbessern und schließlich veröffentlichen es!! Was habe ich verwenden: <br> ㅤ - Javascript (mit React) <br> ㅤ - HTML und CSS <br> ㅤ - Github <br> ㅤ - S3 und Cloudfront von Amazon Web Services (AWS) <br> ㅤ - i18next-Bibliothek zum Übersetzen. <br> Nächste Schritte: Erfahren Sie, wie kann mann automated deployment machen und meiner Website-Performance verbessern"
     }
   }
   

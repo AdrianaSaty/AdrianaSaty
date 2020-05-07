@@ -10,7 +10,6 @@ import espanha from '../../img/logos/espanha.png';
 import alemanha from '../../img/logos/alemanha.png';
 import i18next from 'i18next';
 import './Footer.css';
-// #959596
 function Footer() {
 
     function handleClick(lang) {
