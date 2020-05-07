@@ -1,90 +1,92 @@
 {
-    "----------->Navbar": { "Navbar": "Navbar" },
-    "NavBarAbout": {
-      "0": "Sobre"
-    },
-    "NavBarFreelance": {
-      "0": "Freelance"
-    },
-    "NavBarBackground": {
-      "0": "Background"
-    },
-    "----------->Header": { "Header": "Header" },
-    "Frontend": {
-      "0": "Frontend"
-    },
-    "Developer": {
-      "0": "Developer"
-    },
-    "----------->HomePage": { "HomePage": "HomePage" },
-    "AboutMe": {
-      "0": "About me"
-    },
-    "Freelance": {
-      "0": "Freelance"
-    },
-    "FreelanceText": {
-      "0": "I like to code things from scratch, and enjoy bringing ideas to life in the browser. "
-    },
-    "Background": {
-      "0": "Background"
-    },
-    "BackgroundText": {
-      "0": "Currently I work at Santander Bank as Frontend Developer and at Ironhack Bootcamp as Teacher Assistant"
-    },
-    "----------->BackgroundPage": { "BackgroundPage": "BackgroundPage" },
-    "AcademicBackground": {
-      "0": "Academic Background"
-    },
-    "AcademicTimelineYear": {
-      "0": "Jun 2019 - Dez 2019",
-      "1": "Ago 2015 - Mar 2016",
-      "2": "Mar 2011 - Jun 2018"
-  
-    },
-    "AcademicTimelineTitle": {
-      "0": "Ironhack Bootcamp⠀⠀⠀⠀⠀⠀⠀⠀⠀",
-      "1": "University of Applied Sciences - Frankfurt am Main",
-      "2": "Universidade Federal do Paraná"
-    },
-    "AcademicTimelineDescription": {
-      "0": "Bootcamp of Web Development. Subjects: HTML, CSS, Javascript, Node, Express, Mongo and REACT.",
-      "1": "I got an government scholarship to study for one and half year at Germany. There, I studied at Fachhochshule Frankfurt am Main (University of Applied Sciences) electrical engineer in renewable energy field. I also did some subjects about programming, finances and business.",
-      "2": "I studied electrical engineer, and there I made some volunteer work. Like 'Luz, Ciência e Emoção' and 'Projeto Lux'."
-    },
-    "ProfessionalBackground": {
-      "0": "Professional Background"
-    },
-    "ProfessionalTimelineYear": {
-      "0": "Jan 2020 - Present",
-      "1": "Nov 2019 - Present",
-      "2": "Ago 2018 - Nov-2019",
-      "3": "Nov 2017 - Ago 2018"
-    },
-    "ProfessionalTimelineTitle": {
-      "0": "Ironhack Bootcamp",
-      "1": "Santander",
-      "2": "Accenture",
-      "3": "Renault"
-    },
-    "ProfessionalTimelinePost": {
-      "0": "Teacher Assistant",
-      "1": "Frontend Developer",
-      "2": "Frontend Developer",
-      "3": "Manufacturing Intern"
-    },
-    "ProfessionalTimelineDescription": {
-      "0": "Helping the main teacher of Ironhack's part-time Web Development course. Subjects: HTML, CSS, Javascript, Node, Express, Mongo and REACT.",
-      "1": "Current working at a startup of Santander: Empréstimos Sim. Using Vue.js, Typescript, Git, CSS",
-      "2": "Worked at Santander and Sky clients, using Vue.js, Typescript, Git, CSS",
-      "3": "Intern at 'Talent Factory' program: <br /> - Development of projects focused on quality improvement, performance and cost reduction<br /> - Support of Head of Production with PDCA Cycle, 5S and Kaizen Methodology<br /> - Experience in different positions at the factory, like Operator (working with weld spot), Senior Operator and Quality Analyst<br />"
-    },
-    "----------->AboutPage": { "AboutPage": "AboutPage" },
-    "About": {
-      "0": "Write about me page"
-    }
-  
-  
+  "----------->Navbar": { "Navbar": "Navbar" },
+  "NavBarAbout": {
+    "0": "Sobre"
+  },
+  "NavBarFreelance": {
+    "0": "Freelas"
+  },
+  "NavBarBackground": {
+    "0": "Background"
+  },
+  "----------->Header": { "Header": "Header" },
+  "Frontend": {
+    "0": "Desenvolvedora"
+  },
+  "Developer": {
+    "0": "de Software"
+  },
+  "----------->HomePage": { "HomePage": "HomePage" },
+  "AboutMe": {
+    "0": "Sobre mim"
+  },
+  "Freelance": {
+    "0": "Freelas"
+  },
+  "FreelanceText": {
+    "0": "Tenho paixão porcriar projetos do zero e transformar em algo digital, como esse :)"
+  },
+  "Background": {
+    "0": "Experiência"
+  },
+  "BackgroundText": {
+    "0": "Atualmente eu trabalho no Santander como Desenvolvedora de Softaware e no Bootcamp da Ironhack como Professora Assistente"
+  },
+  "----------->BackgroundPage": { "BackgroundPage": "BackgroundPage" },
+  "AcademicBackground": {
+    "0": "Trajetória Acadêmica"
+  },
+  "AcademicTimelineYear": {
+    "0": "Jun 2019 - Dez 2019",
+    "1": "Ago 2015 - Mar 2016",
+    "2": "Mar 2011 - Jun 2018"
+
+  },
+  "AcademicTimelineTitle": {
+    "0": "Ironhack Bootcamp⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+    "1": "University of Applied Sciences - Frankfurt am Main",
+    "2": "Universidade Federal do Paraná"
+  },
+  "AcademicTimelineDescription": {
+    "0": "Bootcamp de Web Development. Conteúdo: HTML, CSS, Javascript, Node, Express, Mongo and REACT.",
+    "1": "Fiz intercâmbio de um ano e meio na Alemanha a partir de uma bolsa de estudos. Lá eu estudei Egenharia Elétrica na Fachhochshule Frankfurt am Main (University of Applied Sciences). Também fiz algumas matérias como programação, financas e administração. Ganhei um prêmio do 'Goethe Institut' de um vídeo que fiz sobre morar na Alemanha",
+    "2": "Eu estudei engenharia elétrica e também fiz alguns trabalhos voluntários na faculdade, como 'Luz, Ciência e Emoção' and 'Projeto Lux'."
+  },
+  "ProfessionalBackground": {
+    "0": "Trajetória Profissional"
+  },
+  "ProfessionalTimelineYear": {
+    "0": "Jan 2020 - Atualmente",
+    "1": "Nov 2019 - Atualmente",
+    "2": "Ago 2018 - Nov-2019",
+    "3": "Nov 2017 - Ago 2018"
+  },
+  "ProfessionalTimelineTitle": {
+    "0": "Ironhack Bootcamp",
+    "1": "Santander",
+    "2": "Accenture",
+    "3": "Renault"
+  },
+  "ProfessionalTimelinePost": {
+    "0": "Professora Assistente",
+    "1": "Desenvolvedora de Software Frontend",
+    "2": "Desenvolvedora de Software Frontend",
+    "3": "Estágiária de Produção"
+  },
+  "ProfessionalTimelineDescription": {
+    "0": "Auxilio o professor princilapal do bootcamp do curso de Web Development course. Matérias: HTML, CSS, Javascript, Node, Express, Mongo and REACT.",
+    "1": "Atualmente trabalhando na startaup do Satander 'Empréstimo Sim'. Uso as tecnologias Vue.js, Typescript, Git, SASS",
+    "2": "Trabalhei em projetos no Santander e na Sky, com as tecnologias Vue.js, Typescript, Git, CSS",
+    "3": "Estágiaria no programa 'Fábrica de Talentos': <br /> - Desenvolvimento de projetos focados em melhoria da qualidade, performance e redução de custos<br /> - Auxílio ao chefe de produção nas atividades de gestão e na resolução de problemas através do ciclo PDCA, 5S e metodologias KAIZEN<br /> - Experiência em diferentes postos, como operador (trabalhando com solda ponto), operador sênior e analista de qualidade.<br />"
+  },
+  "----------->AboutPage": { "AboutPage": "AboutPage" },
+  "AboutTitle": {
+    "0": "Sobre mim",
+    "1": "Sobre esse site"
+  },
+  "AboutDescription": {
+    "0": "Durante a faculdade de Engenharia eu passei por difícies aulas de C++ e eu tinha certeza que programação não era para mim. Quando eu me formei, eu queria trabalhar com algo que me permitisse usar meu amor por tecnologia e criatividade para trazer com o meu trabalho algo significativo. E adivinha? Eu me encontrei no mundo da programação e não poderia me sentir mais engenheira como eu me sinto hoje!",
+    "1": "Eu comecei esse projeto para aprender como fazer um site realmente do zero. comprar um domínio, escolher as tecnologias, desenvolver tudo, fazer versionamento de código, armazenar, avaliar a performace e o SEO, aprimorar, aprimorar, aprimorar e finalmente publicar! Tecnologias usadas nesse projeto:<br>ㅤ- Javascript (com React)<br>ㅤ- HTML e CSS<br>ㅤ- Github<br>ㅤ- S3 e Cloudfront da Amazon Web Services (AWS)<br>ㅤ- i18next biblioteca para tradução. <br>Próximos passos: aprender a fazer deploy automatizado e mais sobre como melhorar a performance do site"
   }
-  
-  
+}
+

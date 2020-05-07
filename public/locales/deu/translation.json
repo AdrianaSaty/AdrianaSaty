@@ -1,0 +1,93 @@
+{
+    "----------->Navbar": { "Navbar": "Navbar" },
+    "NavBarAbout": {
+      "0": "Über"
+    },
+    "NavBarFreelance": {
+      "0": "Freelance"
+    },
+    "NavBarBackground": {
+      "0": "Background"
+    },
+    "----------->Header": { "Header": "Header" },
+    "Frontend": {
+      "0": "Frontend"
+    },
+    "Developer": {
+      "0": "Entwicklerin"
+    },
+    "----------->HomePage": { "HomePage": "HomePage" },
+    "AboutMe": {
+      "0": "Über mich"
+    },
+    "Freelance": {
+      "0": "Freelance"
+    },
+    "FreelanceText": {
+      "0": "Ich mag es, Dinge von Grund auf neu zu entwickeln und Ideen im Browser zum Leben zu erwecken."
+    },
+    "Background": {
+      "0": "Background"
+    },
+    "BackgroundText": {
+      "0": "Derzeit arbeite ich bei der Santander Bank als Frontend-Entwickler und beim Ironhack Bootcamp als Lehrerassistent"
+    },
+    "----------->BackgroundPage": { "BackgroundPage": "BackgroundPage" },
+    "AcademicBackground": {
+      "0": "Akademischer Hintergrund"
+    },
+    "AcademicTimelineYear": {
+      "0": "Juni 2019 - Dez 2019",
+      "1": "Aug 2015 - März 2016",
+      "2": "März 2011 - Juni 2018"
+  
+    },
+    "AcademicTimelineTitle": {
+      "0": "Ironhack Bootcamp",
+      "1": "University of Applied Sciences - Frankfurt am Main",
+      "2": "Universidade Federal do Paraná"
+    },
+    "AcademicTimelineDescription": {
+      "0": "Full-Stack Webentwickler Bootcamp. Kursfächer: HTML, CSS, Javascript, Node, Express, Mongo und REACT.",
+      "1": "Ich habe ein Regierungsstipendium bekommen, um anderthalb Jahre in Deutschland zu studieren. Dort habe ich an der Fachhochschule Frankfurt am Main Elektroingenieur studiert. Ich habe auch einige Studienfäche über Programmierung, Finanzen und Business gemacht.",
+      "2": "Ich habe Elektrotechnik studiert und als Freiwilliger bei 'Luz, Ciência e Emoção' und 'Projeto Lux' gearbeitet."
+    },
+    "ProfessionalBackground": {
+      "0": "Professioneller Hintergrund"
+    },
+    "ProfessionalTimelineYear": {
+      "0": "Jan 2020 - Gegenwart",
+      "1": "Nov 2019 - Gegenwart",
+      "2": "Aug 2018 - Nov-2019",
+      "3": "Nov 2017 - Aug 2018"
+    },
+    "ProfessionalTimelineTitle": {
+      "0": "Ironhack Bootcamp",
+      "1": "Santander",
+      "2": "Accenture",
+      "3": "Renault"
+    },
+    "ProfessionalTimelinePost": {
+      "0": "Lehrer-Assistent",
+      "1": "Frontend Entwicklerin",
+      "2": "Frontend Entwicklerin",
+      "3": "Fertigungspraktikantin"
+    },
+    "ProfessionalTimelineDescription": {
+      "0": "Ich helfe dem Hauptlehrer von Webentwickler Bootcamp. Kursfächer: HTML, CSS, Javascript, Node, Express, Mongo and REACT.",
+      "1": "Derzeit arbeite ich bei Aktuelle Arbeit bei einem Startup von Santander: 'Empréstimo Sim'. Technologien: Vue.js, Typescript, Git, CSS",
+      "2": "Arbeitete bei Santander und Sky Kunden. Technologien: Vue.js, Typescript, Git, CSS",
+      "3": "Praktikant im 'Talent Factory Programm': <br /> - Entwicklung von Projekten mit Schwerpunkt auf Qualitätsverbesserung, Leistung und Kostenreduzierung <br /> - Unterstützung des Produktionsleiters mit PDCA Cycle, 5S und Kaizen-Methodik <br /> - Erfahrung in verschiedene Positionen im Werk, wie Operator (Arbeiten mit Schweißpunkt), Senior Operator und Qualitätsanalyst <br />"
+    },
+    "----------->AboutPage": { "AboutPage": "AboutPage" },
+    "AboutTitle": {
+      "0": "Über mich",
+      "1": "Über diese Website"
+    },
+    "AboutDescription": {
+      "0": "Nach schmerzhaften C ++ Vorlesungen an meiner Universität war ich mir sicher, dass Programmieren nichts für mich war. Nach Abschluss meines Studiums wollte ich mit etwas arbeiten, das ich mit meiner Liebe zur Technologie und Kreativität nutzen konnte, um meinen Weg sinnvoll zu gestalten. Und nun ein Rätsel: Ich habe meinen Weg durch der Programmierwelt gefunden und konnte mich nicht besser als heute fühlen!",
+      "1": "Ich habe dieses Projekt gestartet, um zu lernen, wie man eine Website wirklich von Grund auf neu erstellen kann: eine Domain kaufen, das Layout erstellen, die Technologien auswählen, alles entwickeln, den Versionscode steuern, speichern, SEO und Leistung bewerten, verbessern, verbessern, verbessern und schließlich veröffentlichen es!! Was habe ich verwenden: <br> ㅤ - Javascript (mit React) <br> ㅤ - HTML und CSS <br> ㅤ - Github <br> ㅤ - S3 und Cloudfront von Amazon Web Services (AWS) <br> ㅤ - i18next-Bibliothek zum Übersetzen. <br> Nächste Schritte: Erfahren Sie, wie kann mann automated deployment machen und meiner Website-Performance verbessern"
+    }
+  }
+  
+  

@@ -24,7 +24,7 @@
     "0": "Freelance"
   },
   "FreelanceText": {
-    "0": "I like to code things from scratch, and enjoy bringing ideas to life in the browser. "
+    "0": "I like to code things from scratch and enjoy bringing ideas to life in the browser. "
   },
   "Background": {
     "0": "Background"
@@ -38,7 +38,7 @@
   },
   "AcademicTimelineYear": {
     "0": "Jun 2019 - Dez 2019",
-    "1": "Ago 2015 - Mar 2016",
+    "1": "Aug 2015 - Mar 2016",
     "2": "Mar 2011 - Jun 2018"
 
   },
@@ -49,8 +49,8 @@
   },
   "AcademicTimelineDescription": {
     "0": "Bootcamp of Web Development. Subjects: HTML, CSS, Javascript, Node, Express, Mongo and REACT.",
-    "1": "I got an government scholarship to study for one and half year at Germany. There, I studied at Fachhochshule Frankfurt am Main (University of Applied Sciences) electrical engineer in renewable energy field. I also did some subjects about programming, finances and business.",
-    "2": "I studied electrical engineer, and there I made some volunteer work. Like 'Luz, Ciência e Emoção' and 'Projeto Lux'."
+    "1": "I got a government scholarship to study for one and a half year at Germany. There, I studied at Fachhochschule Frankfurt am Main (University of Applied Sciences) electrical engineer in the renewable energy field. I also did some subjects about programming, finances, and business.",
+    "2": "I studied electrical engineer, and I worked as a volunteer at  'Luz, Ciência e Emoção' and 'Projeto Lux'"
   },
   "ProfessionalBackground": {
     "0": "Professional Background"
@@ -58,8 +58,8 @@
   "ProfessionalTimelineYear": {
     "0": "Jan 2020 - Present",
     "1": "Nov 2019 - Present",
-    "2": "Ago 2018 - Nov-2019",
-    "3": "Nov 2017 - Ago 2018"
+    "2": "Aug 2018 - Nov-2019",
+    "3": "Nov 2017 - Aug 2018"
   },
   "ProfessionalTimelineTitle": {
     "0": "Ironhack Bootcamp",
@@ -85,10 +85,8 @@
     "1": "About this site"
   },
   "AboutDescription": {
-    "0": "I made Electrical Engineering and after painful classes of C++, I was sure programming was not for me. When I graduated, I desired to work with something that I could use my love for technology and creativity to make my path a meaningful one. And guess what? I found myself in the programming world and I couldn't feel more engineer as I feel nowadays!",
-    "1": "I started this project to learn how to make a website truly from scratch: buy a domain, create the layout, choose the technologies, develop everything, control version code, storage, evaluate SEO and performance, improve, improve, improve, and finally publish it!! What is being used in this project:<br>ㅤ- Javascript (with React)<br>ㅤ- HTML and CSS<br>ㅤ- Github<br>ㅤ- S3 and Cloudfront by Amazon Web Services (AWS)<br>ㅤ- i18next library to translate content. <br>Next steps: learn how to make deployment automation and more about improve site performance"
+    "0": "After painful classes of C++ at my University, I was sure programming was not for me. When I graduated, I desired to work with something that I could use my love for technology and creativity to make my path a meaningful one. And guess what? I found my way in the programming world and I couldn't feel more engineer as I feel nowadays!",
+    "1": "I started this project to learn how to make a website truly from scratch: buy a domain, create the layout, choose the technologies, develop everything, control version code, storage, evaluate SEO and performance, improve, improve, improve, and finally publish it!! What is being used in this project:<br>ㅤ- Javascript (with React)<br>ㅤ- HTML and CSS<br>ㅤ- Github<br>ㅤ- S3 and Cloudfront by Amazon Web Services (AWS)<br>ㅤ- i18next library to translate content. <br>Next steps: learn how to make automated deployment and more about improve site performance"
   }
-
-
 }
 

@@ -1,0 +1,9 @@
+.loading{
+    background-color: black;
+    color: #b8b8bb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh
+}

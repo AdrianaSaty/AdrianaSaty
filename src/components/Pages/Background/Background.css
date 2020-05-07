@@ -15,8 +15,9 @@
     display: block;
 }
 
-h1 {
+.background h1 {
     text-align: center;
+    font-size: 35px;
 }
 
 p {
