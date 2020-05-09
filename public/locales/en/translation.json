@@ -48,9 +48,9 @@
     "2": "Universidade Federal do Paraná"
   },
   "AcademicTimelineDescription": {
-    "0": "Bootcamp of Web Development. Subjects: HTML, CSS, Javascript, Node, Express, Mongo and REACT.",
+    "0": "Bootcamp of Web Development. Subjects: HTML, CSS, Javascript, Node, Express, Mongo and REACT. <br><a href='https://github.com/AdrianaSaty/ironhack-project1-craze-maze' target='_blank' rel='noopener noreferrer'>My first project</a> was a game. Its logic creates mazes randomly only with javascript and CSS. <br> <a href='https://github.com/fernandoyto/mais-dinheiro' target='_blank' rel='noopener noreferrer'>My second project</a> was a spending control platform, made in node.js <br>And <a href='https://github.com/AdrianaSaty/blockchain-front' target='_blank' rel='noopener noreferrer'>the final project</a> was a betting platform with transaction control through Blockchain, made in React and Node.js ",
     "1": "I got a government scholarship to study for one and a half year at Germany. There, I studied at Fachhochschule Frankfurt am Main (University of Applied Sciences) electrical engineer in the renewable energy field. I also did some subjects about programming, finances, and business.",
-    "2": "I studied electrical engineer, and I worked as a volunteer at  'Luz, Ciência e Emoção' and 'Projeto Lux'"
+    "2": "I studied electrical engineer, and I worked as a volunteer at  'Luz, Ciência e Emoção' and 'Projeto Lux'. <a href='http://www.eletrica.ufpr.br/tcc/2018/1s/ADRIANA%20SATY%20HIRANO%20MARCHIORO%20BERTELLI%20e%20BRUNO%20CESAR%20XAVIER/TCC.pdf' target='_blank' rel='noopener noreferrer'>My  Undergraduate thesis</a>, in partnership with the Lactec Institutes, was the design and construction of a device to simulate the accelerated aging of anchoring insulators in extreme situations."
   },
   "ProfessionalBackground": {
     "0": "Professional Background"
@@ -85,7 +85,7 @@
     "1": "About this site"
   },
   "AboutDescription": {
-    "0": "After painful classes of C++ at my University, I was sure programming was not for me. When I graduated, I desired to work with something that I could use my love for technology and creativity to make my path a meaningful one. And guess what? I found my way in the programming world and I couldn't feel more engineer as I feel nowadays!",
+    "0": "After painful classes of C++ at my University, I was sure programming was not for me. When I graduated, I desired to work with something that I could use my love for technology and creativity to make my path a meaningful one. And guess what? I found myself in the programming world and I couldn't feel more engineer as I feel nowadays!",
     "1": "I started this project to learn how to make a website truly from scratch: buy a domain, create the layout, choose the technologies, develop everything, control version code, storage, evaluate SEO and performance, improve, improve, improve, and finally publish it!! What is being used in this project:<br>ㅤ- Javascript (with React)<br>ㅤ- HTML and CSS<br>ㅤ- Github<br>ㅤ- S3 and Cloudfront by Amazon Web Services (AWS)<br>ㅤ- i18next library to translate content. <br>Next steps: learn how to make automated deployment and more about improve site performance"
   }
 }

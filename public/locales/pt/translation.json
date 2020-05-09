@@ -48,9 +48,9 @@
     "2": "Universidade Federal do Paraná"
   },
   "AcademicTimelineDescription": {
-    "0": "Bootcamp de Web Development. Conteúdo: HTML, CSS, Javascript, Node, Express, Mongo and REACT.",
+    "0": "Bootcamp de Web Development. Conteúdo: HTML, CSS, Javascript, Node, Express, Mongo and REACT. <br><a href='https://github.com/AdrianaSaty/ironhack-project1-craze-maze' target='_blank' rel='noopener noreferrer'>Meu primeiro projeto</a> foi um jogo, que sua lógica cria labirintos de forma aleatória. Feito somente com javascript e CSS.<br> <a href='https://github.com/fernandoyto/mais-dinheiro' target='_blank' rel='noopener noreferrer'>Meu segundo projeto</a> foi uma plataforma de controle de gastos, feito em node.js <br> E o <a href='https://github.com/AdrianaSaty/blockchain-front' target='_blank' rel='noopener noreferrer'>projeto final</a> foi uma plataforma de apostas com controle de transações por meio de Blockchain, feita em React e Node.js</a> ",
     "1": "Fiz intercâmbio de um ano e meio na Alemanha a partir de uma bolsa de estudos. Lá eu estudei Egenharia Elétrica na Fachhochshule Frankfurt am Main (University of Applied Sciences). Também fiz algumas matérias como programação, financas e administração. Ganhei um prêmio do 'Goethe Institut' de um vídeo que fiz sobre morar na Alemanha",
-    "2": "Eu estudei engenharia elétrica e também fiz alguns trabalhos voluntários na faculdade, como 'Luz, Ciência e Emoção' and 'Projeto Lux'."
+    "2": "Eu estudei engenharia elétrica e também fiz alguns trabalhos voluntários na faculdade, como 'Luz, Ciência e Emoção' and 'Projeto Lux'. <a href='http://www.eletrica.ufpr.br/tcc/2018/1s/ADRIANA%20SATY%20HIRANO%20MARCHIORO%20BERTELLI%20e%20BRUNO%20CESAR%20XAVIER/TCC.pdf' target='_blank' rel='noopener noreferrer'>Meu TCC</a>, em parceria com os Institutos Lactec, foi a elaboração e construção de aparelho para simular envelhecimento acelerado de isoladores de ancoragem em situações extremas."
   },
   "ProfessionalBackground": {
     "0": "Trajetória Profissional"
@@ -74,7 +74,7 @@
     "3": "Estágiária de Produção"
   },
   "ProfessionalTimelineDescription": {
-    "0": "Auxilio o professor princilapal do bootcamp do curso de Web Development course. Matérias: HTML, CSS, Javascript, Node, Express, Mongo and REACT.",
+    "0": "Auxilio o professor principal do bootcamp do curso de Web Development course. Matérias: HTML, CSS, Javascript, Node, Express, Mongo and REACT.",
     "1": "Atualmente trabalhando na startaup do Satander 'Empréstimo Sim'. Uso as tecnologias Vue.js, Typescript, Git, SASS",
     "2": "Trabalhei em projetos no Santander e na Sky, com as tecnologias Vue.js, Typescript, Git, CSS",
     "3": "Estágiaria no programa 'Fábrica de Talentos': <br /> - Desenvolvimento de projetos focados em melhoria da qualidade, performance e redução de custos<br /> - Auxílio ao chefe de produção nas atividades de gestão e na resolução de problemas através do ciclo PDCA, 5S e metodologias KAIZEN<br /> - Experiência em diferentes postos, como operador (trabalhando com solda ponto), operador sênior e analista de qualidade.<br />"
@@ -85,7 +85,7 @@
     "1": "Sobre esse site"
   },
   "AboutDescription": {
-    "0": "Durante a faculdade de Engenharia eu passei por difícies aulas de C++ e eu tinha certeza que programação não era para mim. Quando eu me formei, eu queria trabalhar com algo que me permitisse usar meu amor por tecnologia e criatividade para trazer com o meu trabalho algo significativo. E adivinha? Eu me encontrei no mundo da programação e não poderia me sentir mais engenheira como eu me sinto hoje!",
+    "0": "Durante a faculdade de Engenharia eu passei por difícies aulas de C++ e eu tinha certeza que programação não era para mim. Quando eu me formei, eu queria trabalhar com algo que me permitisse usar meu amor por tecnologia e criatividade para trazer com o meu trabalho algo significativo. E adivinha?  Eu me encontrei no mundo da programação e não poderia me sentir mais engenheira como eu me sinto hoje!",
     "1": "Eu comecei esse projeto para aprender como fazer um site realmente do zero. comprar um domínio, escolher as tecnologias, desenvolver tudo, fazer versionamento de código, armazenar, avaliar a performace e o SEO, aprimorar, aprimorar, aprimorar e finalmente publicar! Tecnologias usadas nesse projeto:<br>ㅤ- Javascript (com React)<br>ㅤ- HTML e CSS<br>ㅤ- Github<br>ㅤ- S3 e Cloudfront da Amazon Web Services (AWS)<br>ㅤ- i18next biblioteca para tradução. <br>Próximos passos: aprender a fazer deploy automatizado e mais sobre como melhorar a performance do site"
   }
 }

@@ -20,7 +20,7 @@
     font-size: 35px;
 }
 
-p {
+p, a {
     text-align: left;
 }
 
@@ -156,6 +156,16 @@ p {
     margin: 0;
     clear: both;
 }
+
+.main-timeline .description a {
+    font-size: 14px;
+    color: #7d7b7b;
+    line-height: 24px;
+    margin: 0;
+    clear: both;
+    text-decoration: underline;
+}
+
 .main-timeline .timeline:nth-child(2n){ padding: 0 0 0 30px; }
 .main-timeline .timeline:nth-child(2n) .year{
     right: auto;
@@ -248,4 +258,5 @@ p {
     .main-timeline .timeline-content,
     .main-timeline .timeline:nth-child(2n) .timeline-content{ margin-left: 10px; }
     .main-timeline .post{ margin: 5px 0; }
+
 }

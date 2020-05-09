@@ -36,14 +36,18 @@
     }
 
     .about img {
-        width: 50vw;
-        height: calc(100vh - 37px - 140px);
+        width: 40vw;
+        height: calc(100vh - 37px - 120px);
         object-fit: cover;
         object-position: 11% 0;
     }
 
     .about-text {
-        width: 50vw;
+        width: 60vw;
+        padding: 0 30px 0 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .about p {
@@ -61,7 +65,7 @@
         }
         to {
             filter: blur(0px);
-            width: 50vw;
+            width: 40vw;
     
         }
     }

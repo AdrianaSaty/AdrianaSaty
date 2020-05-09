@@ -14,7 +14,6 @@ function Footer() {
 
     function handleClick(lang) {
         i18next.changeLanguage(lang);
-        window.scrollTo( 0, 1000 );
     }
     return (
         <div className="footer">
