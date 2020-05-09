@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useEffect}  from 'react';
 import { useTranslation } from 'react-i18next';
 import adrianaProgramming from '../../../img/Adriana-programming.png';
+import ReactGa from 'react-ga';
 
 import './About.css';
 
 
 function About() {
     const { t } = useTranslation();
+
+    useEffect(() => {
+        ReactGa.initialize('UA-165955150-1')
+        // to report page view 
+        ReactGa.pageview(window.location.pathname + window.location.search)
+    }, [])
 
     return (
         <div className="about">
