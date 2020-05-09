@@ -41,6 +41,7 @@ const professionalExtraContent = [
 
 function Background() {
     const { t } = useTranslation();
+    window.scrollTo( 0, 0 );
 
     return (
         <div className="background">

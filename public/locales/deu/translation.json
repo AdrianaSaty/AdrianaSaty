@@ -30,7 +30,7 @@
       "0": "Background"
     },
     "BackgroundText": {
-      "0": "Derzeit arbeite ich bei der Santander Bank als Frontend-Entwickler und beim Ironhack Bootcamp als Lehrerassistent"
+      "0": "Derzeit arbeite ich bei der Santander Bank als Frontend-Entwicklerin und beim Ironhack Bootcamp als Lehrerassistentin"
     },
     "----------->BackgroundPage": { "BackgroundPage": "BackgroundPage" },
     "AcademicBackground": {
@@ -48,9 +48,9 @@
       "2": "Universidade Federal do Paraná"
     },
     "AcademicTimelineDescription": {
-      "0": "Full-Stack Webentwickler Bootcamp. Kursfächer: HTML, CSS, Javascript, Node, Express, Mongo und REACT.",
+      "0": "Full-Stack Webentwickler Bootcamp. Kursfächer: HTML, CSS, Javascript, Node, Express, Mongo und REACT. <br><a href='https://github.com/AdrianaSaty/ironhack-project1-craze-maze' target='_blank' rel='noopener noreferrer'> Mein erstes Projekt </a> war ein Spiel. Seine Logik erzeugt zufällige Labyrinthe nur  mit Javascript und CSS. <br> <a href='https://github.com/fernandoyto/mais-dinheiro' target='_blank' rel='noopener noreferrer'>Mein zweites Projekt </a> war eine Plattform zur Ausgabenkontrolle, die in node.js erstellt wurde <br>Und <a href='https://github.com/AdrianaSaty/blockchain-front' target='_blank' rel='noopener noreferrer'>Das Abschlussprojekt  </a> war eine Wettplattform mit Transaktionskontrolle über Blockchain, die in React und Node.js erstellt wurde ",
       "1": "Ich habe ein Regierungsstipendium bekommen, um anderthalb Jahre in Deutschland zu studieren. Dort habe ich an der Fachhochschule Frankfurt am Main Elektroingenieur studiert. Ich habe auch einige Studienfäche über Programmierung, Finanzen und Business gemacht.",
-      "2": "Ich habe Elektrotechnik studiert und als Freiwilliger bei 'Luz, Ciência e Emoção' und 'Projeto Lux' gearbeitet."
+      "2": "Ich habe Elektrotechnik studiert und als Freiwilliger bei 'Luz, Ciência e Emoção' und 'Projeto Lux' gearbeitet. <a href='http://www.eletrica.ufpr.br/tcc/2018/1s/ADRIANA%20SATY%20HIRANO%20MARCHIORO%20BERTELLI%20e%20BRUNO%20CESAR%20XAVIER/TCC.pdf' target='_blank' rel='noopener noreferrer'>Meine Abschlussarbeit, </a> in Zusammenarbeit mit den Lactec Institutes, war das Ausarbeitung  und die Konstruktion eines Geräts zur Simulation der beschleunigten Alterung von Isolator  in Extremsituationen."
     },
     "ProfessionalBackground": {
       "0": "Professioneller Hintergrund"
@@ -85,7 +85,7 @@
       "1": "Über diese Website"
     },
     "AboutDescription": {
-      "0": "Nach schmerzhaften C ++ Vorlesungen an meiner Universität war ich mir sicher, dass Programmieren nichts für mich war. Nach Abschluss meines Studiums wollte ich mit etwas arbeiten, das ich mit meiner Liebe zur Technologie und Kreativität nutzen konnte, um meinen Weg sinnvoll zu gestalten. Und nun ein Rätsel: Ich habe meinen Weg durch der Programmierwelt gefunden und konnte mich nicht besser als heute fühlen!",
+      "0": "Wegen langweiliger C++ Vorlesungen an meiner Universität wurde mir klar, dass Programmieren nichts für mich ist. Nachdem ich der Universität Aufwiesersehen gesagt hatte, wollte ich mich beschäftigen mit etwas,das eng verbunden ist mit Kreativität und meiner Liebe zur Technologie. Damit wollte ich mir was Sinnvolles aufbauen. Aber dann geschah Rätselhaftes: Nach dem Ironhack Bootcamp habe meinen Weg in die Programmiererwelt gefunden und deshalb kann ich mir heute kaum vorstellen, dass ich anderswo glücklicher wäre.",
       "1": "Ich habe dieses Projekt gestartet, um zu lernen, wie man eine Website wirklich von Grund auf neu erstellen kann: eine Domain kaufen, das Layout erstellen, die Technologien auswählen, alles entwickeln, den Versionscode steuern, speichern, SEO und Leistung bewerten, verbessern, verbessern, verbessern und schließlich veröffentlichen es!! Was habe ich verwenden: <br> ㅤ - Javascript (mit React) <br> ㅤ - HTML und CSS <br> ㅤ - Github <br> ㅤ - S3 und Cloudfront von Amazon Web Services (AWS) <br> ㅤ - i18next-Bibliothek zum Übersetzen. <br> Nächste Schritte: Erfahren Sie, wie kann mann automated deployment machen und meiner Website-Performance verbessern"
     }
   }

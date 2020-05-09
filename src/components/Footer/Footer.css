@@ -76,12 +76,12 @@
     height: 23px;
     margin: 0 2px;
     margin: 0 10px;
-    filter: grayscale(100%);
+    filter: grayscale(30%);
 }
 
 .countries img:hover {
     height: 30px;
-    filter: grayscale(0%);
+    /* filter: grayscale(0%); */
 }
 
 .powered-by:hover {
@@ -96,7 +96,7 @@ a {
     .links {
         display: flex;
         justify-content: space-around;
-        padding: 20px 100px;
+        padding: 10px 100px;
     }
 
     .links img {
