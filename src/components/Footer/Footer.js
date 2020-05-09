@@ -10,10 +10,17 @@ import espanha from '../../img/logos/espanha.png';
 import alemanha from '../../img/logos/alemanha.png';
 import i18next from 'i18next';
 import './Footer.css';
+
+import ReactGa from 'react-ga';
+
 function Footer() {
 
     function handleClick(lang) {
         i18next.changeLanguage(lang);
+        ReactGa.event({
+            category: 'language',
+            action: 'clicked at ' + lang + ' language'
+        })
     }
     return (
         <div className="footer">

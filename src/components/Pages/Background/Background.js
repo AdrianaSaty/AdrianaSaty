@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect}  from 'react';
 import TimelineBox from '../../TimelineBox/TimelineBox'
 import ironhack from '../../../img/logos/logo-ironhack.png';
 import frankfurt from '../../../img/logos/logo-frankfurt.jpg';
@@ -6,11 +6,12 @@ import ufpr from '../../../img/logos/logo-ufpr.png';
 import santander from '../../../img/logos/logo-santander.png';
 import accenture from '../../../img/logos/logo-accenture.png';
 import renault from '../../../img/logos/logo-renault.png';
-import './Background.css';
-
 import ironhackFriends from '../../../img/ironhackFriends.jpg';
 
+import './Background.css';
+
 import { useTranslation } from 'react-i18next';
+import ReactGa from 'react-ga';
 
 
 const professionalTimelineImages = [
@@ -42,6 +43,12 @@ const professionalExtraContent = [
 function Background() {
     const { t } = useTranslation();
     window.scrollTo( 0, 0 );
+
+    useEffect(() => {
+        ReactGa.initialize('UA-165955150-1')
+        // to report page view 
+        ReactGa.pageview(window.location.pathname + window.location.search)
+    }, [])
 
     return (
         <div className="background">
