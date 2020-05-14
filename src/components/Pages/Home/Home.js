@@ -1,5 +1,4 @@
 import React, { useEffect}  from 'react';
-import Header from '../../Header/Header'
 import curriculum from './../../../img/curriculum.png';
 import computer from '../../../img/computer.png';
 import { Link } from 'react-router-dom';
@@ -8,6 +7,8 @@ import './Home.css';
 import ReactGa from 'react-ga';
 
 function Home() {
+    const Header = React.lazy(() => import('../../Header/Header'));
+
     const { t } = useTranslation();
 
     useEffect(() => {

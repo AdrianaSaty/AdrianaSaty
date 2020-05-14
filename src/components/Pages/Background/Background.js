@@ -1,5 +1,4 @@
 import React, { useEffect}  from 'react';
-import TimelineBox from '../../TimelineBox/TimelineBox'
 import ironhack from '../../../img/logos/logo-ironhack.png';
 import frankfurt from '../../../img/logos/logo-frankfurt.jpg';
 import ufpr from '../../../img/logos/logo-ufpr.png';
@@ -21,7 +20,6 @@ const professionalTimelineImages = [
     renault
 ]
 
-
 const academicTimelineImages = [
     ironhack,
     frankfurt,
@@ -32,15 +30,16 @@ const academicExtraContent = [
     <img src={ironhackFriends} alt={ironhackFriends} className="extra-content" />,
     <iframe className="extra-content" alt='goethe-award' title="goethe-award" src="https://www.youtube.com/embed/hSKdSNHuVX4" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
     <iframe className="extra-content" alt='projeto-lux-ufpr' title="projeto-lux-ufpr"  src="https://www.youtube.com/embed/BNRzBmdoSHw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
-]
+];
 
 const professionalExtraContent = [
     <></> ,
     <iframe className="extra-content" src="https://www.youtube.com/embed/SSx52ZIkXwA"  title ="sim-video" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
-
-]
+];
 
 function Background() {
+    const TimelineBox = React.lazy(() => import('../../TimelineBox/TimelineBox'));
+
     const { t } = useTranslation();
     window.scrollTo( 0, 0 );
 

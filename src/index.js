@@ -8,9 +8,6 @@ import './i18n';
 
 ReactDOM.render(
   <Suspense fallback={(<Loading />)}>
-
-   <App />
+      <App />
    </Suspense>
-
-
     , document.getElementById('root'));

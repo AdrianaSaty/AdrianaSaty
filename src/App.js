@@ -1,12 +1,5 @@
 import React, { useEffect}  from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer';
-import About from './components/Pages/About/About';
-import Home from './components/Pages/Home/Home';
-import Background from './components/Pages/Background/Background';
-import Freelance from './components/Pages/Freelance/Freelance';
-import ErrorPage from './components/Pages/ErrorPage/ErrorPage';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import './i18n';
@@ -15,9 +8,17 @@ import ReactGa from 'react-ga';
 import './App.css';
 
 function App() {
+    const Navbar = React.lazy(() => import('./components/Navbar/Navbar'));
+    const Footer = React.lazy(() => import('./components/Footer/Footer'));
+    const Home = React.lazy(() => import('./components/Pages/Home/Home'));
+    const About = React.lazy(() => import('./components/Pages/About/About'));
+    const Background = React.lazy(() => import('./components/Pages/Background/Background'));
+    const Freelance = React.lazy(() => import('./components/Pages/Freelance/Freelance'));
+    const ErrorPage = React.lazy(() => import('./components/Pages/ErrorPage/ErrorPage'));
+
+
     useEffect(() => {
         ReactGa.initialize('UA-165955150-1')
-        // to report page view 
         ReactGa.pageview(window.location.pathname + window.location.search)
     }, [])
 
