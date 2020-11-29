@@ -1,4 +1,4 @@
-import React, { useEffect}  from 'react';
+import React, { Suspense } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
@@ -8,22 +8,16 @@ import Background from './components/Pages/Background/Background';
 import Freelance from './components/Pages/Freelance/Freelance';
 import ErrorPage from './components/Pages/ErrorPage/ErrorPage';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Loading from './components/Loading/Loading'
 import './App.css';
 import './i18n';
-import ReactGa from 'react-ga';
-
-import './App.css';
 
 function App() {
-    useEffect(() => {
-        ReactGa.initialize('UA-165955150-1')
-        // to report page view 
-        ReactGa.pageview(window.location.pathname + window.location.search)
-    }, [])
 
     return (
         <div className="app">
-                <BrowserRouter>
+            <BrowserRouter>
+                <Suspense fallback={(<Loading />)}>
                     <Navbar />
                     <Switch>
                         <Route path="/" exact={true} component={Home} />
@@ -32,8 +26,9 @@ function App() {
                         <Route path="/freelance" component={Freelance} />
                         <Route path='*' component={ErrorPage} />
                     </Switch>
-                </ BrowserRouter>
-                <Footer />
+                </Suspense>
+            </ BrowserRouter>
+            <Footer />
         </div>
     )
 }

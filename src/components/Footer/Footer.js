@@ -11,13 +11,14 @@ import alemanha from '../../img/logos/alemanha.png';
 import i18next from 'i18next';
 import './Footer.css';
 
-import ReactGa from 'react-ga';
+import ReactGA from 'react-ga';
 
 function Footer() {
 
     function handleClick(lang) {
         i18next.changeLanguage(lang);
-        ReactGa.event({
+        ReactGA.initialize('G-CT415D3JH9')
+        ReactGA.event({
             category: 'language',
             action: 'clicked at ' + lang + ' language'
         })

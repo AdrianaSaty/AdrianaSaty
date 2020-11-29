@@ -5,16 +5,15 @@ import computer from '../../../img/computer.png';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './Home.css';
-import ReactGa from 'react-ga';
+import ReactGA from 'react-ga';
 
 function Home() {
     const { t } = useTranslation();
 
     useEffect(() => {
-        ReactGa.initialize('UA-165955150-1')
-        // to report page view 
-        ReactGa.pageview(window.location.pathname + window.location.search)
-    }, [])
+        ReactGA.initialize('G-CT415D3JH9');
+        ReactGA.pageview('home', window.location.pathname + window.location.search);
+    });
 
     return (
         <div className="home">

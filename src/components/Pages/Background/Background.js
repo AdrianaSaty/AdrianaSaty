@@ -7,12 +7,9 @@ import santander from '../../../img/logos/logo-santander.png';
 import accenture from '../../../img/logos/logo-accenture.png';
 import renault from '../../../img/logos/logo-renault.png';
 import ironhackFriends from '../../../img/ironhackFriends.jpg';
-
 import './Background.css';
-
 import { useTranslation } from 'react-i18next';
-import ReactGa from 'react-ga';
-
+import ReactGA from 'react-ga';
 
 const professionalTimelineImages = [
     ironhack,
@@ -20,7 +17,6 @@ const professionalTimelineImages = [
     accenture,
     renault
 ]
-
 
 const academicTimelineImages = [
     ironhack,
@@ -45,10 +41,9 @@ function Background() {
     window.scrollTo( 0, 0 );
 
     useEffect(() => {
-        ReactGa.initialize('UA-165955150-1')
-        // to report page view 
-        ReactGa.pageview(window.location.pathname + window.location.search)
-    }, [])
+        ReactGA.initialize('G-CT415D3JH9')
+        ReactGA.pageview('background',window.location.pathname + window.location.search);
+    });
 
     return (
         <div className="background">
