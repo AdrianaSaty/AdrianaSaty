@@ -7,13 +7,14 @@ import santander from '../../../img/logos/logo-santander.png';
 import accenture from '../../../img/logos/logo-accenture.png';
 import renault from '../../../img/logos/logo-renault.png';
 import ironhackFriends from '../../../img/ironhackFriends.jpg';
+import renaultIntership from '../../../img/Renault.png';
 import './Background.css';
 import { useTranslation } from 'react-i18next';
 import ReactGA from 'react-ga';
 
 const professionalTimelineImages = [
-    ironhack,
     santander,
+    ironhack,
     accenture,
     renault
 ]
@@ -31,9 +32,10 @@ const academicExtraContent = [
 ]
 
 const professionalExtraContent = [
-    <></> ,
     <iframe className="extra-content" src="https://www.youtube.com/embed/SSx52ZIkXwA"  title ="sim-video" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
-
+    <></> ,
+    <></> ,
+    <img src={renaultIntership} alt={renaultIntership} className="extra-content" />,
 ]
 
 function Background() {
@@ -79,7 +81,11 @@ function Background() {
                                             img={valueImg}
                                             timelineTitle={t('ProfessionalTimelineTitle.' + index )}
                                             timelinePost={t('ProfessionalTimelinePost.' + index )}
+                                            timelineDuration={t('ProfessionalTimelineDuration.' + index )}
                                             timelineDescription={t('ProfessionalTimelineDescription.' + index )}
+                                            secoundTimelinePost={t('SecoundProfessionalTimelinePost.' + index )}
+                                            secoundTimelineDuration={t('SecoundProfessionalTimelineDuration.' + index )}
+                                            secoundTimelineDescription={t('SecoundProfessionalTimelineDescription.' + index )}
                                             timelineExtra={professionalExtraContent[index]}
                                             key={index}
                                         />

@@ -3,8 +3,8 @@
   "NavBarAbout": {
     "0": "About"
   },
-  "NavBarFreelance": {
-    "0": "Freelance"
+  "NavBarProject": {
+    "0": "Projects"
   },
   "NavBarBackground": {
     "0": "Background"
@@ -20,10 +20,10 @@
   "AboutMe": {
     "0": "About me"
   },
-  "Freelance": {
-    "0": "Freelance"
+  "Project": {
+    "0": "Projects"
   },
-  "FreelanceText": {
+  "ProjectText": {
     "0": "I like to code things from scratch and enjoy bringing ideas to life in the browser. "
   },
   "Background": {
@@ -33,6 +33,9 @@
     "0": "Currently I work at Santander Bank as Frontend Developer and at Ironhack Bootcamp as Teacher Assistant"
   },
   "----------->BackgroundPage": { "BackgroundPage": "BackgroundPage" },
+  "TechnologiesBackground": {
+    "0": "Tecnologies"
+  },
   "AcademicBackground": {
     "0": "Academic Background"
   },
@@ -56,28 +59,52 @@
     "0": "Professional Background"
   },
   "ProfessionalTimelineYear": {
-    "0": "Jan 2020 - Present",
-    "1": "Nov 2019 - Present",
+    "0": "Nov 2019 - Present",
+    "1": "Jan 2020 - Jul 2020",
     "2": "Aug 2018 - Nov-2019",
     "3": "Nov 2017 - Aug 2018"
   },
   "ProfessionalTimelineTitle": {
-    "0": "Ironhack Bootcamp",
-    "1": "Santander",
+    "0": "Santander",
+    "1": "Ironhack Bootcamp",
     "2": "Accenture",
     "3": "Renault"
   },
   "ProfessionalTimelinePost": {
-    "0": "Teacher Assistant",
-    "1": "Frontend Developer",
-    "2": "Frontend Developer",
+    "0": "Frontend Developer - Junior Analyst ",
+    "1": "Teacher Assistant",
+    "2": "Frontend Developer - Junior Analyst",
     "3": "Manufacturing Intern"
   },
+  "SecoundProfessionalTimelinePost": {
+    "0": "Frontend Developer - Analyst",
+    "1": "",
+    "2": "",
+    "3": ""
+  },
+  "ProfessionalTimelineDuration": {
+    "0": "(10 months)",
+    "1": "(6 months)",
+    "2": "(1yr 4 months)",
+    "3": "(9 months)"
+  },
+  "SecoundProfessionalTimelineDuration": {
+    "0": "(4 months)",
+    "1": "",
+    "2": "",
+    "3": ""
+  },
   "ProfessionalTimelineDescription": {
-    "0": "Helping the main teacher of Ironhack's part-time Web Development course. Subjects: HTML, CSS, Javascript, Node, Express, Mongo and REACT.",
-    "1": "Current working at a startup of Santander: Empréstimos Sim. Using Vue.js, Typescript, Git, CSS",
-    "2": "Worked at Santander and Sky clients, using Vue.js, Typescript, Git, CSS",
-    "3": "Intern at 'Talent Factory' program: <br /> - Development of projects focused on quality improvement, performance and cost reduction<br /> - Support of Head of Production with PDCA Cycle, 5S and Kaizen Methodology<br /> - Experience in different positions at the factory, like Operator (working with weld spot), Senior Operator and Quality Analyst<br />"
+    "0": "•  Develop new features and maintain code pattern <br />  •  Collaborate with business and design meetings to create scalable and performance solutions to front end <br />  •  Make design pattern and storybook to help the integration with partners <br /> •   Technologies: Vue.js, Typescript, Git, Azure, SASS, Bootstrap",
+    "1": "Ironhack  is an international school with campuses in 9 countries, with three different immersive courses: Web Development, UX/UI Design and Data Analytics. Helping the main teacher of Ironhack's part-time Web Development course. Subjects: HTML, CSS, Javascript, Node, Express, Mongo and React.",
+    "2": "Worked at Santander and Sky clients <br /> • Develop new features and maintain code pattern  <br /> • Technologies: Vue.js, Typescript, Git, CSS, Bootstrap",
+    "3": "Intern at 'Talent Factory' program: <br /> • Development of projects focused on quality improvement, performance and cost reduction<br /> • Support of Head of Production with PDCA Cycle, 5S and Kaizen Methodology<br /> • Experience in different positions at the factory, like Operator (working with weld spot), Senior Operator and Quality Analyst<br />"
+  },
+  "SecoundProfessionalTimelineDescription": {
+    "0": "Current working at a startup of Santander: Empréstimos Sim. <br />  •  Responsible for making code review of the team <br />  •  Coach newly hired IT on technical procedures <br />  •  Manage the packages of all environments and deploy them <br />  •  Participation in analytics meeting to identify software issues <br />  •  Encouraged timely and relevant upgrades for clients products as necessary<br />   •  Fix problems in Production Environment <br />  •   Technologies: Vue.js, React, Typescript, Git, Azure, SASS, Bootstrap, Material Ui ",
+    "1": "",
+    "2": "",
+    "3": ""
   },
   "----------->AboutPage": { "AboutPage": "AboutPage" },
   "AboutTitle": {

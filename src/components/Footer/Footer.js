@@ -45,7 +45,7 @@ function Footer() {
                     </a>
                 </div>
                 <div className="d-flex justify-content-center align-items-center">
-                    <a href="https://instagram.com/adrisaty" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/adrianasaty/" target="_blank" rel="noopener noreferrer">
                         <img src={insta} alt="insta" className="instagram"></img>
                         <p className="icon-name instagram">Instagram</p>
                     </a>
