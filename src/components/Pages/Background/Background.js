@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import TimelineBox from '../../TimelineBox/TimelineBox'
 import ironhack from '../../../img/logos/logo-ironhack.png';
 import frankfurt from '../../../img/logos/logo-frankfurt.jpg';
@@ -10,7 +10,6 @@ import ironhackFriends from '../../../img/ironhackFriends.jpg';
 import renaultIntership from '../../../img/Renault.png';
 import './Background.css';
 import { useTranslation } from 'react-i18next';
-import ReactGA from 'react-ga';
 
 const professionalTimelineImages = [
     santander,
@@ -61,10 +60,6 @@ function Background() {
     const { t } = useTranslation();
     window.scrollTo(0, 0);
 
-    useEffect(() => {
-        ReactGA.initialize('G-CT415D3JH9')
-        ReactGA.pageview('background', window.location.pathname + window.location.search);
-    });
     return (
         <div className="background">
             <div className="container pb-3">

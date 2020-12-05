@@ -1,19 +1,13 @@
-import React, { useEffect}  from 'react';
+import React from 'react';
 import Header from '../../Header/Header'
 import curriculum from './../../../img/curriculum.png';
 import computer from '../../../img/computer.png';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './Home.css';
-import ReactGA from 'react-ga';
 
 function Home() {
     const { t } = useTranslation();
-
-    useEffect(() => {
-        ReactGA.initialize('G-CT415D3JH9');
-        ReactGA.pageview('home', window.location.pathname + window.location.search);
-    });
 
     return (
         <div className="home">
