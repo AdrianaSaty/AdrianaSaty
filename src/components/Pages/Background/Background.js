@@ -69,20 +69,22 @@ function Background() {
         <div className="background">
             <div className="container pb-3">
                 <h1 className="pt-5 pb-3">{t('TechnologiesBackground.0')}</h1>
-                {technologies.map((technology, index) => {
-                    console.log(technology)
-                    console.log(technology.index)
-                    return <div key={index}>
-                        <div className="table m-0" >
-                            <div className="table-title-col table-title d-flex justify-content-center align-items-center ">
-                                <p className="m-0">{technology.tableTitel}</p>
-                            </div>
-                            <div className="table-description-col table-description">
-                                {technology.tableDescription}
+                <div>
+                    {technologies.map((technology, index) => {
+                        console.log(technology)
+                        console.log(technology.index)
+                        return <div key={index}>
+                            <div className="table m-0" >
+                                <div className="table-title-col table-title d-flex justify-content-center align-items-center">
+                                    <p className="m-0">{technology.tableTitel}</p>
+                                </div>
+                                <div className="table-description-col table-description">
+                                    {technology.tableDescription}
+                                </div>
                             </div>
                         </div>
-                    </div>
-                })}
+                    })}
+                </div>
             </div>
             <div className="container pb-5">
                 <h1 className="pt-5 pb-3">{t('AcademicBackground.0')}</h1>

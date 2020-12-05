@@ -279,14 +279,15 @@ p, a {
 /* TABLE */
 .table {
     display: flex;
+    justify-content: center;
 }
 
 .table-title-col {
-    width: 30%;
+    width: 15%;
 }
 
 .table-description-col {
-    width: 70%;
+    width: 55%;
 }
 
 .table-title {
@@ -318,8 +319,14 @@ p, a {
     .table {
         display: grid;
     }
+
     .table-title-col {
         width: 100%;
+    }
+
+    .table-description {
+        padding-left: 10px;
+        text-align: center;
     }
     
     .table-description-col {
