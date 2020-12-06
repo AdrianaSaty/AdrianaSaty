@@ -10,10 +10,15 @@ import ErrorPage from './components/Pages/ErrorPage/ErrorPage';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Loading from './components/Loading/Loading'
 import './App.css';
-import './i18n';
+import TagManager from 'react-gtm-module'
+ 
+const tagManagerArgs = {
+    gtmId: 'GTM-P6WN8SD'
+}
+
+TagManager.initialize(tagManagerArgs)
 
 function App() {
-
     return (
         <div className="app">
             <BrowserRouter>

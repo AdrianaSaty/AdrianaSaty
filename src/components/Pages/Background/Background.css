@@ -283,7 +283,7 @@ p, a {
 }
 
 .table-title-col {
-    width: 15%;
+    width: 20%;
 }
 
 .table-description-col {
@@ -318,6 +318,7 @@ p, a {
 @media only screen and (max-width: 450px){
     .table {
         display: grid;
+        justify-content: inherit;
     }
 
     .table-title-col {
@@ -326,7 +327,6 @@ p, a {
 
     .table-description {
         padding-left: 10px;
-        text-align: center;
     }
     
     .table-description-col {

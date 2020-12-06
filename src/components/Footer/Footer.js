@@ -1,5 +1,5 @@
 import React from 'react';
-import fb from '../../img/logos/facebook.png';
+// import fb from '../../img/logos/facebook.png';
 import ln from '../../img/logos/linkedin.png';
 import insta from '../../img/logos/instagram.png';
 import email from '../../img/logos/email.png';
@@ -11,11 +11,10 @@ import alemanha from '../../img/logos/alemanha.png';
 import i18next from 'i18next';
 import './Footer.css';
 
-
 function Footer() {
 
-    function handleClick(lang) {
-        i18next.changeLanguage(lang);
+    function handleClick(language) {
+        i18next.changeLanguage(language);
     }
     return (
         <div className="footer">
@@ -44,12 +43,12 @@ function Footer() {
                         <p className="icon-name instagram">Instagram</p>
                     </a>
                 </div>
-                <div className="d-flex justify-content-center align-items-center">
+                {/* <div className="d-flex justify-content-center align-items-center">
                     <a href="https://www.facebook.com/adria.saty" target="_blank" rel="noopener noreferrer">
                         <img src={fb} alt="fb" className="facebook"></img>
                         <p className="icon-name facebook">Facebook</p>
                     </a>
-                </div>
+                </div> */}
             </div>
             <div className="name-countries">
                 <div className="countries">
