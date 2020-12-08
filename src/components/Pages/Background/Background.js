@@ -66,8 +66,6 @@ function Background() {
                 <h1 className="pt-5 pb-3">{t('TechnologiesBackground.0')}</h1>
                 <div>
                     {technologies.map((technology, index) => {
-                        console.log(technology)
-                        console.log(technology.index)
                         return <div key={index}>
                             <div className="table m-0" >
                                 <div className="table-title-col table-title d-flex justify-content-center align-items-center">

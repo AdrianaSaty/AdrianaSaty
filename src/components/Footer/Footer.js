@@ -8,14 +8,10 @@ import brasil from '../../img/logos/brasil.png';
 import eua from '../../img/logos/eua.png';
 import espanha from '../../img/logos/espanha.png';
 import alemanha from '../../img/logos/alemanha.png';
-import i18next from 'i18next';
 import './Footer.css';
 
-function Footer() {
+function Footer({changeLanguage}) {
 
-    function handleClick(language) {
-        i18next.changeLanguage(language);
-    }
     return (
         <div className="footer">
             <div className="links">
@@ -52,10 +48,10 @@ function Footer() {
             </div>
             <div className="name-countries">
                 <div className="countries">
-                    <button onClick={() => handleClick('en')}><img src={eua} alt="eua"></img> </button>
-                    <button onClick={() => handleClick('pt')}><img src={brasil} alt="brasil"></img></button>
-                    <button onClick={() => handleClick('deu')}><img src={alemanha} alt="alemanha"></img></button>
-                    <button onClick={() => handleClick('es')}><img src={espanha} alt="espanha"></img></button>
+                    <button onClick={() => changeLanguage('en')}><img src={eua} alt="eua"></img> </button>
+                    <button onClick={() => changeLanguage('pt')}><img src={brasil} alt="brasil"></img></button>
+                    <button onClick={() => changeLanguage('deu')}><img src={alemanha} alt="alemanha"></img></button>
+                    <button onClick={() => changeLanguage('es')}><img src={espanha} alt="espanha"></img></button>
                 </div>
                 <p className="text-center powered-by">
                     Powered by AdrianaSaty
