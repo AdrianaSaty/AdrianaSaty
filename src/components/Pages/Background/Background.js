@@ -99,7 +99,6 @@ function Background() {
                     </div>
                 </div>
             </div>
-
             <div className="container pb-5">
                 <h1 className="pt-5 pb-3">{t('ProfessionalBackground.0')}</h1>
                 <div className="row">
