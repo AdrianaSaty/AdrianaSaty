@@ -1,5 +1,5 @@
 import React from 'react';
-import fb from '../../img/logos/facebook.png';
+// import fb from '../../img/logos/facebook.png';
 import ln from '../../img/logos/linkedin.png';
 import insta from '../../img/logos/instagram.png';
 import email from '../../img/logos/email.png';
@@ -8,20 +8,10 @@ import brasil from '../../img/logos/brasil.png';
 import eua from '../../img/logos/eua.png';
 import espanha from '../../img/logos/espanha.png';
 import alemanha from '../../img/logos/alemanha.png';
-import i18next from 'i18next';
 import './Footer.css';
 
-import ReactGa from 'react-ga';
+function Footer({changeLanguage}) {
 
-function Footer() {
-
-    function handleClick(lang) {
-        i18next.changeLanguage(lang);
-        ReactGa.event({
-            category: 'language',
-            action: 'clicked at ' + lang + ' language'
-        })
-    }
     return (
         <div className="footer">
             <div className="links">
@@ -44,24 +34,24 @@ function Footer() {
                     </a>
                 </div>
                 <div className="d-flex justify-content-center align-items-center">
-                    <a href="https://instagram.com/adrisaty" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/adrianasaty/" target="_blank" rel="noopener noreferrer">
                         <img src={insta} alt="insta" className="instagram"></img>
                         <p className="icon-name instagram">Instagram</p>
                     </a>
                 </div>
-                <div className="d-flex justify-content-center align-items-center">
+                {/* <div className="d-flex justify-content-center align-items-center">
                     <a href="https://www.facebook.com/adria.saty" target="_blank" rel="noopener noreferrer">
                         <img src={fb} alt="fb" className="facebook"></img>
                         <p className="icon-name facebook">Facebook</p>
                     </a>
-                </div>
+                </div> */}
             </div>
             <div className="name-countries">
                 <div className="countries">
-                    <button onClick={() => handleClick('en')}><img src={eua} alt="eua"></img> </button>
-                    <button onClick={() => handleClick('pt')}><img src={brasil} alt="brasil"></img></button>
-                    <button onClick={() => handleClick('deu')}><img src={alemanha} alt="alemanha"></img></button>
-                    <button onClick={() => handleClick('es')}><img src={espanha} alt="espanha"></img></button>
+                    <button onClick={() => changeLanguage('en')}><img src={eua} alt="eua"></img> </button>
+                    <button onClick={() => changeLanguage('pt')}><img src={brasil} alt="brasil"></img></button>
+                    <button onClick={() => changeLanguage('deu')}><img src={alemanha} alt="alemanha"></img></button>
+                    <button onClick={() => changeLanguage('es')}><img src={espanha} alt="espanha"></img></button>
                 </div>
                 <p className="text-center powered-by">
                     Powered by AdrianaSaty

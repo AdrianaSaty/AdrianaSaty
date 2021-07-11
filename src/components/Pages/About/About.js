@@ -1,19 +1,11 @@
-import React, { useEffect}  from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 import adrianaProgramming from '../../../img/Adriana-programming.png';
-import ReactGa from 'react-ga';
-
 import './About.css';
 
 
 function About() {
     const { t } = useTranslation();
-
-    useEffect(() => {
-        ReactGa.initialize('UA-165955150-1')
-        // to report page view 
-        ReactGa.pageview(window.location.pathname + window.location.search)
-    }, [])
 
     return (
         <div className="about">
@@ -21,11 +13,11 @@ function About() {
             <div className="about-text">
                 <div>
                     <h3 className="mt-4 mb-0">{t('AboutTitle.0')}</h3>
-                    <p className="mb-0" dangerouslySetInnerHTML={{ __html:  t('AboutDescription.0') }}  />
+                    <p className="mb-0" dangerouslySetInnerHTML={{ __html: t('AboutDescription.0') }} />
                 </div>
                 <div>
                     <h3 className="mt-3 mb-0">{t('AboutTitle.1')}</h3>
-                    <p className="" dangerouslySetInnerHTML={{ __html:  t('AboutDescription.1') }}  />
+                    <p className="" dangerouslySetInnerHTML={{ __html: t('AboutDescription.1') }} />
 
                 </div>
             </div>

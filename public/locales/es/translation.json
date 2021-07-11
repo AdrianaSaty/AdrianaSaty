@@ -1,0 +1,119 @@
+{
+  "----------->Navbar": { "Navbar": "Navbar" },
+  "NavBarAbout": {
+    "0": "Sobre"
+  },
+  "NavBarProject": {
+    "0": "Proyectos"
+  },
+  "NavBarBackground": {
+    "0": "Background"
+  },
+  "----------->Header": { "Header": "Header" },
+  "Frontend": {
+    "0": "Desarollador"
+  },
+  "Developer": {
+    "0": "de Software"
+  },
+  "----------->HomePage": { "HomePage": "HomePage" },
+  "AboutMe": {
+    "0": "Sobre mí"
+  },
+  "Project": {
+    "0": "Proyectos"
+  },
+  "ProjectText": {
+    "0": "Tengo pasión en crear proyectos desde cero y transformar en algo digital, como este :)"
+  },
+  "Background": {
+    "0": "Experiencia"
+  },
+  "BackgroundText": {
+    "0": "Actualmente yo trabajo en Santander como Desarollador de Software y en el Bootcamp de Ironhack como Profesora Auxiliar"
+  },
+  "----------->BackgroundPage": { "BackgroundPage": "BackgroundPage" },
+  "TechnologiesBackground": {
+    "0": "Tecnologias"
+  },
+  "AcademicBackground": {
+    "0": "Trayectoria Académica"
+  },
+  "AcademicTimelineYear": {
+    "0": "Jun 2019 - Dic 2019",
+    "1": "Ago 2015 - Mar 2016",
+    "2": "Mar 2011 - Jun 2018"
+
+  },
+  "AcademicTimelineTitle": {
+    "0": "Ironhack Bootcamp⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+    "1": "University of Applied Sciences - Frankfurt am Main",
+    "2": "Universidade Federal do Paraná"
+  },
+  "AcademicTimelineDescription": {
+    "0": "Bootcamp de Web Development. Conteúdo: HTML, CSS, Javascript, Node, Express, Mongo and REACT. <br><a href='https://github.com/AdrianaSaty/ironhack-project1-craze-maze' target='_blank' rel='noopener noreferrer'>Mi primer proyecto</a> fue un juego, que tenia como lógica crear laberintos al azar. Hecho solamente con javascript y CSS.<br> <a href='https://github.com/fernandoyto/mais-dinheiro' target='_blank' rel='noopener noreferrer'>Mi segundo proyecto</a> fue una plataforma de control de gastos, hecho en node.js <br> Y el <a href='https://github.com/AdrianaSaty/blockchain-front' target='_blank' rel='noopener noreferrer'>proyecto final</a> fue una plataforma de apuestas con control de transaciones por medio de Blockchain, hecha en React e Node.js</a> ",
+    "1": "Hice intercambio de un año y medio en Alemania a partir de una beca de estudios. Estudié Ingenieria Elétrica en la Fachhochshule Frankfurt am Main (University of Applied Sciences). También hice algunos cursos como programación, finanzas y administración. Gané un premio del 'Goethe Institut' por un vídeo que hice sobre vivir en Alemania",
+    "2": "También estudié ingenieria elétrica y participé de algunos trabajos voluntarios en la universidad, como 'Luz, Ciencia y Emoción' and 'Projeto Lux'. <a href='http://www.eletrica.ufpr.br/tcc/2018/1s/ADRIANA%20SATY%20HIRANO%20MARCHIORO%20BERTELLI%20e%20BRUNO%20CESAR%20XAVIER/TCC.pdf' target='_blank' rel='noopener noreferrer'>Mi TCC</a>, trabajando junto con los Institutos Lactec, fue la elaboración y construción de un sistema para simular envejecimiento acelerado de aisladores de anclajes en situciones extremas."
+  },
+  "ProfessionalBackground": {
+    "0": "Trayectoria Profesional"
+  },
+  "ProfessionalTimelineYear": {
+    "0": "Nov 2019 - Actualmente",
+    "1": "Ene 2020 - Jul 2020",
+    "2": "Ago 2018 - Nov-2019",
+    "3": "Nov 2017 - Ago 2018"
+  },
+  "ProfessionalTimelineTitle": {
+    "0": "Santander",
+    "1": "Ironhack Bootcamp",
+    "2": "Accenture",
+    "3": "Renault"
+  },
+  "ProfessionalTimelinePost": {
+    "0": "Desarrollador de Software Frontend - Analista Junior",
+    "1": "Profesora Auxiliar",
+    "2": "Desarrollador de Software Frontend - Analista Junior",
+    "3": "Interno de Produción"
+  },
+  "SecoundProfessionalTimelinePost": {
+    "0": "Desarrollador de Software Frontend - Analista",
+    "1": "",
+    "2": "",
+    "3": ""
+  },
+  "ProfessionalTimelineDuration": {
+    "0": "(6 meses)",
+    "1": "(10 meses)",
+    "2": "(1 año y 4 meses)",
+    "3": "(9 meses)"
+  },
+  "SecoundProfessionalTimelineDuration": {
+    "0": "(4 meses)",
+    "1": "",
+    "2": "",
+    "3": ""
+  },
+  "ProfessionalTimelineDescription": {
+    "0": "•  Develop new features and maintain code pattern <br />  •  Collaborate with business and design meetings to create scalable and performance solutions to front end <br />  •  Make design pattern and storybook to help the integration with partners <br /> •   Tecnologias: Vue.js, Typescript, Git, Azure, SASS, Bootstrap",
+    "1": "Ironhack es una escuela internacional con campus en 9 países, con tres cursos inmersivos diferentes: Web Development, UX/UI Design and Data Analytics. Auxilio el profesor principal de bootcamp del curso de Web Development course. Cursos: HTML, CSS, Javascript, Node, Express, Mongo and REACT.",
+    "2": "Trabajé en proyectos en Santander y Sky, con las tecnologías Vue.js, Typescript, Git, CSS, Bootstrap",
+    "3": "Practicante en el programa 'Fábrica de Talentos': <br /> - Desarollo de proyectos enfocados en mejorar la calidad, rendimiento y reducción de gastos<br /> - Auxilio el jefe de produción en las actividades de gestión y en la resolución de problemas a través de los ciclos PDCA, 5S y metodologias KAIZEN<br /> - Experiencia en diferentes puestos, como operador (trabajando con soldadura de punto), operador senior y analista de calidad.<br />"
+  },
+  "SecoundProfessionalTimelineDescription": {
+    "0": "Actualmente trabajando en la startaup de Santander 'Empréstimo Sim'. <br />  •  Responsable de hacer revisión de código del equipo <br />  •  Coach newly hired IT on technical procedures <br />  •  Manage the packages of all environments and deploy them <br />  • Participación en reuniones de análisis para identificar problemas de software<br />  •  Encouraged timely and relevant upgrades for clients products as necessary<br />   •  Fix problems in Production Environment <br />  •   Tecnologias: Vue.js, React, Typescript, Git, Azure, SASS, Bootstrap, Material Ui ",
+    "1": "teste",
+    "2": "",
+    "3": ""
+  },
+  "----------->AboutPage": { "AboutPage": "AboutPage" },
+  "AboutTitle": {
+    "0": "Sobre mí",
+    "1": "Sobre este sitio"
+  },
+  "AboutDescription": {
+    "0": "Durante la universidad en el área de Ingenieria yo asistí a clases dificiles de C++ y tenía por cierto que la programación no era para mi. Cuando me gradué, quería trabajar con algo que me permitiera usar mi amor por la tecnología y la creatividad para hacer con mi trabajo algo significativo. ¿Y adivina qué?  ¡Me encontré en el mundo de la programación y no podía sentirme tan ingeniera como me siento hoy!",
+    "1": "Yo empecé este proyecto con el objetivo de aprender como hacer un sitio web desde cero. Comprar un domínio, eligir las tecnologias, desarrollar todo, hacer versionamiento de código, almacenar, evaluar el rendimiento del SEO, mejorar, mejorar, mejorar y finalmente publicar. Tecnologías utilizadas en este proyecto: <br> ㅤ - Javascript (con React) <br> ㅤ - HTML y CSS <br> ㅤ - Github <br> ㅤ - Amazon Web Services (AWS) S3 y Cloudfront <br> ㅤ - i18next Biblioteca para la traducción. <br> Próximos pasos: aprender a hacer deploy automatizado y más sobre cómo mejorar el rendimiento del sitio"
+  }
+}
+

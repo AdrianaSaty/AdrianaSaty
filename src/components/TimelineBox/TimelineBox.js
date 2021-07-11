@@ -5,17 +5,31 @@ import dropdown from '../../img/dropdown.png';
 import './TimelineBox.css';
 
 function TimelineBox(props) {
+    const { timelineYear, img, timelineTitle, timelinePost, timelineDuration, timelineDescription, secoundTimelinePost, secoundTimelineDuration, secoundTimelineDescription } = props;
     return (
         <div className="timeline">
             <span className="timeline-icon"></span>
-            <span className="year">{props.timelineYear}</span>
+            <span className="year">{timelineYear}</span>
             <div className="timeline-content pb-1">
                 <div className="background-div-img">
-                    <img src={props.img} alt={props.img} className="background-img" />
+                    <img src={img} alt={img} className="background-img" />
                 </div>
-                <h3 className="title">{props.timelineTitle}</h3>
-                <span className="post">{props.timelinePost}</span>
-                <p className="description" dangerouslySetInnerHTML={{ __html:  props.timelineDescription }} />
+                {secoundTimelinePost ?
+                    <div>
+                        <h3 className="title">{timelineTitle}</h3>
+                        <span className="post">{secoundTimelinePost}</span>
+                        <span className="duration">{secoundTimelineDuration}</span>
+                        <p className="description" dangerouslySetInnerHTML={{ __html: secoundTimelineDescription }} />
+                        <br />
+                    </div>
+                    : 
+                    <h3 className="title">{timelineTitle}</h3>
+                }
+                <span className="post">{timelinePost}</span>
+                <span className="duration">{timelineDuration}</span>
+                <p className="description" dangerouslySetInnerHTML={{ __html: timelineDescription }} />
+                <br></br>
+
 
                 <div className="show-only-hover">
                     {props.timelineExtra}

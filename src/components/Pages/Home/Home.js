@@ -4,18 +4,11 @@ import computer from '../../../img/computer.png';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './Home.css';
-import ReactGa from 'react-ga';
 
 function Home() {
     const Header = React.lazy(() => import('../../Header/Header'));
 
     const { t } = useTranslation();
-
-    useEffect(() => {
-        ReactGa.initialize('UA-165955150-1')
-        // to report page view 
-        ReactGa.pageview(window.location.pathname + window.location.search)
-    }, [])
 
     return (
         <div className="home">
@@ -29,9 +22,9 @@ function Home() {
                         <div className="feature col-md-8 animate-left">
                             <img src={curriculum} alt="curriculum"></img>
                             <div className="">
-                                <h3><Link to="/freelance">{t('Freelance.0')}</Link></h3>
+                                <h3><Link to="/project">{t('Project.0')}</Link></h3>
                                 <p>
-                                    {t('FreelanceText.0')}
+                                    {t('ProjectText.0')}
                                 </p>
                             </div>
                         </div>

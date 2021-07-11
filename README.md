@@ -4,7 +4,7 @@ Don't forget! To build, follow this steps:
 - Enter in this website: https://s3.console.aws.amazon.com/s3/ with adri-saty@hotmail.com
 - To do the deploy, get the 'build' folder and go to the aws console
 
-## Learn More
+
 
 
 ### Code Splitting

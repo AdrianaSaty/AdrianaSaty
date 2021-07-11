@@ -1,7 +1,5 @@
-import React, { Suspense }  from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.css';
-import Loading from './components/Loading/Loading'
 import App from './App';
 import './index.css';
 import './i18n';

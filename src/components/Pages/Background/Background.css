@@ -135,20 +135,35 @@ p, a {
     transform: translateY(-50%);
 }
 .main-timeline .title{
-    float: left;
     font-size: 24px;
     font-weight: bold;
     color: #504f54;
     margin: 0 20px 20px 0;
 }
 .main-timeline .post{
-    display: inline-block;
+    display: block;
     font-size: 18px;
     color: #999;
     margin-top: 2px;
     margin-bottom: 20px;
 
 }
+
+.main-timeline .duration{
+    display: block;
+    font-size: 16px;
+    color: #999;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 760px){
+    .main-timeline .duration{
+        margin-top: -10px;
+    }
+}
+
+
 .main-timeline .description{
     font-size: 14px;
     color: #7d7b7b;
@@ -259,4 +274,62 @@ p, a {
     .main-timeline .timeline:nth-child(2n) .timeline-content{ margin-left: 10px; }
     .main-timeline .post{ margin: 5px 0; }
 
+}
+
+/* TABLE */
+.table {
+    display: flex;
+    justify-content: center;
+}
+
+.table-title-col {
+    width: 20%;
+}
+
+.table-description-col {
+    width: 55%;
+}
+
+.table-title {
+    background-color: rgb(119, 30, 48);
+    padding: 8px;
+    margin: 0 0 2px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.table-title p {
+    font-size: 20px;
+}
+
+.table-description {
+    padding: 10px;
+    padding-left: 50px;
+    margin: 0 0 2px 0;
+    background: #f2f2f2;
+    font-size: 15px;
+    color: #7d7b7b;
+}
+
+.table-description div{
+    padding: 0 10% 0 10%;
+}
+
+@media only screen and (max-width: 450px){
+    .table {
+        display: grid;
+        justify-content: inherit;
+    }
+
+    .table-title-col {
+        width: 100%;
+    }
+
+    .table-description {
+        padding-left: 10px;
+    }
+    
+    .table-description-col {
+        width: 100%;
+    }
 }
