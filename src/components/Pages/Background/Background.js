@@ -1,5 +1,4 @@
 import React from 'react';
-import TimelineBox from '../../TimelineBox/TimelineBox'
 import ironhack from '../../../img/logos/logo-ironhack.png';
 import frankfurt from '../../../img/logos/logo-frankfurt.jpg';
 import ufpr from '../../../img/logos/logo-ufpr.png';
@@ -57,6 +56,8 @@ const technologies = [
 ]
 
 function Background() {
+    const TimelineBox = React.lazy(() => import('../../TimelineBox/TimelineBox'));
+
     const { t } = useTranslation();
     window.scrollTo(0, 0);
 
