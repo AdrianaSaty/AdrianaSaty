@@ -1,4 +1,4 @@
-import React, { useEffect}  from 'react';
+import React from 'react';
 import ironhack from '../../../img/logos/logo-ironhack.png';
 import frankfurt from '../../../img/logos/logo-frankfurt.jpg';
 import ufpr from '../../../img/logos/logo-ufpr.png';

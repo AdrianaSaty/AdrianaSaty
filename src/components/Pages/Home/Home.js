@@ -1,4 +1,4 @@
-import React, { useEffect}  from 'react';
+import React from 'react';
 import curriculum from './../../../img/curriculum.png';
 import computer from '../../../img/computer.png';
 import { Link } from 'react-router-dom';
