@@ -1,16 +1,15 @@
 import React from 'react';
 import selfie from '../../img/Adriana.png';
 import { useTranslation } from 'react-i18next';
-import './Header.css';
+import './Header.scss';
 
 function Header() {
     const { t } = useTranslation();
-
     return (
         <div className="header">
             <div className="container m-0">
-            <div class="stars"></div>
-            <div class="stars2"></div>
+                <div className="stars-small"></div>
+                <div className="stars-big"></div>
                 <div className="row">
                     <div className="col-4 txt-header">
                         <h1 className="pb-1 text-left">
@@ -26,7 +25,7 @@ function Header() {
                     </div>
                 </div>
             </div>
-        </div>
+            </div>            
     )
 }
 
