@@ -2,7 +2,6 @@ import React, { Suspense, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Loading from './components/Loading/Loading'
-import './App.css';
 import TagManager from 'react-gtm-module';
 import i18next from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
