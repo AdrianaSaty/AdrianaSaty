@@ -1,12 +1,10 @@
-import React, { Suspense, useEffect, useState } from 'react';
+import React, { Suspense, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Loading from './components/Loading/Loading'
-import './App.css';
 import TagManager from 'react-gtm-module';
 import i18next from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
-import ReactGa from 'react-ga';
 
 const tagManagerArgs = {
     gtmId: 'GTM-P6WN8SD'
@@ -24,10 +22,10 @@ function App() {
     const ErrorPage = React.lazy(() => import('./components/Pages/ErrorPage/ErrorPage'));
 
 
-    useEffect(() => {
-        ReactGa.initialize('UA-165955150-1')
-        ReactGa.pageview(window.location.pathname + window.location.search)
-    }, [])
+    // useEffect(() => {
+    //     ReactGa.initialize('UA-165955150-1')
+    //     ReactGa.pageview(window.location.pathname + window.location.search)
+    // }, [])
 
 
     let language = i18next.use(LanguageDetector).language || 'en'; 
