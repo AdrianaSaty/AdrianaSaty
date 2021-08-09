@@ -1,0 +1,89 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  padding-top: 20px;
+  background-color: #ded3d9;
+  background: linear-gradient(90deg, black 30%, rgb(119, 30, 48));
+  color: #b8b8bb;
+  text-align: center;
+}
+
+.txt-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.img-header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.img-header img {
+  /* height: 40vh; */
+  width: 100%;
+  height: 100%;
+  padding-left: 20px;
+}
+
+p {
+  text-align: center;
+}
+
+@media (min-width: 450px) {
+  .header {
+    margin: 0;
+    height: calc(100vh - 37px);
+  }
+
+  .txt-header {
+    margin: 0 auto;
+  }
+
+  .img-header img {
+    height: 80vh;
+    width: auto;
+    margin: 0 auto;
+  }
+}
+
+@keyframes anim-stars {
+  0% {
+      transform: translateY(0px);
+  }
+  100% {
+      transform: translate(-100vw);
+  }
+}
+
+
+// n is number of shadows required
+@function create-stars ($n) {
+  $value: '50px 30px white';
+  @for $i from 2 through $n {
+    $value: '#{$value} , #{$i * random(100)}px #{$i * random(50)}px white';
+    $value: '#{$value} , #{$i * random(80)}px #{$i * random(10)}px white';
+    $value: '#{$value} , #{$i * random(60)}px #{$i * random(50)}px white';
+  }
+
+  @return unquote($value);
+}
+
+.stars-big {
+  border-radius: 50%;
+  animation: anim-stars 20s linear infinite;
+  box-shadow: create-stars(50);
+  width: 3px;
+  height: 3px;
+}
+
+.stars-small {
+  border-radius: 50%;
+  animation: anim-stars 20s linear infinite;
+  box-shadow: create-stars(50);
+  width: 1px;
+  height: 1px;
+}
