@@ -8,7 +8,7 @@ import accenture from '../../../img/logos/logo-accenture.png';
 import renault from '../../../img/logos/logo-renault.png';
 import ironhackFriends from '../../../img/ironhackFriends.jpg';
 import renaultIntership from '../../../img/Renault.png';
-import './Background.css';
+import './Background.scss';
 import { useTranslation } from 'react-i18next';
 
 const professionalTimelineImages = [

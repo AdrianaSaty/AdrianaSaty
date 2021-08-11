@@ -8,7 +8,7 @@ import brasil from '../../img/logos/brasil.png';
 import eua from '../../img/logos/eua.png';
 import espanha from '../../img/logos/espanha.png';
 import alemanha from '../../img/logos/alemanha.png';
-import './Footer.css';
+import './Footer.scss';
 
 function Footer({changeLanguage}) {
 
