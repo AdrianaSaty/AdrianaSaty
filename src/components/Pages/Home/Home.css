@@ -16,11 +16,16 @@
 }
 
 a {
-    color: black
+    color: black;
+    font-size: 20px;
 }
 
-a:hover {
+h3:hover {
     color: rgb(104, 15, 34);
+}
+
+p {
+    text-align: left !important;
 }
 
 @media (max-width: 1400px) {
