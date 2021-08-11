@@ -30,7 +30,7 @@
     "0": "Background"
   },
   "BackgroundText": {
-    "0": "Currently I work at Santander Bank as Frontend Developer and at Ironhack Bootcamp as Teacher Assistant"
+    "0": "Currently, I work at Itaú Bank as a Frontend Developer and create content to <a href='https://instagram.com/adriana.saty' target='_blank' rel='noopener noreferrer'>Instagram</a> about programming"
   },
   "----------->BackgroundPage": { "BackgroundPage": "BackgroundPage" },
   "TechnologiesBackground": {
@@ -52,59 +52,67 @@
   },
   "AcademicTimelineDescription": {
     "0": "Bootcamp of Web Development. Subjects: HTML, CSS, Javascript, Node, Express, Mongo and REACT. <br><a href='https://github.com/AdrianaSaty/ironhack-project1-craze-maze' target='_blank' rel='noopener noreferrer'>My first project</a> was a game. Its logic creates mazes randomly only with javascript and CSS. <br> <a href='https://github.com/fernandoyto/mais-dinheiro' target='_blank' rel='noopener noreferrer'>My second project</a> was a spending control platform, made in node.js <br>And <a href='https://github.com/AdrianaSaty/blockchain-front' target='_blank' rel='noopener noreferrer'>the final project</a> was a betting platform with transaction control through Blockchain, made in React and Node.js ",
-    "1": "I got a government scholarship to study for one and a half year at Germany. There, I studied at Fachhochschule Frankfurt am Main (University of Applied Sciences) electrical engineer in the renewable energy field. I also did some subjects about programming, finances, and business.",
-    "2": "I studied electrical engineer, and I worked as a volunteer at  'Luz, Ciência e Emoção' and 'Projeto Lux'. <a href='http://www.eletrica.ufpr.br/tcc/2018/1s/ADRIANA%20SATY%20HIRANO%20MARCHIORO%20BERTELLI%20e%20BRUNO%20CESAR%20XAVIER/TCC.pdf' target='_blank' rel='noopener noreferrer'>My  Undergraduate thesis</a>, in partnership with the Lactec Institutes, was the design and construction of a device to simulate the accelerated aging of anchoring insulators in extreme situations."
+    "1": "I achieved a government scholarship to study for one and a half year at Germany. There, I studied at Fachhochschule Frankfurt am Main (University of Applied Sciences) Electrical Engineering in the renewable energy field. I also did some subjects about programming, finances, and business.",
+    "2": "I studied Electrical Engineering, and I worked as a volunteer at  'Luz, Ciência e Emoção' and 'Projeto Lux'. <a href='http://www.eletrica.ufpr.br/tcc/2018/1s/ADRIANA%20SATY%20HIRANO%20MARCHIORO%20BERTELLI%20e%20BRUNO%20CESAR%20XAVIER/TCC.pdf' target='_blank' rel='noopener noreferrer'>My  Undergraduate thesis</a>, in partnership with the Lactec Institutes, was the design and construction of a device to simulate the accelerated aging of anchoring insulators in extreme situations."
   },
   "ProfessionalBackground": {
     "0": "Professional Background"
   },
   "ProfessionalTimelineYear": {
-    "0": "Nov 2019 - Present",
-    "1": "Jan 2020 - Jul 2020",
-    "2": "Aug 2018 - Nov-2019",
-    "3": "Nov 2017 - Aug 2018"
+    "0": "April 2021 - Present",
+    "1": "Nov 2019 - April 2021",
+    "2": "Jan 2020 - Jul 2020",
+    "3": "Aug 2018 - Nov-2019",
+    "4": "Nov 2017 - Aug 2018"
   },
   "ProfessionalTimelineTitle": {
-    "0": "Santander",
-    "1": "Ironhack Bootcamp",
-    "2": "Accenture",
-    "3": "Renault"
+    "0": "Itaú",
+    "1": "Santander",
+    "2": "Ironhack Bootcamp",
+    "3": "Accenture",
+    "4": "Renault"
   },
   "ProfessionalTimelinePost": {
-    "0": "Frontend Developer - Junior Analyst ",
-    "1": "Teacher Assistant",
-    "2": "Frontend Developer - Junior Analyst",
-    "3": "Manufacturing Intern"
+    "0": "Frontend Developer - Analyst ",
+    "1": "Frontend Developer - Junior Analyst ",
+    "2": "Teacher Assistant",
+    "3": "Frontend Developer - Junior Analyst",
+    "4": "Manufacturing Intern"
   },
   "SecoundProfessionalTimelinePost": {
-    "0": "Frontend Developer - Analyst",
-    "1": "",
+    "0": "",
+    "1": "Frontend Developer - Analyst",
     "2": "",
-    "3": ""
+    "3": "",
+    "4": ""
   },
   "ProfessionalTimelineDuration": {
-    "0": "(10 months)",
-    "1": "(6 months)",
-    "2": "(1yr 4 months)",
-    "3": "(9 months)"
+    "0": "",
+    "1": "(10 months)",
+    "2": "(6 months)",
+    "3": "(1yr 4 months)",
+    "4": "(9 months)"
   },
   "SecoundProfessionalTimelineDuration": {
-    "0": "(4 months)",
-    "1": "",
+    "0": "",
+    "1": "(9 months)",
     "2": "",
-    "3": ""
+    "3": "",
+    "4": ""
   },
   "ProfessionalTimelineDescription": {
-    "0": "•  Develop new features and maintain code pattern <br />  •  Collaborate with business and design meetings to create scalable and performance solutions to front end <br />  •  Make design pattern and storybook to help the integration with partners <br /> •   Technologies: Vue.js, Typescript, Git, Azure, SASS, Bootstrap",
-    "1": "Ironhack  is an international school with campuses in 9 countries, with three different immersive courses: Web Development, UX/UI Design and Data Analytics. Helping the main teacher of Ironhack's part-time Web Development course. Subjects: HTML, CSS, Javascript, Node, Express, Mongo and React.",
-    "2": "Worked at Santander and Sky clients <br /> • Develop new features and maintain code pattern  <br /> • Technologies: Vue.js, Typescript, Git, CSS, Bootstrap",
-    "3": "Intern at 'Talent Factory' program: <br /> • Development of projects focused on quality improvement, performance and cost reduction<br /> • Support of Head of Production with PDCA Cycle, 5S and Kaizen Methodology<br /> • Experience in different positions at the factory, like Operator (working with weld spot), Senior Operator and Quality Analyst<br />"
+    "0": "I am current, working at Itaú, at microcredit field  <br /> •  Develop new features and maintain code pattern <br />  •  Collaborate with business and design meetings to create scalable and performance solutions to front end <br />  •  Created unit test using Jest Framework <br /> •   Technologies: Angular, Typescript, Jest, Git, AWS, SASS, Kotlin",
+    "1": "•  Develop new features and maintain code pattern <br />  •  Collaborate with business and design meetings to create scalable and performance solutions to front end <br />  •  Make design pattern and storybook to help the integration with partners <br /> •   Technologies: Vue.js, Typescript, Git, Azure, SASS, Bootstrap",
+    "2": "Ironhack  is an international school with campuses in 9 countries, with three different immersive courses: Web Development, UX/UI Design and Data Analytics. I helped the main teacher of Ironhack's part-time Web Development course. Subjects: HTML, CSS, Javascript, Node, Express, Mongo and React.",
+    "3": "Worked at Santander and Sky clients <br /> • Develop new features and maintain code pattern  <br /> • Technologies: Vue.js, Typescript, Git, CSS, Bootstrap",
+    "4": "Intern at 'Talent Factory' program: <br /> • Development of projects focused on quality improvement, performance and cost reduction<br /> • Support of Head of Production with PDCA Cycle, 5S and Kaizen Methodology<br /> • Experience in different positions at the factory, like Operator (working with weld spot), Senior Operator and Quality Analyst<br />"
   },
   "SecoundProfessionalTimelineDescription": {
-    "0": "Current working at a startup of Santander: Empréstimos Sim. <br />  •  Responsible for making code review of the team <br />  •  Coach newly hired IT on technical procedures <br />  •  Manage the packages of all environments and deploy them <br />  •  Participation in analytics meeting to identify software issues <br />  •  Encouraged timely and relevant upgrades for clients products as necessary<br />   •  Fix problems in Production Environment <br />  •   Technologies: Vue.js, React, Typescript, Git, Azure, SASS, Bootstrap, Material Ui ",
-    "1": "",
+    "0": "",
+    "1": "I worked at a startup of Santander: Empréstimos Sim. <br />  •  Responsible for making code review of the team <br />  •  Coach newly hired IT on technical procedures <br />  •  Manage the packages of all environments and deploy them <br />  •  Participation in analytics meeting to identify software issues <br />  •  Encouraged timely and relevant upgrades for clients' products when necessary<br />   •  Fix problems in Production Environment <br />  •   Technologies: Vue.js, React, Typescript, Git, Azure, SASS, Bootstrap, Material Ui ",
     "2": "",
-    "3": ""
+    "3": "",
+    "4": ""
   },
   "----------->AboutPage": { "AboutPage": "AboutPage" },
   "AboutTitle": {
@@ -112,8 +120,8 @@
     "1": "About this site"
   },
   "AboutDescription": {
-    "0": "After painful classes of C++ at my University, I was sure programming was not for me. When I graduated, I desired to work with something that I could use my love for technology and creativity to make my path a meaningful one. And guess what? I found myself in the programming world and I couldn't feel more engineer as I feel nowadays!",
-    "1": "I started this project to learn how to make a website truly from scratch: buy a domain, create the layout, choose the technologies, develop everything, control version code, storage, evaluate SEO and performance, improve, improve, improve, and finally publish it!! What is being used in this project:<br>ㅤ- Javascript (with React)<br>ㅤ- HTML and CSS<br>ㅤ- Github<br>ㅤ- S3 and Cloudfront by Amazon Web Services (AWS)<br>ㅤ- i18next library to translate content. <br>Next steps: learn how to make automated deployment and more about improve site performance"
+    "0": "After painful classes of C++ at my University, I was sure programming was not for me. When I graduated, I desired to work with something that I could use my love for technology and creativity to make my path meaningful. And guess what? Now I love programming and I couldn't feel more like an engineer as I feel right now!",
+    "1": "I started this project to learn how to make a website truly from scratch: buy a domain, create the layout, choose the technologies, develop everything, control version code, storage, evaluate SEO and performance, improve, improve, improve, and finally publish it!! What is being currently used in this project:<br>ㅤ- Javascript (with React)<br>ㅤ- HTML and CSS<br>ㅤ- Github<br>ㅤ- S3 and Cloudfront by Amazon Web Services (AWS)<br>ㅤ- i18next library to translate content. <br>Next steps: learn how to make automated deployment and more about improving site performance"
   }
 }
 

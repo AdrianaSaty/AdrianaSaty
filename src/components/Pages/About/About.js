@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import adrianaProgramming from '../../../img/Adriana-programming.png';
-import './About.css';
+import './About.scss';
 
 
 function About() {

@@ -3,7 +3,7 @@ import curriculum from './../../../img/curriculum.png';
 import computer from '../../../img/computer.png';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import './Home.css';
+import './Home.scss';
 
 function Home() {
     const Header = React.lazy(() => import('../../Header/Header'));
@@ -24,7 +24,7 @@ function Home() {
                                 <img src={curriculum} alt="curriculum"></img>
                                 <div className="">
                                     <h3><Link to="/freelance">{t('Project.0')}</Link></h3>
-                                    <p>
+                                    <p className="description">
                                         {t('ProjectText.0')}
                                     </p>
                                 </div>
@@ -38,9 +38,7 @@ function Home() {
                                     <img src={computer} alt="computer"></img>
                                     <div className="">
                                         <h3><Link to="/background">{t('Background.0')}</Link></h3>
-                                        <p>
-                                            {t('BackgroundText.0')}
-                                        </p>
+                                        <p className="mb-0" dangerouslySetInnerHTML={{ __html: t('BackgroundText.0') }} />
                                     </div>
                                 </div>
                             </div>

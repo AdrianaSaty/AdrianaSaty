@@ -3,14 +3,16 @@ import ironhack from '../../../img/logos/logo-ironhack.png';
 import frankfurt from '../../../img/logos/logo-frankfurt.jpg';
 import ufpr from '../../../img/logos/logo-ufpr.png';
 import santander from '../../../img/logos/logo-santander.png';
+import itau from '../../../img/logos/logo-itau.png';
 import accenture from '../../../img/logos/logo-accenture.png';
 import renault from '../../../img/logos/logo-renault.png';
 import ironhackFriends from '../../../img/ironhackFriends.jpg';
 import renaultIntership from '../../../img/Renault.png';
-import './Background.css';
+import './Background.scss';
 import { useTranslation } from 'react-i18next';
 
 const professionalTimelineImages = [
+    itau,
     santander,
     ironhack,
     accenture,
@@ -39,7 +41,7 @@ const professionalExtraContent = [
 const technologies = [
     {
         tableTitel: "Front End",
-        tableDescription: "Javascript, Typescript, Vue.js, React,  CSS, SASS,  HTML5, SEO,  Bootstrap, Material-UI"
+        tableDescription: "React, Vue, Angular, Typescript, Jest, CSS, SASS,  HTML5, SEO,  Bootstrap, Material-UI"
     },
     {
         tableTitel: "Back End",
@@ -81,26 +83,7 @@ function Background() {
                 </div>
             </div>
             <div className="container pb-5">
-                <h1 className="pt-5 pb-3">{t('AcademicBackground.0')}</h1>
-                <div className="row">
-                    <div className="col-md-12">
-                        <div className="main-timeline">
-                            {academicTimelineImages.map((valueImg, index) => {
-                                return <TimelineBox
-                                    timelineYear={t('AcademicTimelineYear.' + index)}
-                                    img={valueImg}
-                                    timelineTitle={t('AcademicTimelineTitle.' + index)}
-                                    timelineDescription={t('AcademicTimelineDescription.' + index)}
-                                    timelineExtra={academicExtraContent[index]}
-                                    key={index}
-                                />
-                            })}
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="container pb-5">
-                <h1 className="pt-5 pb-3">{t('ProfessionalBackground.0')}</h1>
+            <h1 className="pt-5 pb-3">{t('ProfessionalBackground.0')}</h1>
                 <div className="row">
                     <div className="col-md-12">
                         <div className="main-timeline">
@@ -123,6 +106,25 @@ function Background() {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="container pb-5">
+            <h1 className="pt-5 pb-3">{t('AcademicBackground.0')}</h1>
+                <div className="row">
+                    <div className="col-md-12">
+                        <div className="main-timeline">
+                            {academicTimelineImages.map((valueImg, index) => {
+                                return <TimelineBox
+                                    timelineYear={t('AcademicTimelineYear.' + index)}
+                                    img={valueImg}
+                                    timelineTitle={t('AcademicTimelineTitle.' + index)}
+                                    timelineDescription={t('AcademicTimelineDescription.' + index)}
+                                    timelineExtra={academicExtraContent[index]}
+                                    key={index}
+                                />
+                            })}
+                        </div>
+                    </div>
+                </div>     
             </div>
         </div>
     )

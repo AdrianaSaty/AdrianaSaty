@@ -30,7 +30,7 @@
     "0": "Experiência"
   },
   "BackgroundText": {
-    "0": "Atualmente eu trabalho no Santander como Desenvolvedora de Softaware e no Bootcamp da Ironhack como Professora Assistente"
+    "0": "Atualmente eu trabalho no Itaú como Desenvolvedora de Softaware e faço conteúdos sobre programação para o <a href='https://instagram.com/adriana.saty' target='_blank' rel='noopener noreferrer'>Instagram</a>"
   },
   "----------->BackgroundPage": { "BackgroundPage": "BackgroundPage" },
   "TechnologiesBackground": {
@@ -46,7 +46,7 @@
 
   },
   "AcademicTimelineTitle": {
-    "0": "Ironhack Bootcamp⠀⠀⠀⠀⠀⠀⠀⠀⠀",
+    "0": "Ironhack Bootcamp",
     "1": "University of Applied Sciences - Frankfurt am Main",
     "2": "Universidade Federal do Paraná"
   },
@@ -59,52 +59,60 @@
     "0": "Trajetória Profissional"
   },
   "ProfessionalTimelineYear": {
-    "0": "Nov 2019 - Atualmente",
-    "1": "Jan 2020 - Jul 2020",
-    "2": "Ago 2018 - Nov-2019",
-    "3": "Nov 2017 - Ago 2018"
+    "0": "Abr 2021 - Atualmente",
+    "1": "Nov 2019 - Abr 2021",
+    "2": "Jan 2020 - Jul 2020",
+    "3": "Ago 2018 - Nov-2019",
+    "4": "Nov 2017 - Ago 2018"
   },
   "ProfessionalTimelineTitle": {
-    "0": "Santander",
-    "1": "Ironhack Bootcamp",
-    "2": "Accenture",
-    "3": "Renault"
+    "0": "Itaú",
+    "1": "Santander",
+    "2": "Ironhack Bootcamp",
+    "3": "Accenture",
+    "4": "Renault"
   },
   "ProfessionalTimelinePost": {
-    "0": "Desenvolvedora de Software Frontend - Júnior",
-    "1": "Professora Assistente",
-    "2": "Desenvolvedora de Software Frontend - Júnior",
-    "3": "Estágiária de Produção"
+    "0": "Desenvolvedora de Software Frontend",
+    "1": "Desenvolvedora de Software Frontend - Júnior",
+    "2": "Professora Assistente",
+    "3": "Desenvolvedora de Software Frontend - Júnior",
+    "4": "Estágiária de Produção"
   },
   "SecoundProfessionalTimelinePost": {
-    "0": "Desenvolvedora de Software Frontend - Pleno",
-    "1": "",
+    "0": "",
+    "1": "Desenvolvedora de Software Frontend - Pleno",
     "2": "",
-    "3": ""
+    "3": "",
+    "4": ""
   },
   "ProfessionalTimelineDuration": {
-    "0": "(10 meses)",
-    "1": "(6 meses)",
-    "2": "(1 anos e 4 meses)",
-    "3": "(9 meses)"
+    "0": "",
+    "1": "(10 meses)",
+    "2": "(6 meses)",
+    "3": "(1 anos e 4 meses)",
+    "4": "(9 meses)"
   },
   "SecoundProfessionalTimelineDuration": {
-    "0": "(4 months)",
-    "1": "",
+    "0": "",
+    "1": "(9 months)",
     "2": "",
-    "3": ""
+    "3": "",
+    "4": ""
   },
   "ProfessionalTimelineDescription": {
-    "0": "•  Desenvolver novas funcionalidades e manter o padrão de código <br />  •  Colaborar com reuniões de design e negócios para criar soluções escalávies e performáticas de front end<br />  •  Fazer o design pattern e um storybook para ajudar a integração com outros projetos <br /> •   Tecnologias: Vue.js, Typescript, Git, Azure, SASS, Bootstrap",
-    "1": "Ironhack é uma escola internacional de tecnologia com campus em 9 países, com ter diferentes bootcamps: Web Development, UX/UI Design e Data Analytics. Auxilio o professor principal do bootcamp do curso de Web Development course.  Matérias: HTML, CSS, Javascript, Node, Express, Mongo and React.",
-    "2": "Trabalhei em projetos no Santander e na Sky, com as tecnologias Vue.js, Typescript, Git, CSS",
-    "3": "Estágiaria no programa 'Fábrica de Talentos': <br /> - Desenvolvimento de projetos focados em melhoria da qualidade, performance e redução de custos<br /> - Auxílio ao chefe de produção nas atividades de gestão e na resolução de problemas através do ciclo PDCA, 5S e metodologias KAIZEN<br /> - Experiência em diferentes postos, como operador (trabalhando com solda ponto), operador sênior e analista de qualidade.<br />"
+    "0": "Atualmente trabalho no Itaú com o projeto de Microcrédito. <br />•  Desenvolver novas funcionalidades e manter o padrão de código <br />  •  Criar testes unitários usando o Framework Jest.<br /> •   Tecnologias: Angular, Typescript, Jest, Git, AWS, SASS, Kotlin",
+    "1": "•  Desenvolver novas funcionalidades e manter o padrão de código <br />  •  Colaborar com reuniões de design e negócios para criar soluções escalávies e performáticas de front end<br />  •  Fazer o design pattern e um storybook para ajudar a integração com outros projetos <br /> •   Tecnologias: Vue.js, Typescript, Git, Azure, SASS, Bootstrap",
+    "2": "Ironhack é uma escola internacional de tecnologia com campus em 9 países, com ter diferentes bootcamps: Web Development, UX/UI Design e Data Analytics. Auxilio o professor principal do bootcamp do curso de Web Development course.  Matérias: HTML, CSS, Javascript, Node, Express, Mongo and React.",
+    "3": "Trabalhei em projetos no Santander e na Sky, com as tecnologias Vue.js, Typescript, Git, CSS",
+    "4": "Estágiaria no programa 'Fábrica de Talentos': <br /> - Desenvolvimento de projetos focados em melhoria da qualidade, performance e redução de custos<br /> - Auxílio ao chefe de produção nas atividades de gestão e na resolução de problemas através do ciclo PDCA, 5S e metodologias KAIZEN<br /> - Experiência em diferentes postos, como operador (trabalhando com solda ponto), operador sênior e analista de qualidade.<br />"
   },
   "SecoundProfessionalTimelineDescription": {
-    "0": "Atualmente trabalhando na startaup do Satander 'Empréstimo Sim'.<br />  •  Responsável por code review do time<br />  •  Formar e auxiliar pessoas na área de front end<br />  •  Administrar e fazer o deploy dos pacotes de todos os ambientes<br />  •  Participar de reuniões de analytics para identificar possíveis problemas de software<br />  •  Executar constantemente refatorações de código<br />   •  Arrumar problemas do ambiente de produção <br />  •   Tecnologias: Vue.js, React, Typescript, Git, Azure, SASS, Bootstrap, Material Ui ",
-    "1": "",
+    "0": "",
+    "1": "Trabalhei na startaup do Satander 'Empréstimo Sim'.<br />  •  Responsável por code review do time<br />  •  Formar e auxiliar pessoas na área de front end<br />  •  Administrar e fazer o deploy dos pacotes de todos os ambientes<br />  •  Participar de reuniões de analytics para identificar possíveis problemas de software<br />  •  Executar constantemente refatorações de código<br />   •  Arrumar problemas do ambiente de produção <br />  •   Tecnologias: Vue.js, React, Typescript, Git, Azure, SASS, Bootstrap, Material Ui ",
     "2": "",
-    "3": ""
+    "3": "",
+    "4": ""
   },
   "----------->AboutPage": { "AboutPage": "AboutPage" },
   "AboutTitle": {

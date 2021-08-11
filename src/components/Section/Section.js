@@ -1,5 +1,5 @@
 import React from 'react';
-import('./Section.css');
+import('./Section.scss');
 
 function Section({ title, description }) {
 
