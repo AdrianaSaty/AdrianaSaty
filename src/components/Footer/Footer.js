@@ -10,7 +10,7 @@ import espanha from '../../img/logos/espanha.png';
 import alemanha from '../../img/logos/alemanha.png';
 import './Footer.scss';
 
-function Footer({changeLanguage}) {
+function Footer({ changeLanguage }) {
 
     return (
         <div className="footer">
@@ -23,8 +23,8 @@ function Footer({changeLanguage}) {
                 </div>
                 <div className="d-flex justify-content-center align-items-center">
                     <a href="https://www.linkedin.com/in/adriana-saty-bertelli/" target="_blank" rel="noopener noreferrer">
-                    <img src={ln} alt="ln" className="linkedin"></img>
-                    <p className="icon-name linkedin">Linkedin</p>
+                        <img src={ln} alt="ln" className="linkedin"></img>
+                        <p className="icon-name linkedin">Linkedin</p>
                     </a>
                 </div>
                 <div className="d-flex justify-content-center align-items-center">
