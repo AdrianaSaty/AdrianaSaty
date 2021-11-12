@@ -16,6 +16,7 @@ function App() {
     const Navbar = React.lazy(() => import('./components/Navbar/Navbar'));
     const Footer = React.lazy(() => import('./components/Footer/Footer'));
     const Home = React.lazy(() => import('./components/Pages/Home/Home'));
+    const Linktree = React.lazy(() => import('./pages/Linktree/Linktree'));
     const About = React.lazy(() => import('./components/Pages/About/About'));
     const Background = React.lazy(() => import('./components/Pages/Background/Background'));
     // const Freelance = React.lazy(() => import('./components/Pages/Freelance/Freelance'));
@@ -28,9 +29,9 @@ function App() {
     // }, [])
 
 
-    let language = i18next.use(LanguageDetector).language || 'en'; 
-    
-    const [choosedLanguage, setLanguage ] = useState(language);
+    let language = i18next.use(LanguageDetector).language || 'en';
+
+    const [choosedLanguage, setLanguage] = useState(language);
 
     function changeLanguage(lg) {
         i18next.changeLanguage(lg);
@@ -38,7 +39,7 @@ function App() {
         setLanguage(language)
         console.log(choosedLanguage, language)
     }
-    
+
     return (
         <div className="app">
             <BrowserRouter>
@@ -46,6 +47,7 @@ function App() {
                     <Navbar />
                     <Switch>
                         <Route path={"/"} exact={true} component={Home} />
+                        <Route path={`/linktree`} component={Linktree} />
                         <Route path={`/about`} component={About} />
                         <Route path="/background" component={Background} />
                         {/* <Route path="/project" component={Project} /> */}
@@ -53,7 +55,7 @@ function App() {
                     </Switch>
                 </Suspense>
             </ BrowserRouter>
-            <Footer changeLanguage={changeLanguage}/>
+            <Footer changeLanguage={changeLanguage} />
         </div>
     )
 }
