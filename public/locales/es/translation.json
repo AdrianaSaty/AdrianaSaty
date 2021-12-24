@@ -59,52 +59,60 @@
     "0": "Trayectoria Profesional"
   },
   "ProfessionalTimelineYear": {
-    "0": "Nov 2019 - Actualmente",
-    "1": "Ene 2020 - Jul 2020",
-    "2": "Ago 2018 - Nov-2019",
-    "3": "Nov 2017 - Ago 2018"
+    "0": "Abr 2021 - Actualmente",
+    "1": "Nov 2019 - Abr 2021",
+    "2": "Ene 2020 - Jul 2020",
+    "3": "Ago 2018 - Nov-2019",
+    "4": "Nov 2017 - Ago 2018"
   },
   "ProfessionalTimelineTitle": {
-    "0": "Santander",
-    "1": "Ironhack Bootcamp",
-    "2": "Accenture",
-    "3": "Renault"
+    "0": "Itaú",
+    "1": "Santander",
+    "2": "Ironhack Bootcamp",
+    "3": "Accenture",
+    "4": "Renault"
   },
   "ProfessionalTimelinePost": {
-    "0": "Desarrollador de Software Frontend - Analista Junior",
-    "1": "Profesora Auxiliar",
-    "2": "Desarrollador de Software Frontend - Analista Junior",
-    "3": "Interno de Produción"
+    "0": "Desarrollador de Software Frontend - Analista",
+    "1": "Desarrollador de Software Frontend - Analista Junior",
+    "2": "Profesora Auxiliar",
+    "3": "Desarrollador de Software Frontend - Analista Junior",
+    "4": "Interno de Produción"
   },
   "SecoundProfessionalTimelinePost": {
-    "0": "Desarrollador de Software Frontend - Analista",
-    "1": "",
+    "0": "",
+    "1": "Desarrollador de Software Frontend - Analista",
     "2": "",
-    "3": ""
+    "3": "",
+    "4": ""
   },
   "ProfessionalTimelineDuration": {
-    "0": "(6 meses)",
+    "0": "",
     "1": "(10 meses)",
-    "2": "(1 año y 4 meses)",
-    "3": "(9 meses)"
+    "2": "(6 meses)",
+    "3": "(1 año y 4 meses)",
+    "4": "(9 meses)"
   },
   "SecoundProfessionalTimelineDuration": {
-    "0": "(4 meses)",
-    "1": "",
+    "0": "",
+    "1": "(9 meses)",
     "2": "",
-    "3": ""
+    "3": "",
+    "4": ""
   },
   "ProfessionalTimelineDescription": {
-    "0": "•  Develop new features and maintain code pattern <br />  •  Collaborate with business and design meetings to create scalable and performance solutions to front end <br />  •  Make design pattern and storybook to help the integration with partners <br /> •   Tecnologias: Vue.js, Typescript, Git, Azure, SASS, Bootstrap",
-    "1": "Ironhack es una escuela internacional con campus en 9 países, con tres cursos inmersivos diferentes: Web Development, UX/UI Design and Data Analytics. Auxilio el profesor principal de bootcamp del curso de Web Development course. Cursos: HTML, CSS, Javascript, Node, Express, Mongo and REACT.",
-    "2": "Trabajé en proyectos en Santander y Sky, con las tecnologías Vue.js, Typescript, Git, CSS, Bootstrap",
-    "3": "Practicante en el programa 'Fábrica de Talentos': <br /> - Desarollo de proyectos enfocados en mejorar la calidad, rendimiento y reducción de gastos<br /> - Auxilio el jefe de produción en las actividades de gestión y en la resolución de problemas a través de los ciclos PDCA, 5S y metodologias KAIZEN<br /> - Experiencia en diferentes puestos, como operador (trabajando con soldadura de punto), operador senior y analista de calidad.<br />"
+    "0": "",
+    "1": "•  Develop new features and maintain code pattern <br />  •  Collaborate with business and design meetings to create scalable and performance solutions to front end <br />  •  Make design pattern and storybook to help the integration with partners <br /> •   Tecnologias: Vue.js, Typescript, Git, Azure, SASS, Bootstrap",
+    "2": "Ironhack es una escuela internacional con campus en 9 países, con tres cursos inmersivos diferentes: Web Development, UX/UI Design and Data Analytics. Auxilio el profesor principal de bootcamp del curso de Web Development course. Cursos: HTML, CSS, Javascript, Node, Express, Mongo and REACT.",
+    "3": "Trabajé en proyectos en Santander y Sky, con las tecnologías Vue.js, Typescript, Git, CSS, Bootstrap",
+    "4": "Practicante en el programa 'Fábrica de Talentos': <br /> - Desarollo de proyectos enfocados en mejorar la calidad, rendimiento y reducción de gastos<br /> - Auxilio el jefe de produción en las actividades de gestión y en la resolución de problemas a través de los ciclos PDCA, 5S y metodologias KAIZEN<br /> - Experiencia en diferentes puestos, como operador (trabajando con soldadura de punto), operador senior y analista de calidad.<br />"
   },
   "SecoundProfessionalTimelineDescription": {
-    "0": "Actualmente trabajando en la startaup de Santander 'Empréstimo Sim'. <br />  •  Responsable de hacer revisión de código del equipo <br />  •  Coach newly hired IT on technical procedures <br />  •  Manage the packages of all environments and deploy them <br />  • Participación en reuniones de análisis para identificar problemas de software<br />  •  Encouraged timely and relevant upgrades for clients products as necessary<br />   •  Fix problems in Production Environment <br />  •   Tecnologias: Vue.js, React, Typescript, Git, Azure, SASS, Bootstrap, Material Ui ",
-    "1": "teste",
-    "2": "",
-    "3": ""
+    "0": "",
+    "1": "Actualmente trabajando en la startaup de Santander 'Empréstimo Sim'. <br />  •  Responsable de hacer revisión de código del equipo <br />  •  Coach newly hired IT on technical procedures <br />  •  Manage the packages of all environments and deploy them <br />  • Participación en reuniones de análisis para identificar problemas de software<br />  •  Encouraged timely and relevant upgrades for clients products as necessary<br />   •  Fix problems in Production Environment <br />  •   Tecnologias: Vue.js, React, Typescript, Git, Azure, SASS, Bootstrap, Material Ui ",
+    "2": "teste",
+    "3": "",
+    "4": ""
   },
   "----------->AboutPage": { "AboutPage": "AboutPage" },
   "AboutTitle": {
