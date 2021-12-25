@@ -32,6 +32,7 @@ const academicExtraContent = [
 ]
 
 const professionalExtraContent = [
+    <></>,
     <iframe className="extra-content" src="https://www.youtube.com/embed/SSx52ZIkXwA" title="sim-video" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
     <></>,
     <></>,
