@@ -16,7 +16,7 @@ function App() {
     const Navbar = React.lazy(() => import('./components/Navbar/Navbar'));
     const Footer = React.lazy(() => import('./components/Footer/Footer'));
     const Home = React.lazy(() => import('./components/Pages/Home/Home'));
-    const Linktree = React.lazy(() => import('./pages/Linktree/Linktree'));
+    const Links = React.lazy(() => import('./components/Pages/Links/Links'));
     const About = React.lazy(() => import('./components/Pages/About/About'));
     const Background = React.lazy(() => import('./components/Pages/Background/Background'));
     // const Freelance = React.lazy(() => import('./components/Pages/Freelance/Freelance'));
@@ -47,7 +47,7 @@ function App() {
                     <Navbar />
                     <Switch>
                         <Route path={"/"} exact={true} component={Home} />
-                        <Route path={`/linktree`} component={Linktree} />
+                        <Route path={`/links`} component={Links} />
                         <Route path={`/about`} component={About} />
                         <Route path="/background" component={Background} />
                         {/* <Route path="/project" component={Project} /> */}
