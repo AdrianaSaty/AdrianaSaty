@@ -19,6 +19,7 @@ function App() {
     const Links = React.lazy(() => import('./components/Pages/Links/Links'));
     const About = React.lazy(() => import('./components/Pages/About/About'));
     const Background = React.lazy(() => import('./components/Pages/Background/Background'));
+    const Subscription = React.lazy(() => import('./components/Pages/Subscription/Subscription'));
     // const Freelance = React.lazy(() => import('./components/Pages/Freelance/Freelance'));
     const ErrorPage = React.lazy(() => import('./components/Pages/ErrorPage/ErrorPage'));
 
@@ -50,6 +51,7 @@ function App() {
                         <Route path={`/links`} component={Links} />
                         <Route path={`/about`} component={About} />
                         <Route path="/background" component={Background} />
+                        <Route path="/subscription" component={Subscription} />
                         {/* <Route path="/project" component={Project} /> */}
                         <Route path='*' component={ErrorPage} />
                     </Switch>

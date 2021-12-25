@@ -36,6 +36,8 @@
     ]
   },
   "devDependencies": {
+    "@types/react": "^17.0.38",
+    "@types/react-mailchimp-subscribe": "^2.1.1",
     "sass": "^1.43.4"
   }
 }
