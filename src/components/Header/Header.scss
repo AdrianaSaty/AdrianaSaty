@@ -50,6 +50,7 @@ p {
   }
 }
 
+
 @keyframes anim-stars {
   0% {
       transform: translateY(0px);
@@ -57,33 +58,4 @@ p {
   100% {
       transform: translate(-100vw);
   }
-}
-
-
-// n is number of shadows required
-@function create-stars ($n) {
-  $value: '50px 30px white';
-  @for $i from 2 through $n {
-    $value: '#{$value} , #{$i * random(100)}px #{$i * random(50)}px white';
-    $value: '#{$value} , #{$i * random(80)}px #{$i * random(10)}px white';
-    $value: '#{$value} , #{$i * random(60)}px #{$i * random(50)}px white';
-  }
-
-  @return unquote($value);
-}
-
-.stars-big {
-  border-radius: 50%;
-  animation: anim-stars 20s linear infinite;
-  box-shadow: create-stars(50);
-  width: 3px;
-  height: 3px;
-}
-
-.stars-small {
-  border-radius: 50%;
-  animation: anim-stars 20s linear infinite;
-  box-shadow: create-stars(50);
-  width: 1px;
-  height: 1px;
 }
