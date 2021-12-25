@@ -2,27 +2,27 @@
   background-color: black;
   background: linear-gradient(90deg, black 60%, rgb(119, 30, 48));
   height: 37px;
-}
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 100% ;
-  display: flex;
-  justify-content: space-around;
-}
+  & ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
 
-li a {
-  display: block;
-  padding: 8px 16px;
-  text-decoration: none !important;
-  color: #b8b8bb;
-}
+    & li a {
+      display: block;
+      padding: 8px 16px;
+      text-decoration: none !important;
+      color: #b8b8bb;
+    }
 
-/* Change the link color on hover */
-li a:hover {
-  color: white;
+    /* Change the link color on hover */
+    & li a:hover {
+      color: white;
+    }
+  }
 }
 
 @media (min-width: 450px) {
