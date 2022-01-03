@@ -1,197 +1,104 @@
-import React, { useState } from 'react';
+import React, { useEffect } from 'react';
 import './Subscription.scss';
 import MailchimpSubscribe from "react-mailchimp-subscribe";
+import { Field, Form, Formik } from 'formik';
+import * as Yup from 'yup';
+import avatar from '../../../img/avatar.png';
+import { useHistory } from "react-router-dom";
 
-const InputField = props => {
+const SubscriptionSchema = Yup.object().shape({
+    name: Yup
+        .string()
+        .min(2, 'Nome muito curto!')
+        .max(50, 'Nome muito longo!')
+        .required('Campo obrigatório'),
+    email: Yup
+        .string()
+        .email('E-mail inválido')
+        .required('Campo obrigatório'),
+});
 
-    const validateInput = values => {
-        if (values.some(f => f === "") || values[0].indexOf("@") === -1) {
-            return true
-        } else {
-            return false
-        }
-    }
+const SubscriptionForm = ({ onValidated, status }) => {
+    let history = useHistory();
 
-    if (props.type === "submit") {
-        return (
-            <input
-                type='submit'
-                value={props.label}
-                disabled={validateInput(props.formValues)}
-            />
-        )
-    } else if (props.type === "textarea") {
-        return (
-            <label>
-                {props.label}
-                <textarea
-                    onChange={(e) => props.onChangeHandler(e.target.value)}
-                    placeholder={props.placeholder}
-                    value={props.value}
-                    required={props.isRequired}
-                    rows={7}
-                    name={props.name}
-                />
-            </label>
-        );
-    } else {
-        return (
-            <label>
-                {props.label}
-                <input
-                    onChange={(e) => props.onChangeHandler(e.target.value)}
-                    type={props.type}
-                    placeholder={props.placeholder}
-                    value={props.value}
-                    required={props.isRequired}
-                    name={props.name}
-                />
-            </label>
-        );
-    }
-
-
-};
-
-
-const CustomForm = ({ status, message, onValidated }) => {
-
-    const [email, setEmail] = useState('');
-    const [firstName, setFirstName] = useState('');
-    const [lastName, setLastName] = useState('');
-    const [programmingLevel, setProgrammingLevel] = useState('');
-    const [study, setStudy] = useState('');
-    const [studyYear, setStudyYear] = useState('');
-    const [gender, setGender] = useState('');
-    const [phone, setPhone] = useState('');
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        email &&
-            firstName &&
-            lastName &&
-            email.indexOf("@") > -1 &&
-            onValidated({
-                EMAIL: email,
-                FNAME: firstName,
-                LNAME: lastName,
-                PROGLVL: programmingLevel,
-                STUDY: study,
-                STUDYYEAR: studyYear,
-                GENDER: gender,
-                PHONE: phone,
-            });
-    }
+    useEffect(() => {
+        if (status === "error") console.log('errouuu');
+        if (status === "success") {
+            history.push("/subscriptionSuccess");
+        };
+    }, [status])
 
     return (
-        <form onSubmit={(e) => handleSubmit(e)}>
-            {status === "sending" && (
-                <div>
-                    sending...
-                </div>
+        <Formik
+            initialValues={{
+                name: '',
+                email: '',
+            }}
+            validationSchema={SubscriptionSchema}
+            onSubmit={async (values) => {
+                onValidated({
+                    EMAIL: values.email,
+                    FNAME: values.name,
+                });
+            }}
+        >
+            {({ errors, touched, isValid, dirty }) => (
+                <Form>
+                    <div>
+                        <label htmlFor="name">Nome</label>
+                        <Field id="name" name="name" />
+                        {errors.name && touched.name ? (
+                            <div className='error'>{errors.name}</div>
+                        ) : null}
+                    </div>
+                    <div>
+                        <label htmlFor="email">Email</label>
+                        <Field id="email" name="email" type="email" className="input-effect" />
+                        {errors.email && touched.email ? (
+                            <div className='error'>{errors.email}</div>
+                        ) : null}
+                    </div>
+                    {/* <button type="submit" onClick={() => handleClick()}>Feito!</button> */}
+                    <button type="submit" disabled={!isValid || !dirty}>Feito!</button>
+                </Form>
             )}
-            {status === "error" && (
-                <div
-                    dangerouslySetInnerHTML={{ __html: message }}
-                />
-            )}
-            {status === "success" && (
-                <div
-                    dangerouslySetInnerHTML={{ __html: message }}
-                />
-            )}
-            <div>
-                <InputField
-                    label="First Name"
-                    onChangeHandler={setFirstName}
-                    type="text"
-                    value={firstName}
-                    placeholder="Jane"
-                    isRequired
-                />
-                <InputField
-                    label="Last Name"
-                    onChangeHandler={setLastName}
-                    type="text"
-                    value={lastName}
-                    placeholder="Doe"
-                    isRequired
-                />
-                <InputField
-                    label="Nível de conhecimento (Programação)"
-                    onChangeHandler={setProgrammingLevel}
-                    type="text"
-                    value={programmingLevel}
-                    placeholder="Nível de conhecimento (Programação)"
-                    isRequired
-                />
-                <InputField
-                    label="Grau de Ensino"
-                    onChangeHandler={setStudy}
-                    type="text"
-                    value={study}
-                    placeholder="Grau de Ensino"
-                    isRequired
-                />
-                <InputField
-                    label="Ano de Formação"
-                    onChangeHandler={setStudyYear}
-                    type="text"
-                    value={studyYear}
-                    placeholder="Ano de Formação"
-                    isRequired
-                />
-                <InputField
-                    label="Qual genero você se identifica?"
-                    onChangeHandler={setGender}
-                    type="text"
-                    value={gender}
-                    placeholder="Qual genero você se identifica?"
-                    isRequired
-                />
-                <InputField
-                    label="Whatsapp"
-                    onChangeHandler={setPhone}
-                    type="text"
-                    value={phone}
-                    placeholder="Whatsapp"
-                    isRequired
-                />
-                <InputField
-                    label="E-mail"
-                    onChangeHandler={setEmail}
-                    type="text"
-                    value={email}
-                    placeholder="E-mail"
-                    isRequired
-                />
-            </div>
+        </Formik>
 
-            <InputField
-                label="subscribe"
-                type="submit"
-                formValues={[email, firstName, lastName]}
-            />
-        </form>
     )
 };
 
 function Subscription() {
-
     const postUrl = `https://adrianasaty.us20.list-manage.com/subscribe/post?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
 
     return (
         <div className="subscription">
-            <MailchimpSubscribe
-                url={postUrl}
-                render={({ subscribe, status, message }) => (
-                    <CustomForm
-                        status={status}
-                        message={message}
-                        onValidated={formData => subscribe(formData)}
-                    />
-                )}
-            />
+            <div className="container">
+                <MailchimpSubscribe
+                    url={postUrl}
+                    render={({ subscribe, status, message }) => (
+                        <div>
+                            {
+                                <div>
+                                    <header className='header-form'>
+                                        <figure>
+                                            <img className="img-avatar" src={avatar} alt="Foto de Adriana Saty sorrindo com fundo preto" />
+                                        </figure>
+                                        <div className='header-txt'>
+                                            <h3>Complete o cadastro abaixo para receber as novidades em primeira mão! :)</h3>
+                                        </div>
+                                    </header>
+                                    <SubscriptionForm
+                                        onValidated={formData => subscribe(formData)}
+                                        status={status}
+                                    />
+                                    {status === "error" && <p className='subscribe-message error'>E-mail já cadastrado!</p>}
+                                    {status === "sending" && <p className='subscribe-message'>Loading...</p>}
+                                </div>
+                            }
+                        </div>
+                    )}
+                />
+            </div>
         </div>
     )
 }

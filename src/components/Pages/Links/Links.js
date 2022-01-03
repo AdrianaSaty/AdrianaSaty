@@ -20,7 +20,7 @@ function Links() {
             </center>
             <ul>
                 <li>
-                    <a href="/curso">Cursos e eventos!
+                    <a href="/subscription">Cursos e eventos!
                         <small>Increva-se na lista de espera <span role="img" aria-label="blink">😉</span></small>
                     </a>
                 </li>

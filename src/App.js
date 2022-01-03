@@ -5,6 +5,7 @@ import Loading from './components/Loading/Loading'
 import TagManager from 'react-gtm-module';
 import i18next from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
+import SubscriptionSuccess from './components/Pages/SubscriptionSuccess/SubscriptionSuccess';
 
 const tagManagerArgs = {
     gtmId: 'GTM-P6WN8SD'
@@ -52,6 +53,7 @@ function App() {
                         <Route path={`/about`} component={About} />
                         <Route path="/background" component={Background} />
                         <Route path="/subscription" component={Subscription} />
+                        <Route path="/subscriptionSuccess" component={SubscriptionSuccess} />
                         {/* <Route path="/project" component={Project} /> */}
                         <Route path='*' component={ErrorPage} />
                     </Switch>
