@@ -14,7 +14,6 @@ const tagManagerArgs = {
 TagManager.initialize(tagManagerArgs);
 
 function App() {
-    const Navbar = React.lazy(() => import('./components/Navbar/Navbar'));
     const Footer = React.lazy(() => import('./components/Footer/Footer'));
     const Home = React.lazy(() => import('./components/Pages/Home/Home'));
     const Links = React.lazy(() => import('./components/Pages/Links/Links'));
@@ -46,7 +45,6 @@ function App() {
         <div className="app">
             <BrowserRouter>
                 <Suspense fallback={(<Loading />)}>
-                    <Navbar />
                     <Switch>
                         <Route path={"/"} exact={true} component={Home} />
                         <Route path={`/links`} component={Links} />

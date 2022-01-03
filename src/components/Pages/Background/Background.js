@@ -10,6 +10,7 @@ import ironhackFriends from '../../../img/ironhackFriends.jpg';
 import renaultIntership from '../../../img/Renault.png';
 import './Background.scss';
 import { useTranslation } from 'react-i18next';
+import Navbar from '../../Navbar/Navbar';
 
 const professionalTimelineImages = [
     itau,
@@ -66,6 +67,7 @@ function Background() {
 
     return (
         <div className="background">
+            <Navbar />
             <div className="container pb-3">
                 <h1 className="pt-5 pb-3">{t('TechnologiesBackground.0')}</h1>
                 <div>

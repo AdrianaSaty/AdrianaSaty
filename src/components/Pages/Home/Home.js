@@ -4,6 +4,7 @@ import computer from '../../../img/computer.png';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './Home.scss';
+import Navbar from '../../Navbar/Navbar';
 
 function Home() {
     const Header = React.lazy(() => import('../../Header/Header'));
@@ -12,6 +13,7 @@ function Home() {
 
     return (
         <div className="home">
+            <Navbar />
             <Header />
             <div className="section1">
                 <div>
