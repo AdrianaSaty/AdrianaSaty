@@ -26,11 +26,18 @@
         list-style-type: none;
         padding: 0 20px;
         margin: 0 auto;
+        .highlight {
+            background-color: white;
+            color: black;
+            small {
+                color: #737375;
+            }
+        }
         li {
+            background-color: black;
             list-style: none;
             padding: 0px;
             margin: 12px 0px;
-
             a {
                 font-size: 18px;
                 font-weight: 600;

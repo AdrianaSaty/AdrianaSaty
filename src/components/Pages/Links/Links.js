@@ -8,7 +8,6 @@ function Links() {
         <div className="Links">
             <div className="stars-small"></div>
             <div className="stars-big"></div>
-
             <center>
                 <header>
                     <figure>
@@ -20,7 +19,7 @@ function Links() {
             </center>
             <ul>
                 <li>
-                    <a href="/subscription">Cursos e eventos!
+                    <a className='highlight' href="/subscription">Cursos e eventos!
                         <small>Increva-se na lista de espera <span role="img" aria-label="blink">😉</span></small>
                     </a>
                 </li>
