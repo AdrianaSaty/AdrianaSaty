@@ -20,7 +20,6 @@ function About() {
                 <div>
                     <h3 className="mt-3 mb-0">{t('AboutTitle.1')}</h3>
                     <p className="" dangerouslySetInnerHTML={{ __html: t('AboutDescription.1') }} />
-
                 </div>
             </div>
         </div>

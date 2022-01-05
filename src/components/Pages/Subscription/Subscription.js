@@ -3,8 +3,8 @@ import './Subscription.scss';
 import MailchimpSubscribe from "react-mailchimp-subscribe";
 import { Field, Form, Formik } from 'formik';
 import * as Yup from 'yup';
-import avatar from '../../../img/avatar.png';
-import { useHistory } from "react-router-dom";
+import avatarGifSmall from '../../../img/avatarGifSmall.gif';
+import { useHistory } from 'react-router-dom';
 
 const SubscriptionSchema = Yup.object().shape({
     name: Yup
@@ -19,15 +19,17 @@ const SubscriptionSchema = Yup.object().shape({
 });
 
 const SubscriptionForm = ({ onValidated, status }) => {
-    let history = useHistory();
+
+  const history = useHistory();
+
 
     useEffect(() => {
         if (status === "error") console.log('errouuu');
         if (status === "success") {
-            history.push("/subscriptionSuccess");
+            history.push('/subscriptionSuccess');
         };
-    }, [status])
-
+    }, [status]);
+    
     return (
         <Formik
             initialValues={{
@@ -79,14 +81,15 @@ function Subscription() {
                         <div>
                             {
                                 <div>
-                                    <header className='header-form'>
-                                        <figure>
-                                            <img className="img-avatar" src={avatar} alt="Foto de Adriana Saty sorrindo com fundo preto" />
-                                        </figure>
+                                    <center>
+                                        <h1>Cadastro</h1>
+                                        <img className="img-avatar" src={avatarGifSmall} alt="Foto de Adriana Saty sorrindo com fundo preto" />
                                         <div className='header-txt'>
-                                            <h3>Complete o cadastro abaixo para receber as novidades em primeira mão! :)</h3>
+                                            <h3>Complete seu cadastro para receber novidades em primeira mão! :)</h3>
                                         </div>
-                                    </header>
+                                    </center>
+
+                      
                                     <SubscriptionForm
                                         onValidated={formData => subscribe(formData)}
                                         status={status}
