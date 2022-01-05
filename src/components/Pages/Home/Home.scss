@@ -1,31 +1,33 @@
-.section1 {
-    width: 100%;
-    background-color: white;
-    color: black;
-}
+.home {
+    .section1 {
+        width: 100%;
+        background-color: white;
+        color: black;
+    }
 
-.section1 img {
-    width: 200px;
-    margin-right: 10px;
-}
+    .section1 img {
+        width: 200px;
+        margin-right: 10px;
+    }
 
-.feature {
-    display: flex;
-    align-items: center;
-    margin: 10px 0;
-}
+    .feature {
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
 
-a {
-    color: black;
-    font-size: 20px;
-}
+    a {
+        color: black;
+        font-size: 20px;
+    }
 
-h3:hover {
-    color: rgb(104, 15, 34);
-}
+    h3:hover {
+        color: rgb(104, 15, 34);
+    }
 
-p {
-    text-align: left !important;
+    p {
+        text-align: left !important;
+    }
 }
 
 @media (max-width: 1400px) {
@@ -53,37 +55,36 @@ p {
     }
 }
 
-
 /* fadein animation */
 
 .animate-left {
     position: relative;
-    animation: animateleft 3s
+    animation: animateleft 3s;
 }
 
 @keyframes animateleft {
     from {
         left: -500px;
-        opacity: 0
+        opacity: 0;
     }
     to {
         left: 0;
-        opacity: 1
+        opacity: 1;
     }
 }
 
 .animate-right {
     position: relative;
-    animation: animateright 3s
+    animation: animateright 3s;
 }
 
 @keyframes animateright {
     from {
         left: 500px;
-        opacity: 0
+        opacity: 0;
     }
     to {
         left: 0;
-        opacity: 1
+        opacity: 1;
     }
 }

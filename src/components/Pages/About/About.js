@@ -1,6 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import adrianaProgramming from '../../../img/Adriana-programming.png';
+import Navbar from '../../Navbar/Navbar';
 import './About.scss';
 
 
@@ -9,6 +10,7 @@ function About() {
 
     return (
         <div className="about">
+            <Navbar />
             <img className="animate-blur" src={adrianaProgramming} alt="adriana-programming"></img>
             <div className="about-text">
                 <div>
@@ -18,7 +20,6 @@ function About() {
                 <div>
                     <h3 className="mt-3 mb-0">{t('AboutTitle.1')}</h3>
                     <p className="" dangerouslySetInnerHTML={{ __html: t('AboutDescription.1') }} />
-
                 </div>
             </div>
         </div>

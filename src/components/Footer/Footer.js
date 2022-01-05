@@ -16,7 +16,7 @@ function Footer({ changeLanguage }) {
         <div className="footer">
             <div className="links">
                 <div className="d-flex justify-content-center align-items-center teste">
-                    <a href="mailto:adri-saty@hotmail.com" className="email-lnk">
+                    <a href="mailto:info@adrianasaty.com" className="email-lnk">
                         <img src={email} alt="email" className="email"></img>
                         <p className="icon-name email">E-mail</p>
                     </a>

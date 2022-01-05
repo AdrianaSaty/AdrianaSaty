@@ -1,13 +1,14 @@
 * {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     font-weight: 300;
 }
 
 @font-face {
-    font-family: 'Pacifico';
+    font-family: "Pacifico";
     font-style: normal;
     font-weight: 400;
-    src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+    src: local("Pacifico Regular"), local("Pacifico-Regular"),
+        url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format("woff2");
     font-display: swap;
 }
 
@@ -16,7 +17,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-  
+
 h1 {  font-size: 30px; }
 h2 {  font-size: 21px; font-weight: 300; }
 h3 { font-size: 20px; }
@@ -27,5 +28,33 @@ h3 { font-size: 20px; }
     h3 { font-size: 25px; }
     p { font-size: 20px; }
     a { font-size: 25px; }
-  
-  }
+}
+
+// ---------- START stars logic
+@function create-stars($n) {
+    $value: "50px 30px white";
+    @for $i from 2 through $n {
+        $value: "#{$value} , #{$i * random(100)}px #{$i * random(50)}px white";
+        $value: "#{$value} , #{$i * random(80)}px #{$i * random(10)}px white";
+        $value: "#{$value} , #{$i * random(60)}px #{$i * random(50)}px white";
+    }
+
+    @return unquote($value);
+}
+
+.stars-big {
+    border-radius: 50%;
+    animation: anim-stars 20s linear infinite;
+    box-shadow: create-stars(50);
+    width: 3px;
+    height: 3px;
+}
+
+.stars-small {
+    border-radius: 50%;
+    animation: anim-stars 20s linear infinite;
+    box-shadow: create-stars(50);
+    width: 1px;
+    height: 1px;
+}
+// ---------- END stars logic

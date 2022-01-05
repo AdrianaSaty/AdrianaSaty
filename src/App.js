@@ -5,6 +5,7 @@ import Loading from './components/Loading/Loading'
 import TagManager from 'react-gtm-module';
 import i18next from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
+import SubscriptionSuccess from './components/Pages/SubscriptionSuccess/SubscriptionSuccess';
 
 const tagManagerArgs = {
     gtmId: 'GTM-P6WN8SD'
@@ -13,12 +14,12 @@ const tagManagerArgs = {
 TagManager.initialize(tagManagerArgs);
 
 function App() {
-    const Navbar = React.lazy(() => import('./components/Navbar/Navbar'));
     const Footer = React.lazy(() => import('./components/Footer/Footer'));
     const Home = React.lazy(() => import('./components/Pages/Home/Home'));
-    const Linktree = React.lazy(() => import('./pages/Linktree/Linktree'));
+    const Links = React.lazy(() => import('./components/Pages/Links/Links'));
     const About = React.lazy(() => import('./components/Pages/About/About'));
     const Background = React.lazy(() => import('./components/Pages/Background/Background'));
+    const Subscription = React.lazy(() => import('./components/Pages/Subscription/Subscription'));
     // const Freelance = React.lazy(() => import('./components/Pages/Freelance/Freelance'));
     const ErrorPage = React.lazy(() => import('./components/Pages/ErrorPage/ErrorPage'));
 
@@ -44,12 +45,13 @@ function App() {
         <div className="app">
             <BrowserRouter>
                 <Suspense fallback={(<Loading />)}>
-                    <Navbar />
                     <Switch>
                         <Route path={"/"} exact={true} component={Home} />
-                        <Route path={`/linktree`} component={Linktree} />
+                        <Route path={`/links`} component={Links} />
                         <Route path={`/about`} component={About} />
                         <Route path="/background" component={Background} />
+                        <Route path="/subscription" component={Subscription} />
+                        <Route path="/subscriptionSuccess" component={SubscriptionSuccess} />
                         {/* <Route path="/project" component={Project} /> */}
                         <Route path='*' component={ErrorPage} />
                     </Switch>
