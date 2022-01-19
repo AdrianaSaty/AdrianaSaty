@@ -24,6 +24,11 @@ function Links() {
                     </a>
                 </li>
                 <li>
+                    <a href="https://gen.partners/adriana_saty">PESSOA DESENVOLVEDORA .NET
+                        <small>Inscrição Generation Brasil</small>
+                    </a>
+                </li>
+                <li>
                     <a href="https://www.adrianasaty.com/">Meu site
                         <small>Navegue em outras línguas também!</small>
                     </a>
