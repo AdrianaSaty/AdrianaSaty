@@ -24,8 +24,13 @@ function Links() {
                     </a>
                 </li>
                 <li>
-                    <a href="https://gen.partners/adriana_saty">PESSOA DESENVOLVEDORA .NET
-                        <small>Inscrição Generation Brasil</small>
+                    <a href="https://gen.partners/adriana_saty">Inscrição Curso Dev Web - Resilia
+                        <small>se inscreva aqui!</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://gen.partners/adriana_saty">Inscrição Curso .NET - Bolsa Generation
+                        <small>se inscreva aqui!</small>
                     </a>
                 </li>
                 <li>
