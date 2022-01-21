@@ -24,7 +24,7 @@ function Links() {
                     </a>
                 </li>
                 <li>
-                    <a href="https://gen.partners/adriana_saty">Inscrição Curso Dev Web - Resilia
+                    <a href="https://bit.ly/AdrianaResilia">Inscrição Curso Dev Web - Resilia
                         <small>se inscreva aqui!</small>
                     </a>
                 </li>
