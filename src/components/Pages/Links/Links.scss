@@ -38,6 +38,27 @@
             list-style: none;
             padding: 0px;
             margin: 12px 0px;
+            &.two-links {
+                font-size: 18px;
+                font-weight: 600;
+                border-radius: 3px;
+                border: 2px solid #525253;
+                color: #fff;
+                padding: 10px;
+                display: block;
+                text-align: center;
+                div {
+                    display: flex;
+                }
+                h3 {
+                    font-size: 18px;
+                    font-weight: 600;
+                }  
+                a {
+                    width: 100%;
+                    margin: 3px;
+                }
+            }
             a {
                 font-size: 18px;
                 font-weight: 600;

@@ -28,6 +28,16 @@ function Links() {
                         <small>se inscreva aqui!</small>
                     </a>
                 </li>
+                <li className='two-links'>
+                    <h3>Palestra Web 3.0</h3>
+                    <div>
+                        <a href="https://youtu.be/FATBfklFUto?t=755">Vídeo
+                        </a>
+                        <a href="/files/Web3.0-Adriana_Saty.pdf">Slides
+                        </a>
+                    </div>
+
+                </li>
                 <li>
                     <a href="https://gen.partners/adriana_saty">Inscrição Curso .NET - Bolsa Generation
                         <small>se inscreva aqui!</small>
