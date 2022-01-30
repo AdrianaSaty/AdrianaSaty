@@ -9,8 +9,9 @@ function About() {
     const { t } = useTranslation();
 
     return (
-        <div className="about">
+        <div>
             <Navbar />
+            <div className="about">
             <img className="animate-blur" src={adrianaProgramming} alt="adriana-programming"></img>
             <div className="about-text">
                 <div>
@@ -22,6 +23,8 @@ function About() {
                     <p className="" dangerouslySetInnerHTML={{ __html: t('AboutDescription.1') }} />
                 </div>
             </div>
+            </div>
+            
         </div>
     )
 }
