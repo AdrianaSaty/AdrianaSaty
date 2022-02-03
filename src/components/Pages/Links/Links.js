@@ -24,8 +24,8 @@ function Links() {
                     </a>
                 </li>
                 <li>
-                    <a href="https://bit.ly/AdrianaResilia">Inscrição Curso Dev Web - Resilia
-                        <small>se inscreva aqui!</small>
+                    <a href="https://bit.ly/3J5127Z">Plataforma Devmedia
+                        <small>Use meu cupom de RS108 de desconto: SATY</small>
                     </a>
                 </li>
                 <li className='two-links'>
@@ -37,6 +37,11 @@ function Links() {
                         </a>
                     </div>
 
+                </li>
+                <li>
+                    <a href="https://bit.ly/AdrianaResilia">Inscrição Curso Dev Web - Resilia
+                        <small>se inscreva aqui!</small>
+                    </a>
                 </li>
                 <li>
                     <a href="https://gen.partners/adriana_saty">Inscrição Curso .NET - Bolsa Generation
