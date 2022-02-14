@@ -25,7 +25,7 @@ function Home() {
                             <div className="feature col-md-8 animate-left">
                                 <img src={curriculum} alt="curriculum"></img>
                                 <div className="">
-                                    <h3><Link to="/freelance">{t('Project.0')}</Link></h3>
+                                    <h3>{t('Project.0')}</h3>
                                     <p className="description">
                                         {t('ProjectText.0')}
                                     </p>

@@ -1,6 +1,5 @@
 import React from 'react';
 import dropdown from '../../img/dropdown.png';
-// import ironhackFriends from '../../img/ironhackFriends.jpg';
 
 import './TimelineBox.scss';
 

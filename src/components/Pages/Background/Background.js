@@ -28,13 +28,13 @@ const academicTimelineImages = [
 
 const academicExtraContent = [
     <img src={ironhackFriends} alt={ironhackFriends} className="extra-content" />,
-    <iframe className="extra-content" width="560" height="315" src="https://www.youtube.com/embed/Vqp3d9KbAjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+    <iframe className="extra-content" width="560" height="315" src="https://www.youtube.com/embed/Vqp3d9KbAjs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
     <iframe className="extra-content" alt='projeto-lux-ufpr' title="projeto-lux-ufpr" src="https://www.youtube.com/embed/BNRzBmdoSHw" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
 ]
 
 const professionalExtraContent = [
     <></>,
-    <iframe className="extra-content" src="https://www.youtube.com/embed/17OpJ_TnTIQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+    <iframe className="extra-content" src="https://www.youtube.com/embed/17OpJ_TnTIQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>,
     <></>,
     <></>,
     <img src={renaultIntership} alt={renaultIntership} className="extra-content" />,
