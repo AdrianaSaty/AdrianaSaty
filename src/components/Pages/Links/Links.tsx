@@ -8,15 +8,15 @@ function Links() {
         <div className="Links">
             <div className="stars-small"></div>
             <div className="stars-big"></div>
-            <center>
+            <div className='center'>
                 <header>
-                    <figure>
+                    <figure className='txt-center'>
                         <img className="img-avatar" src={avatar} alt="Foto de Adriana Saty sorrindo com fundo preto" />
                     </figure>
                     <h1>@Adriana.Saty</h1>
                     <h2>Desenvolvedora de Software</h2>
                 </header>
-            </center>
+            </div>
             <ul>
                 <li>
                     <a className='highlight' href="/subscription">Cursos e eventos!

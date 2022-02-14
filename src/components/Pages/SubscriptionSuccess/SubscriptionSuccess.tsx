@@ -9,16 +9,18 @@ function SubscriptionSuccess() {
         <div className="subscription-success">
             <div className='container'>
                 <header className='header-success'>
-                    <center>
+                    <div>
                         <h1>Uhuuul!</h1>
-                        <img className="img-avatar-gif" src={avatarGifSuccess} alt="Gif de Adriana Saty sorrindo e apontando para baixo" />
+                        <div className='center'>
+                            <img className="img-avatar-gif" src={avatarGifSuccess} alt="Gif de Adriana Saty sorrindo e apontando para baixo" />
+                        </div>
                         <div className='header-txt-success'>
                             <h3>Entrar no grupo do whasapp!</h3>
                             <Link to={{ pathname: "https://chat.whatsapp.com/BdgMVyVkDH00QyPArkIEfz" }} target="_blank" >
                                 <button >Entrar</button>
                             </Link>
                         </div>
-                    </center>
+                    </div>
                 </header>
             </div>
         </div>

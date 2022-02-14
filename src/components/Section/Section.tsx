@@ -1,7 +1,14 @@
 import React from 'react';
-import('./Section.scss');
+import './Section.scss';
 
-function Section({ title, description }) {
+interface Props {
+    title: string,
+    description: string
+}
+
+function Section(props: Props) {
+
+    const { title, description } = props;
 
     return (
         <div className="section">

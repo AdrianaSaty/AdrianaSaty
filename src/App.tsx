@@ -26,7 +26,7 @@ function App() {
 
     const [choosedLanguage, setLanguage] = useState(language);
 
-    function changeLanguage(lg) {
+    function changeLanguage(lg: string) {
         i18next.changeLanguage(lg);
         language = lg;
         setLanguage(language)

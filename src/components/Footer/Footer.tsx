@@ -10,7 +10,12 @@ import espanha from '../../img/logos/espanha.png';
 import alemanha from '../../img/logos/alemanha.png';
 import './Footer.scss';
 
-function Footer({ changeLanguage }) {
+interface Props {
+    changeLanguage: Function
+}
+function Footer( props: Props ) {
+
+    const {changeLanguage} = props;
 
     return (
         <div className="footer">
