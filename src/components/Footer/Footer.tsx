@@ -18,9 +18,9 @@ function Footer( props: Props ) {
     const {changeLanguage} = props;
 
     return (
-        <div className="footer">
+        <footer className="footer">
             <div className="links">
-                <div className="d-flex justify-content-center align-items-center teste">
+                <div className="d-flex justify-content-center align-items-center">
                     <a href="mailto:info@adrianasaty.com" className="email-lnk">
                         <img src={email} alt="email" className="email"></img>
                         <p className="icon-name email">E-mail</p>
@@ -62,7 +62,7 @@ function Footer( props: Props ) {
                     Powered by AdrianaSaty
                 </p>
             </div>
-        </div>
+        </footer>
     )
 }
 
