@@ -1,4 +1,4 @@
-.header {
+header {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
@@ -34,7 +34,7 @@ p {
 }
 
 @media (min-width: 450px) {
-  .header {
+  header {
     margin: 0;
     height: calc(100vh - 45px);
   }
