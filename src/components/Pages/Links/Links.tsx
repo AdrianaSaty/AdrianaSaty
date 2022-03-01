@@ -1,7 +1,8 @@
 import React from 'react';
 import './Links.scss';
 import avatar from '../../../img/avatar.png';
-
+import youtube from '../../../img/logos/youtube.svg'
+import twitch from '../../../img/logos/twitch.svg'
 
 function Links() {
     return (
@@ -19,13 +20,22 @@ function Links() {
             </div>
             <ul>
                 <li>
-                    <a className='highlight' href="/subscription">Cursos e eventos!
+                    <a className='highlight' href="/subscription">Mentoria e eventos!
                         <small>Increva-se na lista de espera <span role="img" aria-label="blink">😉</span></small>
                     </a>
                 </li>
                 <li>
-                    <a href="https://bit.ly/3J5127Z">Plataforma Devmedia
-                        <small>Use meu cupom de RS108 de desconto: SATY</small>
+                    <a href="https://www.youtube.com/channel/UCPhVBS-1Uy-wIzj4hmjkcmA" target="_blank" rel="noopener noreferrer">
+                        <img className='img-logo' src={youtube} />
+                        YOUTUBE
+                        <small>Vídeos em breve!</small>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.twitch.tv/adrianasaty" target="_blank" rel="noopener noreferrer">
+                        <img className='img-logo-twitch' src={twitch} />
+                        Twitch
+                        <small>Live Coding e Game Coding</small>
                     </a>
                 </li>
                 <li className='two-links'>
@@ -36,27 +46,10 @@ function Links() {
                         <a href="/files/Web3.0-Adriana_Saty.pdf">Slides
                         </a>
                     </div>
-
-                </li>
-                <li>
-                    <a href="https://bit.ly/AdrianaResilia">Inscrição Curso Dev Web - Resilia
-                        <small>se inscreva aqui!</small>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://gen.partners/adriana_saty">Inscrição Curso .NET - Bolsa Generation
-                        <small>se inscreva aqui!</small>
-                    </a>
                 </li>
                 <li>
                     <a href="https://www.adrianasaty.com/">Meu site
                         <small>Navegue em outras línguas também!</small>
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/channel/UCPhVBS-1Uy-wIzj4hmjkcmA" target="_blank" rel="noopener noreferrer">
-                        YOUTUBE
-                        <small>Vídeos em breve!</small>
                     </a>
                 </li>
                 <li>
