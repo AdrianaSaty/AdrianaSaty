@@ -1,11 +1,34 @@
 import React from 'react';
 import dropdown from '../../img/dropdown.png';
-// import ironhackFriends from '../../img/ironhackFriends.jpg';
 
 import './TimelineBox.scss';
 
-function TimelineBox(props) {
-    const { timelineYear, img, timelineTitle, timelinePost, timelineDuration, timelineDescription, secoundTimelinePost, secoundTimelineDuration, secoundTimelineDescription } = props;
+interface Props {
+    timelineYear: string,
+    img: string,
+    timelineTitle: string,
+    timelinePost?: string,
+    timelineDuration?: string,
+    timelineDescription: string,
+    secoundTimelinePost?: string,
+    secoundTimelineDuration?: string,
+    secoundTimelineDescription?: any,
+    timelineExtra: any
+}
+
+function TimelineBox(props: Props) {
+    const {
+        timelineYear,
+        img,
+        timelineTitle,
+        timelinePost,
+        timelineDuration,
+        timelineDescription,
+        secoundTimelinePost,
+        secoundTimelineDuration,
+        secoundTimelineDescription,
+        timelineExtra
+    } = props;
     return (
         <div className="timeline">
             <span className="timeline-icon"></span>
@@ -22,7 +45,7 @@ function TimelineBox(props) {
                         <p className="description" dangerouslySetInnerHTML={{ __html: secoundTimelineDescription }} />
                         <br />
                     </div>
-                    : 
+                    :
                     <h3 className="title">{timelineTitle}</h3>
                 }
                 <span className="post">{timelinePost}</span>
@@ -32,7 +55,7 @@ function TimelineBox(props) {
 
 
                 <div className="show-only-hover">
-                    {props.timelineExtra}
+                    {timelineExtra}
                 </div>
                 <img className="dropdown" src={dropdown} alt="dropdown" />
             </div>

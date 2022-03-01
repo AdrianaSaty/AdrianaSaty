@@ -20,21 +20,13 @@ function App() {
     const About = React.lazy(() => import('./components/Pages/About/About'));
     const Background = React.lazy(() => import('./components/Pages/Background/Background'));
     const Subscription = React.lazy(() => import('./components/Pages/Subscription/Subscription'));
-    // const Freelance = React.lazy(() => import('./components/Pages/Freelance/Freelance'));
     const ErrorPage = React.lazy(() => import('./components/Pages/ErrorPage/ErrorPage'));
-
-
-    // useEffect(() => {
-    //     ReactGa.initialize('UA-165955150-1')
-    //     ReactGa.pageview(window.location.pathname + window.location.search)
-    // }, [])
-
 
     let language = i18next.use(LanguageDetector).language || 'en';
 
     const [choosedLanguage, setLanguage] = useState(language);
 
-    function changeLanguage(lg) {
+    function changeLanguage(lg: string) {
         i18next.changeLanguage(lg);
         language = lg;
         setLanguage(language)

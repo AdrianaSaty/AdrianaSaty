@@ -6,7 +6,7 @@ import './Header.scss';
 function Header() {
     const { t } = useTranslation();
     return (
-        <div className="header">
+        <header>
             <div className="container m-0">
                 <div className="stars-small"></div>
                 <div className="stars-big"></div>
@@ -25,7 +25,7 @@ function Header() {
                     </div>
                 </div>
             </div>
-            </div>            
+        </header>
     )
 }
 

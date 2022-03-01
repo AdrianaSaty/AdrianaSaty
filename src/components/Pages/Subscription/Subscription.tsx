@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './Subscription.scss';
-import MailchimpSubscribe from "react-mailchimp-subscribe";
+import MailchimpSubscribe, { EmailFormFields } from "react-mailchimp-subscribe";
 import { Field, Form, Formik } from 'formik';
 import * as Yup from 'yup';
 import avatarGifSmall from '../../../img/avatarGifSmall.gif';
@@ -18,18 +18,24 @@ const SubscriptionSchema = Yup.object().shape({
         .required('Campo obrigatório'),
 });
 
-const SubscriptionForm = ({ onValidated, status }) => {
+interface Props {
+    onValidated: Function,
+    status: string | null
+}
 
-  const history = useHistory();
+const SubscriptionForm = (props: Props) => {
+
+    const { onValidated, status } = props;
+    const history = useHistory();
 
 
     useEffect(() => {
         if (status === "error") console.log('errouuu');
         if (status === "success") {
             history.push('/subscriptionSuccess');
-        };
-    }, [status]);
-    
+        }
+    }, [status, history]);
+
     return (
         <Formik
             initialValues={{
@@ -77,26 +83,24 @@ function Subscription() {
             <div className="container">
                 <MailchimpSubscribe
                     url={postUrl}
-                    render={({ subscribe, status, message }) => (
+                    render={({ subscribe, status }) => (
                         <div>
                             {
-                                <div>
-                                    <center>
+                                <>
+                                    <div className='center'>
                                         <h1>Cadastro</h1>
                                         <img className="img-avatar" src={avatarGifSmall} alt="Foto de Adriana Saty sorrindo com fundo preto" />
-                                        <div className='header-txt'>
-                                            <h3>Complete seu cadastro para receber novidades em primeira mão! :)</h3>
-                                        </div>
-                                    </center>
-
-                      
+                                    </div>
+                                    <div className='header-txt'>
+                                        <h3>Complete seu cadastro para receber novidades em primeira mão! :)</h3>
+                                    </div>
                                     <SubscriptionForm
-                                        onValidated={formData => subscribe(formData)}
+                                        onValidated={(formData: EmailFormFields) => subscribe(formData)}
                                         status={status}
                                     />
                                     {status === "error" && <p className='subscribe-message error'>E-mail já cadastrado!</p>}
                                     {status === "sending" && <p className='subscribe-message'>Loading...</p>}
-                                </div>
+                                </>
                             }
                         </div>
                     )}
