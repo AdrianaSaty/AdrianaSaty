@@ -15,7 +15,7 @@ function SubscriptionSuccess() {
                             <img className="img-avatar-gif" src={avatarGifSuccess} alt="Gif de Adriana Saty sorrindo e apontando para baixo" />
                         </div>
                         <div className='header-txt-success'>
-                            <h3>Entrar no grupo do whasapp!</h3>
+                            <h3>Entrar no grupo do Whatsapp!</h3>
                             <Link to={{ pathname: "https://chat.whatsapp.com/BdgMVyVkDH00QyPArkIEfz" }} target="_blank" >
                                 <button >Entrar</button>
                             </Link>
