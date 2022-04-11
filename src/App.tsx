@@ -21,6 +21,7 @@ function App() {
     const Background = React.lazy(() => import('./components/Pages/Background/Background'));
     const Subscription = React.lazy(() => import('./components/Pages/Subscription/Subscription'));
     const ErrorPage = React.lazy(() => import('./components/Pages/ErrorPage/ErrorPage'));
+    const SoftSkillsLanding = React.lazy(() => import('./components/Pages/SoftSkillsLanding/SoftSkillsLanding'));
 
     let language = i18next.use(LanguageDetector).language || 'en';
 
@@ -42,6 +43,7 @@ function App() {
                         <Route path={`/links`} component={Links} />
                         <Route path={`/about`} component={About} />
                         <Route path="/background" component={Background} />
+                        <Route path={`/softskills-landing`} component={SoftSkillsLanding} />
                         <Route path="/subscription" component={Subscription} />
                         <Route path="/subscriptionSuccess" component={SubscriptionSuccess} />
                         {/* <Route path="/project" component={Project} /> */}
