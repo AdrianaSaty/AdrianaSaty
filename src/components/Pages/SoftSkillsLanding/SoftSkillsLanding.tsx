@@ -1,7 +1,8 @@
 import React from 'react';
 import './SoftSkillsLanding.scss';
 import checkIcon from '../../../img/svgs/check.svg';
-import pauloPic from '../../../img/paulo.png';
+import saty from '../../../img/saty-test.jpg';
+
 function SoftSkillsLanding () {
 
     return (
@@ -11,7 +12,7 @@ function SoftSkillsLanding () {
                 <div className="container">
                     <h1 className="title">stepChanger</h1>
                     <div className="row">
-                        <div className="columns">
+                        <div className="columns animate-left">
                             <section className="text-align-left">
                                 <h2>O que você precisa para se sentir pronto!</h2>
                                 <p>Dê o primeiro passo para conseguir a vaga desejada! É só se cadastrar abaixo</p>
@@ -24,15 +25,15 @@ function SoftSkillsLanding () {
                             </form>
                         </div>
                         <div className="columns">
-                            <img src={pauloPic} alt="random img" className="img-fluid"></img>
+                            <img src={saty} alt="random img" className="img-fluid"></img>
                         </div>
                     </div>
-                    <h1 className="title">Planejar Conteúdo</h1>
+                    <h1 className="title animate-right">Planejar Conteúdo</h1>
                     <div className="row">
                         <div className="columns">
-                            <img src={pauloPic} alt="random img" className="img-fluid"></img>
+                            <img src={saty} alt="random img" className="img-fluid"></img>
                         </div>
-                        <div className="columns">
+                        <div className="columns animate-right">
                             <section className="text-align-right">
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error dolor eveniet ducimus iure deleniti minus, consequuntur quas!</p>
                                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
@@ -45,7 +46,7 @@ function SoftSkillsLanding () {
                         <button type="button" className="button">Quero fazer parte disso</button>
                     </div>
                     <div className="row">
-                        <div className="columns">
+                        <div className="columns animate-left">
                             <h1 className="title">O <strong>Portal</strong> é para você que:</h1>
                             <section className="text-align-left">
                                 <p><img src={checkIcon}></img> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error dolor eveniet ducimus iure deleniti minus, consequuntur quas!</p>
@@ -53,13 +54,15 @@ function SoftSkillsLanding () {
                             </section>
                         </div>
                         <div className="columns">
-                            <img src="https://picsum.photos/200" alt="random img" className="img-fluid"></img>
+                            <img src={saty} alt="Adriana Saty" className="img-fluid"></img>
                         </div>
                         {/* <Contador /> */}
                     </div>
-                    <h1 className="title">Eu sou a Adriana Saty.</h1>
-                    <img src="https://picsum.photos/300" alt="random img" className="img-fluid"></img>
-                    <section className="text-align-left">
+                    <h1 className="title animate-right">Eu sou a Adriana Saty.</h1>
+                    <div className="box">
+                        <img src={saty} alt="Adriana Saty" className="img-fluid"></img>
+                    </div>
+                    <section className="text-align-left animate-right">
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error dolor eveniet ducimus iure deleniti minus, consequuntur quas!</p>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error dolor eveniet ducimus iure deleniti minus.</p>

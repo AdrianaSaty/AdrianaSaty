@@ -7,6 +7,7 @@
         padding-top: 45px;
         padding-right: 15px;
         padding-left: 15px;
+        padding-bottom: 25px;
         margin-right: auto;
         margin-left: auto;
     }
@@ -113,6 +114,40 @@
         display: block;
         height: auto;
         margin: 0 auto;
+    }
+
+    .animate-left {
+        position: relative;
+        animation: animateleft 3s;
+    }
+    
+    @keyframes animateleft {
+        from {
+            left: -500px;
+            opacity: 0;
+        }
+    
+        to {
+            left: 0;
+            opacity: 1;
+        }
+    }
+    
+    .animate-right {
+        position: relative;
+        animation: animateright 3s;
+    }
+    
+    @keyframes animateright {
+        from {
+            left: 300px;
+            opacity: 0;
+        }
+    
+        to {
+            left: 0;
+            opacity: 1;
+        }
     }
 }
 
