@@ -4,14 +4,16 @@ import checkIcon from '../../../img/svgs/check.svg';
 import saty from '../../../img/saty-test.jpg';
 import stepChanger from '../../../img/logos/stepChanger.png'
 import landingBackgroundSection2 from '../../../img/landingBackgroundSection2.png'
+import CountdownTimer from '../../CountdownTimer/CountdownTimer';
 
 
 function SoftSkillsLanding() {
 
     return (
         <div className="softskills-landing">
+                <CountdownTimer />
+
             <main>
-                {/* <Contador /> */}
                 <section>
                     <div className='container'>
                         <div className='row'>
