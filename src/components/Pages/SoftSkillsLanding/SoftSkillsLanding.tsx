@@ -4,25 +4,22 @@ import checkIcon from '../../../img/svgs/check.svg';
 import saty from '../../../img/saty-test.jpg';
 import stepChanger from '../../../img/logos/stepChanger.png'
 import landingBackgroundSection2 from '../../../img/landingBackgroundSection2.png'
-import CountdownTimer from '../../CountdownTimer/CountdownTimer';
 
 
 function SoftSkillsLanding() {
 
     return (
         <div className="softskills-landing">
-            <CountdownTimer />
-
             <main>
+                {/* <Contador /> */}
                 <section>
                     <div className='container'>
                         <div className='row'>
-                            <div className="col-md-5 animate-left">
+                            <div className=" col-md-5 animate-left">
                                 {/* <img src={stepChanger} className="step-changer-logo" />
                             <h1 className="title">Softskills</h1> */}
                                 <div className="text-align-left">
                                     <h2 className='heading'>O que você precisa <br /> para se sentir pronto!</h2>
-                                    <img src={stepChanger} className="logo-mobile"></img>
                                     <p>Você está a <span>um clique</span> de se superar de uma forma que você nunca viu!<br></br></p>
                                 </div>
                                 <form className="box">
@@ -48,7 +45,7 @@ function SoftSkillsLanding() {
                 </section>
                 <section>
                     <div className='container'>
-                        <div className='row mt-3'>
+                        <div className='row'>
                             <div className="col-md-5 animate-left">
                                 <h1 className="title">Step <strong>Changer</strong> é para você que:</h1>
                                 <section className="text-align-left">
@@ -61,10 +58,12 @@ function SoftSkillsLanding() {
                             <div className="col-md-7">
                                 <img src={landingBackgroundSection2} className="saty-green-shirt" />
                             </div>
-                            <div className='col-md-12 mb-3'>
+                            <div className='col-md-12'>
                                 <div className='fixed-counter'>
                                     <div><p>14 / 05 / 2022</p></div>
+                                    <div><p>22h</p></div>
                                 </div>
+                                <img src={stepChanger} className="step-changer-logo" />
                             </div>
                         </div>
                     </div>
@@ -79,7 +78,7 @@ function SoftSkillsLanding() {
                                     <p>E agora eu quero ensinar a você a conseguir atingir seus objetivos de forma rápida, organizada e tranquila.</p>
                                     <p>A missão é: dividir o meu conhecimento para que você também consiga transformar suas metas em realidade.</p>
                                     <p>Sonhos morrem e frustrações aparecem. O segredo é sempre estar se adaptando e evoluindo</p>
-                                    <p>Vamos evoluir juntos e aproveitar o networking que esse grupo vai proporcionar!</p>
+                                    <p>Vamos evoluir juntos e aprovietar o networking que esse grupo vai proporcionar!</p>
                                     <p>Este é só o começo.</p>
                                 </div>
                             </div>

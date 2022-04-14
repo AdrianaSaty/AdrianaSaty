@@ -3,13 +3,16 @@
     src: local('EXEPixelPerfect'), url(../../../fonts/EXEPixelPerfect.ttf) format('ttf');
 }
 
+
 .softskills-landing {
     margin-right: auto;
     margin-left: auto;
+    padding: 45px 0 0 0;
     color: #404144;
     background-color: #ECEEED;
 
     .container {
+        padding-top: 30px;
         max-width: 880px;
         margin-left: auto;
         margin-right: auto;
@@ -18,6 +21,10 @@
     .container:before {
         content: " ";
         display: table;
+    }
+
+    .step-changer-logo {
+        width: 60%;
     }
 
     section:first-child {
@@ -30,7 +37,6 @@
             font-size: 50px;
             margin: 0px;
             max-width: 349px;
-            padding-top: 20px;
         }
         p{ 
             padding: 10px 0 0 0;
@@ -41,16 +47,10 @@
             font-weight: 900;
         }
         img {
-            width: 60%;
+            width: 50%;
             display: block;
             height: auto;
             margin: 0 auto;
-            margin-top: -25px;
-        }
-        @media (min-width: 767px) {
-            .logo-mobile {
-                display: none;
-            }
         }
     }
 
@@ -74,6 +74,9 @@
     .fixed-counter {
         width: 100%;
         margin: -40px 0;
+        display: grid;
+        grid-auto-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
         grid-row-gap: 16px;
         grid-column-gap: 16px;
@@ -124,6 +127,7 @@
     .box {
         max-width: 600px;
         margin: 0 auto;
+        margin-bottom: 30px;
     }
     
     .info-input {
@@ -174,7 +178,7 @@
         section:first-child {
             background-image: url('../../../img/landingBackgroundSection1Mobile.png');
             .heading {
-                padding-bottom: 180px;
+                padding-bottom: 150px;
             }
             .reach-your-goals {
                 padding-top: 120px;
