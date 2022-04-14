@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "EXEPixelPerfect";
+    src: local('EXEPixelPerfect'), url(../../fonts/EXEPixelPerfect.ttf) format('ttf');
+}
+
 .bar {
     background-color: #5BBE42;
     color: #FFF;
@@ -13,10 +18,23 @@
     margin: 0 auto;
 }
 
+.logo-desktop {
+    max-width: 250px;
+}
+@media (max-width: 767px) {
+    .logo-desktop {
+        display: none;
+    }
+
+    #logo {
+        display: none;
+    }
+}
+
 .time div {
     flex-basis: 200px;
 }
-@media (min-width: 768px) {
+@media (min-width: 767px) {
     .time div {
         flex-basis: 384px;
     }
@@ -25,16 +43,24 @@
 @media (min-width: 992px) {
     .time div {
         flex-basis: 496px;
+        margin-right: 70px;
     }
 }
 
 @media (min-width: 1200px) {
     .time div {
         flex-basis: 600px;
+        margin-right: 70px;
     }
 }
 
 .time div p{
-    font-size: 20px;
-    margin-bottom: -5px;
+    font-family: 'EXEPixelPerfect', sans-serif;
+    font-size: 35px;
+    margin-bottom: -20px;
+}
+
+.text {
+    font-family: 'EXEPixelPerfect', sans-serif;
+    font-size: 30px;
 }

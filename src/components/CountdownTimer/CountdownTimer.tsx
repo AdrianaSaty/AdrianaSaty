@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import './CountdownTimer.scss';
+import stepChanger from '../../img/logos/stepChanger-white.png'
 
 function CountdownTimer() {
 
@@ -32,27 +33,29 @@ function CountdownTimer() {
         <div className="bar">
             <div className="box">
                 <div className="time">
+                    <div id="logo">
+                        <img src={stepChanger} className="logo-desktop"></img>
+                    </div>
                     <div>
                         <p id="day">{timeToReleaseDate?.days}</p>
-                        <span>Dias</span>
+                        <span className="text">Dias</span>
                     </div>
                     <div>
                         <p id="hour">{timeToReleaseDate?.hours}</p>
-                        <span>Horas</span>
+                        <span className="text">Horas</span>
                     </div>
                     <div>
                         <p id="min">{timeToReleaseDate?.minutes}</p>
-                        <span>Minutos</span>
+                        <span className="text">Minutos</span>
                     </div>
                     <div>
                         <p id="sec">{timeToReleaseDate?.seconds}</p>
-                        <span>Segundos</span>
+                        <span className="text">Segundos</span>
                     </div>
                 </div>
             </div>
         </div>
     )
 }
-setInterval(CountdownTimer, 1000);
 
 export default CountdownTimer;
