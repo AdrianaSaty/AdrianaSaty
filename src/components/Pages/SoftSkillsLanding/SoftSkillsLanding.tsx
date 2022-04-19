@@ -34,7 +34,7 @@ function SoftSkillsLanding() {
                                     <p className="display-none-mobile">Dê o primeiro passo se cadastrando abaixo!</p>
                                 </div>
                                 <form>
-                                    <input type="text" className="info-input" name="nome" placeholder="Nome" required />
+                                    <input type="text" className="info-input" name="nome" placeholder="Nome" id='scroll' required />
                                     <input type="email" className="info-input" name="email" placeholder="E-mail" required />
                                     <button type="submit" className="button">QUERO ENTRAR NA LISTA</button>
                                 </form>
@@ -75,7 +75,9 @@ function SoftSkillsLanding() {
                                     <div className='d-flex align-items-center'>
                                         <CountdownTimer />
                                     </div>
-                                    <button type="submit" className="button">QUERO ENTRAR NA LISTA</button>
+                                    <a href='#scroll'>
+                                        <button type="submit" className="button">QUERO ENTRAR NA LISTA</button>
+                                    </a>
                                 </div>
                             </div>
                         </div>

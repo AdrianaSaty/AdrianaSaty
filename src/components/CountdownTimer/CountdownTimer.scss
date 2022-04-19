@@ -3,6 +3,14 @@
     src: local('EXEPixelPerfect'), url(../../fonts/EXEPixelPerfect.ttf) format('ttf');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none !important;
+}
+
 .bar {
     background-color: #000;
     font-family: 'EXEPixelPerfect',sans-serif;
