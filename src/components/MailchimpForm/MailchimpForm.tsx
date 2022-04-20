@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import './MailchimpForm.scss';
 import { Field, Form, Formik } from 'formik';
 import * as Yup from 'yup';
 import { useHistory } from 'react-router-dom';
@@ -18,21 +17,22 @@ const MailchimpFormSchema = Yup.object().shape({
 
 interface Props {
     onValidated: Function,
-    status: string | null
+    status: string | null,
+    nextPage: string
 }
 
 const MailchimpForm = (props: Props) => {
 
-    const { onValidated, status } = props;
+    const { onValidated, status, nextPage } = props;
     const history = useHistory();
 
 
     useEffect(() => {
         if (status === "error") console.log('errouuu');
         if (status === "success") {
-            history.push('/subscriptionSuccess');
+            history.push(nextPage);
         }
-    }, [status, history]);
+    }, [status, history, nextPage]);
 
     return (
         <div className='mailchimp-form'>

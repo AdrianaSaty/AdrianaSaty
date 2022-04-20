@@ -4,9 +4,12 @@ import checkIcon from '../../img/svgs/check.svg';
 import stepChangerGreen from '../../img/logos/stepChanger.png'
 import stepChangerWhite from '../../img/logos/stepChanger-white.png'
 import CountdownTimer from '../../components/CountdownTimer/CountdownTimer';
+import MailchimpSubscribe, { EmailFormFields } from 'react-mailchimp-subscribe';
+import MailchimpForm from '../../components/MailchimpForm/MailchimpForm';
 
 
 function SoftSkillsLanding() {
+    const postUrl = `https://adrianasaty.us20.list-manage.com/subscribe/post?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
 
     return (
         <div className="softskills-landing">
@@ -33,11 +36,24 @@ function SoftSkillsLanding() {
                                     <p>Eu vou te orientar e acompanhar de perto para você conseguir uma vaga ou conquistar uma promoção no mercado de TI.<br></br></p>
                                     <p className="display-none-mobile">Dê o primeiro passo se cadastrando abaixo!</p>
                                 </div>
-                                <form>
-                                    <input type="text" className="info-input" name="nome" placeholder="Nome" id='scroll' required />
-                                    <input type="email" className="info-input" name="email" placeholder="E-mail" required />
-                                    <button type="submit" className="button">QUERO ENTRAR NA LISTA</button>
-                                </form>
+                                <MailchimpSubscribe
+                                    url={postUrl}
+                                    render={({ subscribe, status }) => (
+                                        <>
+                                            {
+                                                <>
+                                                    <MailchimpForm
+                                                        onValidated={(formData: EmailFormFields) => subscribe(formData)}
+                                                        status={status}
+                                                        nextPage={'/subscriptionSuccess'}
+                                                    />
+                                                    {status === "error" && <p className='subscribe-message error'>E-mail já cadastrado!</p>}
+                                                    {status === "sending" && <p className='subscribe-message'>Loading...</p>}
+                                                </>
+                                            }
+                                        </>
+                                    )}
+                                />
                             </div>
                             <div className="col-md-7"></div>
                             <div className="col-md-6"></div>

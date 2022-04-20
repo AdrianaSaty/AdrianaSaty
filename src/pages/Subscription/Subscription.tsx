@@ -27,6 +27,7 @@ console.log(process.env.REACT_APP_MAILCHIMP_U)
                                     <MailchimpForm
                                         onValidated={(formData: EmailFormFields) => subscribe(formData)}
                                         status={status}
+                                        nextPage={'/subscriptionSuccess'}
                                     />
                                     {status === "error" && <p className='subscribe-message error'>E-mail já cadastrado!</p>}
                                     {status === "sending" && <p className='subscribe-message'>Loading...</p>}
