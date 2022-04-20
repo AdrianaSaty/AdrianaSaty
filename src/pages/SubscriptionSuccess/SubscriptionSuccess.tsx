@@ -1,6 +1,6 @@
 import React from 'react';
 import './SubscriptionSuccess.scss';
-import avatarGifSuccess from '../../../img/avatarGifSuccess.gif';
+import avatarGifSuccess from '../../img/avatarGifSuccess.gif';
 import { Link } from 'react-router-dom';
 
 

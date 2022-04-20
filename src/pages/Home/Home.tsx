@@ -1,13 +1,13 @@
 import React from 'react';
-import curriculum from './../../../img/curriculum.png';
-import computer from '../../../img/computer.png';
+import curriculum from '../../img/curriculum.png';
+import computer from '../../img/computer.png';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import './Home.scss';
-import Navbar from '../../Navbar/Navbar';
+import Navbar from '../../components/Navbar/Navbar';
 
 function Home() {
-    const Header = React.lazy(() => import('../../Header/Header'));
+    const Header = React.lazy(() => import('../../components/Header/Header'));
 
     const { t } = useTranslation();
 

@@ -1,6 +1,22 @@
 @font-face {
     font-family: "EXEPixelPerfect";
-    src: local('EXEPixelPerfect'), url(../../../fonts/EXEPixelPerfect.ttf) format('ttf');
+    src: local('EXEPixelPerfect'), url("../../fonts/EXEPixelPerfect.ttf") format('ttf');
+}
+
+.reach-your-goals {
+    font-size: 25px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.w-100 {
+    width: 100%;
 }
 
 .softskills-landing {
@@ -8,6 +24,19 @@
     margin-left: auto;
     color: #404144;
     background-color: #ECEEED;
+
+    header {
+        background-color: #404144;
+        color: #ECEEED;
+        padding: 5px 0;
+        .col-md-6 {
+            padding: 0;
+        }
+
+    }
+    .logo-step-changer {
+        width: 300px;
+    }
 
     .container {
         max-width: 880px;
@@ -20,12 +49,24 @@
         display: table;
     }
 
+    form {
+        margin-top: 10px;
+    }
+    .check-icon {
+        height: auto;
+        margin: 0 auto;
+        margin-top: -25px;
+        vertical-align: text-bottom;
+    }
+
     section:first-child {
-        background-image: url('../../../img/landingBackgroundSection1.png');
+        background-image: url('../../img/landingBackgroundSection1.png');
         background-position: top;
         background-size: auto;
         background-repeat: no-repeat;
         color: #404144;
+        padding-bottom: 40px;
+
         .heading {
             font-size: 50px;
             margin: 0px;
@@ -40,13 +81,6 @@
             color: #5BBE42;
             font-weight: 900;
         }
-        img {
-            width: 60%;
-            display: block;
-            height: auto;
-            margin: 0 auto;
-            margin-top: -25px;
-        }
         @media (min-width: 767px) {
             .logo-mobile {
                 display: none;
@@ -56,7 +90,8 @@
 
     section:nth-child(2) {
         background-color: #404144;
-        color: #FFFF;
+            padding-bottom: 10px;
+            color: #FFFF;
         img.saty-green-shirt {
             transform: rotateZ(11deg);
             width: 70%;
@@ -65,40 +100,11 @@
     }
 
     section:nth-child(3) {
-        background-image: url('../../../img/landingBackgroundSection3.png');
+        padding: 20px 0;
+        background-image: url('../../img/landingBackgroundSection3.png');
         background-position: 38%;
         background-size: auto;
         background-repeat: no-repeat;
-    }
-    
-    .fixed-counter {
-        width: 100%;
-        margin: -40px 0;
-        grid-template-rows: auto;
-        grid-row-gap: 16px;
-        grid-column-gap: 16px;
-        div {
-            grid-column-start: span 1;
-            grid-column-end: span 1;
-            grid-row-start: span 1;
-            grid-row-end: span 1;
-            background-color: #000;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            p{
-                font-family: 'EXEPixelPerfect',sans-serif;
-                color: #5BBE42;
-                font-size: 60px;
-                line-height: 40px;
-            }
-        }
-        div:nth-child(3) {
-            grid-column-start: 3;
-            grid-column-end: 5;
-            grid-row-start: 1;
-            grid-row-end: 2;
-        }
     }
 
     .title {
@@ -121,12 +127,7 @@
         text-align: right;
     }
     
-    .box {
-        max-width: 600px;
-        margin: 0 auto;
-    }
-    
-    .info-input {
+    input {
         width: 100%;
         color: #292929;
         font-size: 18px;
@@ -164,7 +165,7 @@
         background-color: #5BBE42;
     }
 
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 767px) { //MOBILE
         .display-none-mobile {
             display: none;
         }
@@ -172,18 +173,20 @@
             max-width: 380px;
         }
         section:first-child {
-            background-image: url('../../../img/landingBackgroundSection1Mobile.png');
+            background-image: url('../../img/landingBackgroundSection1Mobile.png');
             .heading {
-                padding-bottom: 180px;
+                padding-bottom: 250px;
+                font-size: 43px;
             }
             .reach-your-goals {
-                padding-top: 120px;
+                padding-top: 190px;
+                font-size: 25px;
             }
         }
         section:nth-child(3) {
             padding-top: 500px;
             background-position: 50% 9%;
-            background-image: url('../../../img/landingBackgroundSection3Mobile.png');
+            background-image: url('../../img/landingBackgroundSection3Mobile.png');
         }
     }
     
