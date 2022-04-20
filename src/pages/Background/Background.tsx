@@ -1,16 +1,16 @@
 import React from 'react';
-import ironhack from '../../../img/logos/logo-ironhack.png';
-import frankfurt from '../../../img/logos/logo-frankfurt.jpg';
-import ufpr from '../../../img/logos/logo-ufpr.png';
-import santander from '../../../img/logos/logo-santander.png';
-import itau from '../../../img/logos/logo-itau.png';
-import accenture from '../../../img/logos/logo-accenture.png';
-import renault from '../../../img/logos/logo-renault.png';
-import ironhackFriends from '../../../img/ironhackFriends.jpg';
-import renaultIntership from '../../../img/Renault.png';
+import ironhack from '../../img/logos/logo-ironhack.png';
+import frankfurt from '../../img/logos/logo-frankfurt.jpg';
+import ufpr from '../../img/logos/logo-ufpr.png';
+import santander from '../../img/logos/logo-santander.png';
+import itau from '../../img/logos/logo-itau.png';
+import accenture from '../../img/logos/logo-accenture.png';
+import renault from '../../img/logos/logo-renault.png';
+import ironhackFriends from '../../img/ironhackFriends.jpg';
+import renaultIntership from '../../img/Renault.png';
 import './Background.scss';
 import { useTranslation } from 'react-i18next';
-import Navbar from '../../Navbar/Navbar';
+import Navbar from '../../components/Navbar/Navbar';
 
 const professionalTimelineImages = [
     itau,
@@ -60,7 +60,7 @@ const technologies = [
 ]
 
 function Background() {
-    const TimelineBox = React.lazy(() => import('../../TimelineBox/TimelineBox'));
+    const TimelineBox = React.lazy(() => import('../../components/TimelineBox/TimelineBox'));
 
     const { t } = useTranslation();
     window.scrollTo(0, 0);

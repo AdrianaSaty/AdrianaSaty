@@ -1,6 +1,6 @@
 @font-face {
     font-family: "EXEPixelPerfect";
-    src: local('EXEPixelPerfect'), url(../../../fonts/EXEPixelPerfect.ttf) format('ttf');
+    src: local('EXEPixelPerfect'), url(../../fonts/EXEPixelPerfect.ttf) format('ttf');
 }
 
 .reach-your-goals {
@@ -60,7 +60,7 @@
     }
 
     section:first-child {
-        background-image: url('../../../img/landingBackgroundSection1.png');
+        background-image: url('../../img/landingBackgroundSection1.png');
         background-position: top;
         background-size: auto;
         background-repeat: no-repeat;
@@ -101,7 +101,7 @@
 
     section:nth-child(3) {
         padding: 20px 0;
-        background-image: url('../../../img/landingBackgroundSection3.png');
+        background-image: url('../../img/landingBackgroundSection3.png');
         background-position: 38%;
         background-size: auto;
         background-repeat: no-repeat;
@@ -173,7 +173,7 @@
             max-width: 380px;
         }
         section:first-child {
-            background-image: url('../../../img/landingBackgroundSection1Mobile.png');
+            background-image: url('../../img/landingBackgroundSection1Mobile.png');
             .heading {
                 padding-bottom: 200px;
                 font-size: 43px;
@@ -186,7 +186,7 @@
         section:nth-child(3) {
             padding-top: 500px;
             background-position: 50% 9%;
-            background-image: url('../../../img/landingBackgroundSection3Mobile.png');
+            background-image: url('../../img/landingBackgroundSection3Mobile.png');
         }
     }
     

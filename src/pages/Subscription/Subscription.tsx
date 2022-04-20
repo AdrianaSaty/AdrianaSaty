@@ -3,7 +3,7 @@ import './Subscription.scss';
 import MailchimpSubscribe, { EmailFormFields } from "react-mailchimp-subscribe";
 import { Field, Form, Formik } from 'formik';
 import * as Yup from 'yup';
-import avatarGifSmall from '../../../img/avatarGifSmall.gif';
+import avatarGifSmall from '../../img/avatarGifSmall.gif';
 import { useHistory } from 'react-router-dom';
 
 const SubscriptionSchema = Yup.object().shape({

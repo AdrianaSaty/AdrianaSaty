@@ -1,9 +1,9 @@
 import React from 'react';
 import './SoftSkillsLanding.scss';
-import checkIcon from '../../../img/svgs/check.svg';
-import stepChangerGreen from '../../../img/logos/stepChanger.png'
-import stepChangerWhite from '../../../img/logos/stepChanger-white.png'
-import CountdownTimer from '../../CountdownTimer/CountdownTimer';
+import checkIcon from '../../img/svgs/check.svg';
+import stepChangerGreen from '../../img/logos/stepChanger.png'
+import stepChangerWhite from '../../img/logos/stepChanger-white.png'
+import CountdownTimer from '../../components/CountdownTimer/CountdownTimer';
 
 
 function SoftSkillsLanding() {

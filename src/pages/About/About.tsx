@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import adrianaProgramming from '../../../img/Adriana-programming.png';
-import Navbar from '../../Navbar/Navbar';
+import adrianaProgramming from '../../img/Adriana-programming.png';
+import Navbar from '../../components/Navbar/Navbar';
 import './About.scss';
 
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import './Links.scss';
-import avatar from '../../../img/avatar.png';
-import youtube from '../../../img/logos/youtube.svg'
-import twitch from '../../../img/logos/twitch.svg'
+import avatar from '../../img/avatar.png';
+import youtube from '../../img/logos/youtube.svg'
+import twitch from '../../img/logos/twitch.svg'
 
 function Links() {
     return (
@@ -26,14 +26,14 @@ function Links() {
                 </li>
                 <li>
                     <a href="https://www.youtube.com/channel/UCPhVBS-1Uy-wIzj4hmjkcmA" target="_blank" rel="noopener noreferrer">
-                        <img className='img-logo' src={youtube} />
+                        <img alt='youtube logo' className='img-logo' src={youtube} />
                         YOUTUBE
                         <small>Vídeos em breve!</small>
                     </a>
                 </li>
                 <li>
                     <a href="https://www.twitch.tv/adrianasaty" target="_blank" rel="noopener noreferrer">
-                        <img className='img-logo-twitch' src={twitch} />
+                        <img alt='twitch logo' className='img-logo-twitch' src={twitch} />
                         Twitch
                         <small>Live Coding e Game Coding</small>
                     </a>
