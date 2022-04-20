@@ -1,6 +1,6 @@
 @font-face {
     font-family: "EXEPixelPerfect";
-    src: local('EXEPixelPerfect'), url(../../fonts/EXEPixelPerfect.ttf) format('ttf');
+    src: local('EXEPixelPerfect'), url("../../fonts/EXEPixelPerfect.ttf") format('ttf');
 }
 
 .reach-your-goals {
@@ -175,7 +175,7 @@
         section:first-child {
             background-image: url('../../img/landingBackgroundSection1Mobile.png');
             .heading {
-                padding-bottom: 200px;
+                padding-bottom: 250px;
                 font-size: 43px;
             }
             .reach-your-goals {
