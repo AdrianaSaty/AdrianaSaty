@@ -1,0 +1,43 @@
+.softskills-landing-success {
+    background-color: #E9E9E9;
+    color: #404144;
+    height: 100vh;
+    .background-dark{
+        background-color: black;
+    }
+    .center {
+        text-align: center;
+    }
+    .img-avatar-gif {
+        width: 30vh;
+    }
+    .container {
+        width: 310px;
+            h1 {
+                text-align: center;
+                padding: 40px 0;
+            }
+
+            .header-txt-success {
+                padding-top: 20px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
+            p{
+                font-size: 15px;
+                margin: 0;
+            }
+
+        button {
+            margin-top: 20px;
+            border: none;
+            padding: 10px;
+            width: 100%;
+            border-radius: 3px;
+            font-size: 18px;
+            background-color: #5BBE42;
+            color: #E9E9E9;
+        }
+    }
+}

@@ -6,6 +6,7 @@ import TagManager from 'react-gtm-module';
 import i18next from 'i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import SubscriptionSuccess from './pages/SubscriptionSuccess/SubscriptionSuccess';
+import SoftSkillsLandingSuccess from './pages/SoftSkillsLandingSuccess/SoftSkillsLandingSuccess';
 
 const tagManagerArgs = {
     gtmId: 'GTM-P6WN8SD'
@@ -42,11 +43,12 @@ function App() {
                         <Route path={"/"} exact={true} component={Home} />
                         <Route path={`/links`} component={Links} />
                         <Route path={`/about`} component={About} />
-                        <Route path="/background" component={Background} />
+                        <Route path={`/background`} component={Background} />
                         <Route path={`/softskills-landing`} component={SoftSkillsLanding} />
-                        <Route path="/subscription" component={Subscription} />
-                        <Route path="/subscriptionSuccess" component={SubscriptionSuccess} />
-                        {/* <Route path="/project" component={Project} /> */}
+                        <Route path={`/softskills-landing-success`} component={SoftSkillsLandingSuccess} />
+                        <Route path={`/subscription`} component={Subscription} />
+                        <Route path={`/subscription-success`} component={SubscriptionSuccess} />
+                        {/* <Route path={`/project`} component={Project} /> */}
                         <Route path='*' component={ErrorPage} />
                     </Switch>
                 </Suspense>
