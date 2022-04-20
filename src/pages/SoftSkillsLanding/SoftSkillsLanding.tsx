@@ -33,7 +33,7 @@ function SoftSkillsLanding() {
                                 <div className="text-align-left">
                                     <h2 className='heading'>Prepare-se para uma das profissões mais promissoras do mercado</h2>
                                     {/* <img src={stepChangerGreen} className="logo-mobile"></img> */}
-                                    <p>Eu vou te orientar e acompanhar de perto para você conseguir uma vaga ou conquistar uma promoção no mercado de TI.<br></br></p>
+                                    <p id='softskills-form'>Eu vou te orientar e acompanhar de perto para você conseguir uma vaga ou conquistar uma promoção no mercado de TI.<br></br></p>
                                     <p className="display-none-mobile">Dê o primeiro passo se cadastrando abaixo!</p>
                                 </div>
                                 <MailchimpSubscribe
@@ -61,8 +61,9 @@ function SoftSkillsLanding() {
                                 <h2 className='reach-your-goals'>
                                     Você se sente sem rumo na hora de planejar a sua carreira? <br /><br />
                                     Está sem foco ou não consegue tempo para pôr em prática os estudos
-                                    e dedicação necessários para fazer acontecer? Comigo você vai:
+                                    e dedicação necessários para fazer acontecer?
                                 </h2>
+                                <h4 className='mt-3'>Comigo você vai:</h4>
                                 <div className="text-align-left">
                                     <p><img className='check-icon' alt='check-icon' src={checkIcon}></img> Ter direcionamento de por onde começar e como.</p>
                                     <p><img className='check-icon' alt='check-icon' src={checkIcon}></img> Aprender métodos e hacks para atingir seus objetivos</p>
@@ -91,7 +92,7 @@ function SoftSkillsLanding() {
                                     <div className='d-flex align-items-center'>
                                         <CountdownTimer />
                                     </div>
-                                    <a href='#scroll'>
+                                    <a href='#softskills-form'>
                                         <button type="submit" className="button">QUERO ENTRAR NA LISTA</button>
                                     </a>
                                 </div>
