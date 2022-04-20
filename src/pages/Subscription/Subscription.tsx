@@ -1,83 +1,13 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './Subscription.scss';
 import MailchimpSubscribe, { EmailFormFields } from "react-mailchimp-subscribe";
-import { Field, Form, Formik } from 'formik';
-import * as Yup from 'yup';
 import avatarGifSmall from '../../img/avatarGifSmall.gif';
-import { useHistory } from 'react-router-dom';
+import MailchimpForm from '../../components/MailchimpForm/MailchimpForm';
 
-const SubscriptionSchema = Yup.object().shape({
-    name: Yup
-        .string()
-        .min(2, 'Nome muito curto!')
-        .max(50, 'Nome muito longo!')
-        .required('Campo obrigatório'),
-    email: Yup
-        .string()
-        .email('E-mail inválido')
-        .required('Campo obrigatório'),
-});
-
-interface Props {
-    onValidated: Function,
-    status: string | null
-}
-
-const SubscriptionForm = (props: Props) => {
-
-    const { onValidated, status } = props;
-    const history = useHistory();
-
-
-    useEffect(() => {
-        if (status === "error") console.log('errouuu');
-        if (status === "success") {
-            history.push('/subscriptionSuccess');
-        }
-    }, [status, history]);
-
-    return (
-        <Formik
-            initialValues={{
-                name: '',
-                email: '',
-            }}
-            validationSchema={SubscriptionSchema}
-            onSubmit={async (values) => {
-                onValidated({
-                    EMAIL: values.email,
-                    FNAME: values.name,
-                });
-            }}
-        >
-            {({ errors, touched, isValid, dirty }) => (
-                <Form>
-                    <div>
-                        <label htmlFor="name">Nome</label>
-                        <Field id="name" name="name" />
-                        {errors.name && touched.name ? (
-                            <div className='error'>{errors.name}</div>
-                        ) : null}
-                    </div>
-                    <div>
-                        <label htmlFor="email">Email</label>
-                        <Field id="email" name="email" type="email" className="input-effect" />
-                        {errors.email && touched.email ? (
-                            <div className='error'>{errors.email}</div>
-                        ) : null}
-                    </div>
-                    {/* <button type="submit" onClick={() => handleClick()}>Feito!</button> */}
-                    <button type="submit" disabled={!isValid || !dirty}>Feito!</button>
-                </Form>
-            )}
-        </Formik>
-
-    )
-};
 
 function Subscription() {
     const postUrl = `https://adrianasaty.us20.list-manage.com/subscribe/post?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
-
+console.log(process.env.REACT_APP_MAILCHIMP_U)
     return (
         <div className="subscription">
             <div className="container">
@@ -94,7 +24,7 @@ function Subscription() {
                                     <div className='header-txt'>
                                         <h3>Complete seu cadastro para receber novidades em primeira mão! :)</h3>
                                     </div>
-                                    <SubscriptionForm
+                                    <MailchimpForm
                                         onValidated={(formData: EmailFormFields) => subscribe(formData)}
                                         status={status}
                                     />

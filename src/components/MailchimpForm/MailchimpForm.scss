@@ -1,0 +1,22 @@
+.mailchimp-form 
+    form {
+        margin: 0 auto;
+        div {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+
+            .error {
+                color: red;
+            }
+            input {
+                color: white;
+                background-color: black;
+                border: none;
+                border-bottom: 1px solid grey;
+            }
+            label {
+                margin: 10px 0 5px 0;
+            }
+        }
+    }
