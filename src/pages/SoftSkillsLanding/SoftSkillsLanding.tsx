@@ -7,7 +7,6 @@ import CountdownTimer from '../../components/CountdownTimer/CountdownTimer';
 import MailchimpSubscribe, { EmailFormFields } from 'react-mailchimp-subscribe';
 import MailchimpForm from '../../components/MailchimpForm/MailchimpForm';
 
-
 function SoftSkillsLanding() {
     const postUrl = `https://adrianasaty.us20.list-manage.com/subscribe/post?u=${process.env.REACT_APP_MAILCHIMP_U}&id=${process.env.REACT_APP_MAILCHIMP_ID}`;
 
@@ -19,7 +18,7 @@ function SoftSkillsLanding() {
                         <img src={stepChangerGreen} alt="step changer logo green" className="logo-step-changer" />
                     </div>
                     <div className="col-md-6 d-flex align-items-center">
-                        <p>Saty Mentoria - Inscrições 27/abril</p>
+                        <p>Saty Mentoria - Inscrições até 03/maio</p>
                     </div>
                 </div>
             </header>
@@ -31,7 +30,7 @@ function SoftSkillsLanding() {
                                 <div className="text-align-left">
                                     <h2 className='heading'>Prepare-se para uma das profissões mais promissoras do mercado</h2>
                                     <p id='softskills-form'>Eu vou te orientar e acompanhar de perto para você conseguir uma vaga ou conquistar uma promoção em Tecnologia.<br></br></p>
-                                    <p className="display-none-mobile">Dê o primeiro passo se cadastrando abaixo!</p>
+                                    <p className="display-none-mobile">Condição exclusiva para os pré-inscritos no grupo de Whatsapp. Inscreva-se:</p>
                                 </div>
                                 <MailchimpSubscribe
                                     url={postUrl}
@@ -90,8 +89,8 @@ function SoftSkillsLanding() {
                                 <img src={stepChangerWhite} alt='step changer logo white' className="logo-step-changer" />
                                 <div className="text-align-left">
                                     <p>
-                                        Eu vou revelar o formato - inédito - dessa mentoria para quem estiver inscrito(a) na minha lista e no grupo de WhatsApp.
-                                        Te convido a se cadastrar para receber as novidades e garantir as melhores condições
+                                        Eu vou revelar o formato - inédito - dessa mentoria para quem estiver dentro do meu grupo de WhatsApp.
+                                        Cadastre-se agora e receba uma condição exclusiva ;)
                                     </p>
                                 </div>
                             </div>

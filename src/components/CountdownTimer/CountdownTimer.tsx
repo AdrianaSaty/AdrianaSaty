@@ -7,7 +7,7 @@ function CountdownTimer() {
 
 
     function calculateTimeToReleaseDate() {
-        const releaseDate = new Date('2022/05/14').getTime();
+        const releaseDate = new Date('2022/05/03').getTime();
         const nowDate = new Date().getTime();
         const milissecoundsToReleaseDate = Math.abs(releaseDate - nowDate);
 
