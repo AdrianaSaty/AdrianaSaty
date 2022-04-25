@@ -35,6 +35,17 @@ function App() {
         console.log(choosedLanguage, language)
     }
 
+    function showFooter() {
+        if (window.location.pathname.includes('softskills')) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+    console.log(
+        showFooter()
+
+    )
     return (
         <div className="app">
             <BrowserRouter>
@@ -52,8 +63,15 @@ function App() {
                         <Route path='*' component={ErrorPage} />
                     </Switch>
                 </Suspense>
+                {
+                    showFooter()
+                        ?
+                        <Footer changeLanguage={changeLanguage} />
+                        :
+                        <></>
+                }
             </ BrowserRouter>
-            <Footer changeLanguage={changeLanguage} />
+
         </div>
     )
 }
