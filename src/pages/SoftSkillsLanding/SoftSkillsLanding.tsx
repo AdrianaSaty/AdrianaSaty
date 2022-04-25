@@ -28,12 +28,9 @@ function SoftSkillsLanding() {
                     <div className='container'>
                         <div className='row'>
                             <div className="col-md-5 animate-left">
-                                {/* <img src={stepChangerGreen} className="step-changer-logo" />
-                            <h1 className="title">Softskills</h1> */}
                                 <div className="text-align-left">
                                     <h2 className='heading'>Prepare-se para uma das profissões mais promissoras do mercado</h2>
-                                    {/* <img src={stepChangerGreen} className="logo-mobile"></img> */}
-                                    <p id='softskills-form'>Eu vou te orientar e acompanhar de perto para você conseguir uma vaga ou conquistar uma promoção no mercado de TI.<br></br></p>
+                                    <p id='softskills-form'>Eu vou te orientar e acompanhar de perto para você conseguir uma vaga ou conquistar uma promoção em Tecnologia.<br></br></p>
                                     <p className="display-none-mobile">Dê o primeiro passo se cadastrando abaixo!</p>
                                 </div>
                                 <MailchimpSubscribe
@@ -65,10 +62,22 @@ function SoftSkillsLanding() {
                                 </h2>
                                 <h4 className='mt-3'>Comigo você vai:</h4>
                                 <div className="text-align-left">
-                                    <p><img className='check-icon' alt='check-icon' src={checkIcon}></img> Ter direcionamento de por onde começar e como.</p>
-                                    <p><img className='check-icon' alt='check-icon' src={checkIcon}></img> Aprender métodos e hacks para atingir seus objetivos</p>
-                                    <p><img className='check-icon' alt='check-icon' src={checkIcon}></img> Acessar de forma prática e rápida conteúdos que demorei anos para descobrir - testados na prática</p>
-                                    <p><img className='check-icon' alt='check-icon' src={checkIcon}></img> Desafios semanais: para colocar a mão na massa!</p>
+                                    <div className='d-flex'>
+                                        <img className='check-icon' alt='check-icon' src={checkIcon} />
+                                        <p> Ter direcionamento de por onde começar e como.</p>
+                                    </div>
+                                    <div className='d-flex'>
+                                        <img className='check-icon' alt='check-icon' src={checkIcon} />
+                                        <p> Aprender métodos e hacks para atingir seus objetivos.</p>
+                                    </div>
+                                    <div className='d-flex'>
+                                        <img className='check-icon' alt='check-icon' src={checkIcon} />
+                                        <p> Acessar de forma prática e rápida conteúdos que demorei anos para descobrir - testados na prática</p>
+                                    </div>
+                                    <div className='d-flex'>
+                                        <img className='check-icon' alt='check-icon' src={checkIcon} />
+                                        <p> Desafios semanais: para colocar a mão na massa!</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -111,7 +120,6 @@ function SoftSkillsLanding() {
                                     <p>O que talvez você não saiba é que eu já trabalhei nas maiores empresas de tecnologia do Brasil, como Itaú, Santander e Accenture!</p>
                                     <p>E agora eu quero ensinar a você a conseguir atingir seus objetivos de forma rápida, organizada e tranquila.</p>
                                     <p>A missão é: dividir o meu conhecimento para que você também consiga transformar suas metas em realidade.</p>
-                                    {/* <p>Sonhos morrem e frustrações aparecem. O segredo é sempre estar se adaptando e evoluindo</p> */}
                                     <p>Vamos evoluir juntos e aproveitar o networking que esse grupo vai proporcionar!</p>
                                     <p>Este é só o começo.</p>
                                 </div>

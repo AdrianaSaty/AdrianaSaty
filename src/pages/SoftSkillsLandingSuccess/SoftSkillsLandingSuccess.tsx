@@ -23,7 +23,7 @@ function SoftSkillsLandingSuccess() {
                         <button>Sou Homem</button>
                     </Link>
                     <Link to={{ pathname: "https://chat.whatsapp.com/G4EmOEK6qVWLyVc3y0tgal" }} target="_blank" >
-                        <button >Sou mulher / Não Binário</button>
+                        <button >Sou mulher / <br /> Me identifico como minoria</button>
                     </Link>
                 </div>
             </div >
