@@ -174,8 +174,10 @@
         }
         section:first-child {
             background-image: url('../../img/landingBackgroundSection1Mobile.png');
+            background-position: center top;
+            background-size: cover;
             .heading {
-                padding-bottom: 210px;
+                padding-bottom: 290px;
                 font-size: 40px;
             }
             .reach-your-goals {
