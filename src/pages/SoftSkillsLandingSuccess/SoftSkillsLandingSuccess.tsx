@@ -19,7 +19,7 @@ function SoftSkillsLandingSuccess() {
                 <div className='header-txt-success'>
                     <h3 className='center'>Agora só entrar no grupo!</h3>
                     <p className='center'>Não se preocupe, não vou mandar um monte de mensagens! ;)</p>
-                    <Link to={{ pathname: "https://chat.whatsapp.com/BdgMVyVkDH00QyPArkIEfz" }} target="_blank" >
+                    <Link to={{ pathname: "https://chat.whatsapp.com/Jk51VNON37c7fJlOPgJXiH" }} target="_blank" >
                         <button>Sou Homem</button>
                     </Link>
                     <Link to={{ pathname: "https://chat.whatsapp.com/G4EmOEK6qVWLyVc3y0tgal" }} target="_blank" >
