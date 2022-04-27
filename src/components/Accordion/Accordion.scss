@@ -26,9 +26,26 @@
 .accordion {
     width: 600px;
 }
+@media (max-width: 768px) {
+    .accordion {
+        max-width: 350px;
+    }
+}
+
+@media (min-width: 992px) {
+    .accordion {
+        max-width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .accordion {
+        max-width: 1170px;
+    }
+}
 
 .item {
-    border: none;
+    border: 1px solid #FFFF;
     border-radius: 5px;
     background-color: #404144;
     margin-bottom: 15px;
