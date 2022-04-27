@@ -23,36 +23,28 @@
     }
 }
 
-.wrapper {
-    display: flex;
-    height: 100vh;
-    width: 100vw;
-    justify-content: center;
-    align-items: center;
-}
-
 .accordion {
     width: 600px;
 }
 
 .item {
     border: none;
-    border-radius: 30px;
-    background-color: #3a475e;
+    border-radius: 5px;
+    background-color: #404144;
     margin-bottom: 15px;
     padding: 10px 25px;
 }
 
 .title {
     cursor: pointer;
-    color: #14d434;
+    color: #5BBE42;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .content {
-    color: #14d434;
+    color: #5BBE42;
     max-height: 0;
     overflow: hidden;
     transition: all 1s ease;
