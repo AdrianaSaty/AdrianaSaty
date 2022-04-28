@@ -19,7 +19,7 @@ function Accordion(props: Props) {
                         <div className="title" onClick={() => setSelected(!isSelected)}>
                             <div>{title}</div>
                             <span>
-                                {isSelected ? <img src={arrow} className='arrow-expanded'></img> : <img src={arrow} className='arrow-collapsed'></img>}
+                                {isSelected ? <img src={arrow} alt="arrow icon" className='arrow-expanded'></img> : <img src={arrow} alt="arrow icon" className='arrow-collapsed'></img>}
                             </span>
                         </div>
                         {isSelected && <div>{description}</div>}
