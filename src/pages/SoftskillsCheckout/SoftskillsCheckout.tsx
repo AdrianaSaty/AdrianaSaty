@@ -62,7 +62,7 @@ function SoftskillsCheckout() {
                             <div className="col-md-5 animate-left">
                                 <div className="text-align-left">
                                     <h2 className='heading'>Prepare-se para uma das profissões mais promissoras do mercado</h2>
-                                    <p id='softskills-form'>Eu vou te orientar e acompanhar de perto para você conseguir uma vaga ou conquistar uma promoção em Tecnologia.<br></br></p>
+                                    <p className='text-1'>Eu vou te orientar e acompanhar de perto para você conseguir uma vaga ou conquistar uma promoção em Tecnologia.<br></br></p>
                                 </div>
                             </div>
                             <div className="col-md-7"></div>
@@ -73,7 +73,7 @@ function SoftskillsCheckout() {
                                 <h4>
                                     Você já passou por isso?
                                 </h4>
-                                <div className="text-align-left">
+                                <div className="text-align-left pb-5 mb-3">
                                     <div className='d-flex'>
                                         <p>“O mercado só busca profissionais com experiência”</p>
                                     </div>

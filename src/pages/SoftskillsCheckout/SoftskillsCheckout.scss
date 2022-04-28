@@ -11,12 +11,17 @@
     }
     
     .reach-your-goals {
-        padding-top: 90px;
+        padding-top: 390px;
         padding-left: 10px;
         padding-bottom: -40px;
         font-size: 25px;
     }
-    
+    @media screen and (min-width: 767px) {
+        .reach-your-goals {
+            padding-top: 20px;
+        }
+    }
+
     .d-flex {
         display: flex;
     }
@@ -75,11 +80,17 @@
         section:first-child {
             background-image: url('../../img/landingBackgroundSection1.png');
             background-position: top;
-            background-size: auto;
+            background-size: contain;
             background-repeat: no-repeat;
             color: #404144;
             padding-bottom: 40px;
-    
+
+            @media screen and (min-width: 767px) {
+                section:first-child {
+                    background-size: cover;
+                }
+            }
+
             .heading {
                 font-size: 50px;
                 margin: 0px;
@@ -203,14 +214,19 @@
     
             section:first-child {
                 background-image: url('../../img/landingBackgroundSection1Mobile.png');
+                background-size: auto;
     
                 .heading {
                     padding-bottom: 210px;
                     font-size: 40px;
                 }
+
+                .text-1 {
+                    margin-top: 30px;
+                }
     
                 .reach-your-goals {
-                    padding-top: 50px;
+                    padding-top: 20px;
                     padding-bottom: 10px;
                     font-size: 25px;
                 }
