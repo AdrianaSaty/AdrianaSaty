@@ -23,6 +23,7 @@ function App() {
     const Subscription = React.lazy(() => import('./pages/Subscription/Subscription'));
     const ErrorPage = React.lazy(() => import('./pages/ErrorPage/ErrorPage'));
     const SoftSkillsLanding = React.lazy(() => import('./pages/SoftSkillsLanding/SoftSkillsLanding'));
+    const SoftskillsCheckout = React.lazy(() => import('./pages/SoftskillsCheckout/SoftskillsCheckout'));
 
     let language = i18next.use(LanguageDetector).language || 'en';
 
@@ -42,10 +43,7 @@ function App() {
             return true;
         }
     }
-    console.log(
-        showFooter()
-
-    )
+    
     return (
         <div className="app">
             <BrowserRouter>
@@ -56,6 +54,7 @@ function App() {
                         <Route path={`/about`} component={About} />
                         <Route path={`/background`} component={Background} />
                         <Route path={`/softskills-landing`} component={SoftSkillsLanding} />
+                        <Route path={`/softskills-checkout`} component={SoftskillsCheckout} />
                         <Route path={`/softskills-landing-success`} component={SoftSkillsLandingSuccess} />
                         <Route path={`/subscription`} component={Subscription} />
                         <Route path={`/subscription-success`} component={SubscriptionSuccess} />
