@@ -6,6 +6,11 @@
 .reach-your-goals {
     font-size: 25px;
 }
+@media screen and (max-width: 1920px) {
+    .reach-your-goals {
+        padding-top: 0px;
+    }
+}
 
 .d-flex {
     display: flex;
@@ -55,14 +60,14 @@
     .check-icon {
         height: auto;
         margin: 0 auto;
-        margin-top: -25px;
+        margin-right: 15px;
         vertical-align: text-bottom;
     }
 
     section:first-child {
         background-image: url('../../img/landingBackgroundSection1.png');
         background-position: top;
-        background-size: auto;
+        background-size: 1700px;
         background-repeat: no-repeat;
         color: #404144;
         padding-bottom: 40px;
@@ -102,7 +107,7 @@
     section:nth-child(3) {
         padding: 20px 0;
         background-image: url('../../img/landingBackgroundSection3.png');
-        background-position: 38%;
+        background-position: center;
         background-size: auto;
         background-repeat: no-repeat;
     }
@@ -170,16 +175,18 @@
             display: none;
         }
         .container {
-            max-width: 380px;
+            max-width: 360px;
         }
         section:first-child {
             background-image: url('../../img/landingBackgroundSection1Mobile.png');
+            background-position: center top;
+            background-size: cover;
             .heading {
-                padding-bottom: 250px;
-                font-size: 43px;
+                padding-bottom: 290px;
+                font-size: 40px;
             }
             .reach-your-goals {
-                padding-top: 190px;
+                padding-top: 220px;
                 font-size: 25px;
             }
         }
