@@ -22,7 +22,7 @@ function Accordion(props: Props) {
                                 {isSelected ? <img src={arrow} alt="arrow icon" className='arrow-expanded'></img> : <img src={arrow} alt="arrow icon" className='arrow-collapsed'></img>}
                             </span>
                         </div>
-                        {isSelected && <div>{description}</div>}
+                        {isSelected && <div className='content'>{description}</div>}
                     </div>
                 </div>
             </div>

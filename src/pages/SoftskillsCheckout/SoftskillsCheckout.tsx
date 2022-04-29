@@ -2,6 +2,12 @@ import React from 'react';
 import './SoftskillsCheckout.scss';
 import '../../components/Accordion/Accordion'
 import checkIcon from '../../img/svgs/check.svg';
+import itauIcon from '../../img/svgs/itau.svg';
+import accentureIcon from '../../img/svgs/accenture.svg';
+import santanderIcon from '../../img/svgs/santander.svg';
+import mountIcon from '../../img/svgs/mountain.svg';
+import archIcon from '../../img/svgs/arch.svg';
+import calendarIcon from '../../img/calendar.png';
 import Accordion from '../../components/Accordion/Accordion';
 import stepChangerGreen from '../../img/logos/stepChanger.png';
 import stepChangerWhite from '../../img/logos/stepChanger-white.png';
@@ -55,6 +61,9 @@ function SoftskillsCheckout() {
                     </div>
                 </div>
             </header>
+            <div className='warning text-center'>
+                <h5>Vagas Limitadas!</h5>
+            </div>
             <main>
                 <section>
                     <div className='container'>
@@ -63,6 +72,9 @@ function SoftskillsCheckout() {
                                 <div className="text-align-left">
                                     <h2 className='heading'>Prepare-se para uma das profissões mais promissoras do mercado</h2>
                                     <p className='text-1'>Eu vou te orientar e acompanhar de perto para você conseguir uma vaga ou conquistar uma promoção em Tecnologia.<br></br></p>
+                                    <a href='https://sun.eduzz.com/1392148'>
+                                        <button type='submit' className='button'>QUERO FAZER PARTE !</button>
+                                    </a>
                                 </div>
                             </div>
                             <div className="col-md-7"></div>
@@ -97,85 +109,90 @@ function SoftskillsCheckout() {
                 <section>
                     <div className='container'>
                         <div className='row justify-content-center mt-3'>
-                            <div className="col-md-6 animate-left">
+                            <div className="col-md-6 animate-left mb-3">
                                 <img src={stepChangerWhite} alt='step changer logo white' className="logo-step-changer" />
                             </div>
                         </div>
                         <div className='row'>
+                            <div className='col-md-6 arch-mobile justify-content-center mt-3 mt-3'>
+                                <img src={archIcon} alt='arch svg' />
+                            </div>
                             <div className="col-md-6 animate-left mt-3">
                                 <p>
                                     Na mentoria você vai:
                                 </p>
                                 <ul>
                                     <li>
-                                        Ter direcionamento de como começar
-
+                                        Direcionar sua carreira para onde você quer chegar. No distraction!
                                     </li>
                                     <li>
-                                        Aprender métodos e hacks para atingir seus objetivos
+                                        Aprender métodos e hacks para atingir seus objetivos;
                                     </li>
                                     <li>
-                                        Desafios práticos para não procrastinar na hora de agir
+                                        Colocar na prática o que foi aprendido através de desafios;
                                     </li>
                                     <li>
-                                        Acessar de forma prática e rápida conteúdos que demorei anos para descobrir testados na prática
-                                    </li>
-                                    <li>
-                                        Ter o meu acompanhamento na hora da dúvida
-                                    </li>
-                                    <li>
-                                        Ter o apoio dos outros participantes com os mesmos objetivos que você
+                                        Ter o meu acompanhamento semanal.
                                     </li>
                                 </ul>
                             </div>
-                            <div className='col-md-6'></div>
-                            <div className='col-md-6'></div>
+                            <div className='col-md-6'>
+                                <img src={archIcon} alt='arch icon' className='arch-desktop' />
+                            </div>
+                            <div className='col-md-6 mt-5 justify-content-center d-flex'>
+                                <img src={calendarIcon} alt='calendar icon' className='calendar' />
+                            </div>
                             <div className="col-md-6 animate-left mt-3">
                                 <p>
                                     O StepChanger é para você que:
                                 </p>
                                 <ul>
                                     <li>
-                                        Se sente perdido(a) do próximo passo o por onde começa
-
+                                        Se sente perdido e não sabe por onde começar;
                                     </li>
                                     <li>
-                                        Tem dificuldade em se organizar para estudar ou buscar novas oportunidades
-
+                                        Tem dificuldade em se organizar para estudar ou buscar novas oportunidades;
                                     </li>
                                     <li>
-                                        Quer ter a liberdade de escolher para qual empresa trabalhar
-
+                                        Quer ter a liberdade de escolher para qual empresa trabalhar;
                                     </li>
                                     <li>
-                                        Quer um planejamento + prática para executar logo
-
+                                        Quer ter controle das próprias decisões;
                                     </li>
                                 </ul>
                             </div>
                             <div className='col-md-6'></div>
-                            <div className='col-md-6'></div>
-                            <div className="col-md-6 animate-left mt-3">
+                            <div className='col-md-6 mt-5'>
+                                <img src={mountIcon} alt='mountain icon' className='mountain-mobile' />
+                            </div>
+                            <div className="col-md-6 animate-left mt-3 pr-3">
                                 <p>
                                     Qual etapa você está?
                                 </p>
                                 <ul>
                                     <li>
-                                        Quer entrar no mercado da tecnologia mas se sente perdido(a)
+                                        Quer entrar no mercado da tecnologia;
                                     </li>
                                     <li>
-                                        Atua em alguma área, mas quer fazer transição para tecnologia
+                                        Atua em alguma área, mas quer fazer transição para tecnologia;
                                     </li>
                                     <li>
-                                        Já trabalha em tecnologia e quer impulsionar a carreira
+                                        Já trabalha em tecnologia e quer impulsionar a carreira;
                                     </li>
                                 </ul>
                             </div>
+                            <div className='col-md-6'>
+                                <img src={mountIcon} alt='mountain icon' className='mountain-desktop' />
+                            </div>
                         </div>
+                        <a href='https://sun.eduzz.com/1392148'>
+                            <button type='submit' className='button'>QUERO FAZER PARTE !</button>
+                        </a>
                     </div>
                 </section>
                 <section>
                     <div className='container'>
+                        <h2>Módulos</h2>
                         <div className='row justify-content-center mt-3'>
                             Serão 5 encontros nos sábados, ao vivo e em grupo pelo Zoom, e em cada encontro vamos falar dos temas:
 
@@ -209,13 +226,15 @@ function SoftskillsCheckout() {
                         </div>
                         <div className='row'>
                             <div className='col-md-6'>
-                                <h4 className='price'>
-                                    DE:<span className='price cross'>R$ 599,99</span>
+                                <h2 className='price'>
+                                    <span className='price-part'>12x de </span>
+                                    R<span className='space'>$</span>29,70
                                     <br></br>
-                                    POR:</h4>
+                                    <span className='price-part'>Ou:</span>
+                                </h2>
                                 <div>
-                                    <h2 className='price container'>
-                                        R$ 123,00
+                                    <h2 className='price'>
+                                        R<span className='space'>$</span>297,00
                                     </h2>
                                 </div>
                             </div>
@@ -223,7 +242,7 @@ function SoftskillsCheckout() {
                                 <ul className='mt-3'>
                                     <li>
                                         <img src={checkIcon} alt='check-icon' className='check-icon' />
-                                        5 semanas de encontro ao vivo comigo (14/mai - 11/jun, sábados, às 10h
+                                        5 semanas de encontro ao vivo comigo (14/mai - 11/jun, sábados, às 10h)
                                     </li>
                                     <li>
                                         <img src={checkIcon} alt='check-icon' className='check-icon' />
@@ -260,9 +279,24 @@ function SoftskillsCheckout() {
                 </section>
                 <section>
                     <div className='container'>
+                        feedbacks
+                    </div>
+                </section>
+                <section>
+                    <div className='container'>
+                        <h2 className='text-center mt-3 mb-3'>Empresas que já trabalhei:</h2>
+                        <div className='row justify-content-center'>
+                            <img src={itauIcon} className="logo" alt='Itau logo' />
+                            <img src={accentureIcon} className="logo" alt='Accenture logo' />
+                            <img src={santanderIcon} className="logo" alt='Santander logo' />
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div className='container'>
                         <div className='row'>
                             <div className="col-md-5 animate-left">
-                                <h1 className="title animate-right">Eu sou a Adriana Saty.</h1>
+                                <h2 className="animate-right">Eu sou a <br></br> Adriana Saty</h2>
                                 <div className="text-align-left animate-right">
                                     <p>Você pode me conhecer pelos meus tutoriais de programação do Youtube, pelos meus stories do Instagram ou vídeos de humor no Tiktok. Eu mostro o que eu sou e o que eu sei nas minhas redes sociais!</p>
                                     <p>O que talvez você não saiba é que eu já trabalhei nas maiores empresas de tecnologia do Brasil, como Itaú, Santander e Accenture!</p>
