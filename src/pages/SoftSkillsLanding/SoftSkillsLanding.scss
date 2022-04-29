@@ -6,6 +6,11 @@
 .reach-your-goals {
     font-size: 25px;
 }
+@media screen and (max-width: 1920px) {
+    .reach-your-goals {
+        padding-top: 0px;
+    }
+}
 
 .d-flex {
     display: flex;
@@ -62,7 +67,7 @@
     section:first-child {
         background-image: url('../../img/landingBackgroundSection1.png');
         background-position: top;
-        background-size: 127%;
+        background-size: 1700px;
         background-repeat: no-repeat;
         color: #404144;
         padding-bottom: 40px;
