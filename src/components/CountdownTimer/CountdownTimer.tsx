@@ -5,9 +5,8 @@ function CountdownTimer() {
 
     const [timeToReleaseDate, setTimeToReleaseDate] = useState({ days: 0, hours: 0, minutes: 0, seconds: 0});
 
-
     function calculateTimeToReleaseDate() {
-        const releaseDate = new Date('2022/05/03').getTime();
+        const releaseDate = new Date('2022/05/08').getTime();
         const nowDate = new Date().getTime();
         const milissecoundsToReleaseDate = Math.abs(releaseDate - nowDate);
 
