@@ -29,7 +29,7 @@ const questions: Questions = [
             como definir e atingir metas 🎯`,
     },
     {
-        title: "2 - Ajuste seu Comportamentamento",
+        title: "2 - Ajuste seu Comportamento",
         description:
             "Aprenda como se organizar, lidar com a síndrome do impostor, e hackear seu corpo e mente 👨‍💻👩‍💻",
     },
@@ -59,7 +59,7 @@ function SoftskillsCheckout() {
                         <img src={stepChangerGreen} alt="step changer logo green" className="logo-step-changer" />
                     </div>
                     <div className="col-md-6 d-flex align-items-center">
-                        <p>Saty Mentoria - Inscrições 03/maio</p>
+                        <p>Saty Mentoria - Inscrições até domingo 08/05!</p>
                     </div>
                 </div>
             </header>
@@ -214,7 +214,7 @@ function SoftskillsCheckout() {
                                 </div>
                                 <p>
                                     A cada encontro, teremos um tempo para conversarmos e te orientar nas suas dificuldades. Também vai ser enviado toda semana um desafio para você já colocar isso em prática.
-                                    As gravações dos encontros vão ficar por 1 mês para você rever.
+                                    As gravações dos encontros vão ficar disponíveis por 1 mês para você rever.
                                     Teremos um servidor no Discord: você vai poder interagir comigo e outros participantes na comunidade exclusiva da mentoria
                                 </p>
                             </div>
