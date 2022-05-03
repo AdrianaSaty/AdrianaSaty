@@ -1,14 +1,9 @@
 .softskills-checkout {
-        margin-right: auto;
-        margin-left: auto;
-        
-        background-color: #ECEEED;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0;
 
-    * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-    }
+    background-color: #ECEEED;
 
     .warning {
         background-color: #5BBE42;
@@ -18,40 +13,30 @@
     }
 
     .calendar {
-        max-width: 250px;
+        width: 80px;
+        height: 80px;
     }
-    @media screen and (max-width: 767px) {
-        .calendar {
-            max-width: 150px;
-        }
+
+    .mountain-desktop {
+        width: 120px;
     }
+
 
     .mountain-mobile {
-        max-width: 250px;
+        width: 150px;
         display: none;
-    }
-    @media screen and (max-width: 767px) {
-        .mountain-desktop {
-            display: none;
-        }
-
-        .mountain-mobile {
-            display: flex;
-            max-width: 250px;
-        }
     }
 
     .arch-mobile {
-        display: none;
-    }
-    @media screen and (max-width: 767px) {
-        .arch-desktop {
-            display: none;
+        img {
+            width: 100px;
         }
 
-        .arch-mobile {
-        display: flex;
-        }
+        display: none;
+    }
+
+    .arch-desktop {
+        width: 100px;
     }
 
     .reach-your-goals {
@@ -60,317 +45,293 @@
         padding-bottom: -40px;
         font-size: 25px;
     }
+
     @media screen and (min-width: 767px) {
         .reach-your-goals {
             padding-top: 20px;
         }
     }
 
-    .d-flex {
-        display: flex;
-    }
-    
     .align-items-center {
         align-items: center;
     }
-    
-    .w-100 {
-        width: 100%;
+
+    .display-none-desktop {
+        display: none;
     }
-    li{
+
+    li {
         list-style-type: none;
+        margin-bottom: 10px;
+        margin-left: -25px;
     }
-        header {
-            background-color: #404144;
-            color: #ECEEED;
-            padding: 5px 0;
-    
-            .col-md-6 {
-                padding: 0;
+
+    header {
+        background-color: #404144;
+        color: #ECEEED;
+        padding: 5px 0;
+
+        .col-md-6 {
+            padding: 0;
+        }
+
+    }
+
+    .logo-step-changer {
+        width: 300px;
+    }
+
+    .container {
+        max-width: 880px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    form {
+        margin-top: 10px;
+    }
+
+    .check-icon {
+        height: auto;
+        margin: 0 auto;
+        margin-right: 5px;
+        vertical-align: text-bottom;
+    }
+
+    section:first-child {
+        background-image: url('../../img/landingBackgroundSection1.png');
+        background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+        color: #404144;
+        padding-bottom: 40px;
+
+        @media screen and (min-width: 768px) {
+            background-size: 1400px;
+        }
+
+        @media screen and (min-width: 1024px) {
+            background-size: 1200px;
+        }
+
+
+        .heading {
+            font-size: 50px;
+            margin: 0px;
+            max-width: 349px;
+            padding-top: 20px;
+        }
+
+        p {
+            // padding: 10px 0 0 0;
+            font-weight: normal;
+        }
+
+        span {
+            color: #5BBE42;
+            font-weight: 900;
+        }
+
+        @media (min-width: 767px) {
+            .logo-mobile {
+                display: none;
             }
-    
         }
-    
-        .logo-step-changer {
-            width: 300px;
-        }
-    
-        .container {
-            max-width: 880px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    
-        .container:before {
-            content: " ";
-            display: table;
-        }
-    
-        form {
-            margin-top: 10px;
-        }
-    
-        .check-icon {
-            height: auto;
-            margin: 0 auto;
-            margin-right: 5px;
-            vertical-align: text-bottom;
-        }
+    }
+
+    section:nth-child(2) {
+        background-color: #404144;
+        padding-bottom: 10px;
+        color: #FFFF;
 
         li {
-            margin-bottom: 10px;
+            list-style-type: square;
         }
-    
+    }
+
+    section:nth-child(3) {
+        padding: 20px 0;
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+
+    section:nth-child(4) {
+        background-color: #404144;
+        color: #FFFF;
+    }
+
+    section:nth-child(6) {
+        background-color: #404144;
+        color: #FFFF;
+    }
+
+    .logo {
+        margin: 20px;
+    }
+
+    section:nth-child(7) {
+        padding: 20px 0;
+        background-image: url('../../img/landingBackgroundSection3.png');
+        background-position: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+
+    .title {
+        font-size: 18px;
+        padding: 5px;
+        text-align: left;
+    }
+
+    p {
+        font-size: 18px;
+        margin-bottom: 2px;
+    }
+
+    .text-align-left {
+        text-align: left;
+    }
+
+    .text-align-right {
+        text-align: right;
+    }
+
+    .text-accordion {
+        color: #FFFF;
+    }
+
+    input {
+        width: 100%;
+        color: #292929;
+        font-size: 18px;
+        background-color: #E9E9E9;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        height: 40px;
+        margin-bottom: 10px;
+        text-indent: 20px;
+    }
+
+    button {
+        width: 100%;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 5px;
+        align-items: center;
+        color: #FFFF;
+        height: 40px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        background: #5BBE42;
+        border: none;
+        display: block;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .button:hover {
+        box-shadow: 0px 0px 46px 14px #5BBE42;
+    }
+
+    .end-line {
+        height: 5px;
+        background-color: #5BBE42;
+    }
+
+    @media screen and (max-width: 767px) {
+
+        //MOBILE
+        .display-none-mobile {
+            display: none;
+        }
+        .display-none-desktop {
+            display:flex;
+        }
+
+        .container {
+            max-width: 360px;
+        }
+
+        .calendar {
+            max-width: 150px;
+        }
+
+        .mountain-desktop {
+            display: none;
+        }
+
+        .mountain-mobile {
+            display: flex;
+            max-width: 250px;
+        }
+
+        .arch-desktop {
+            display: none;
+        }
+
+        .arch-mobile {
+            display: flex;
+
+        }
+
         section:first-child {
-            background-image: url('../../img/landingBackgroundSection1.png');
-            background-position: top;
-            background-size: contain;
+            background-image: url('../../img/landingBackgroundSection1Mobile.png');
+            background-position: center top;
+            background-size: 800px;
             background-repeat: no-repeat;
-            color: #404144;
-            padding-bottom: 40px;
-
-            @media screen and (min-width: 768px) {
-                background-size: 1400px;
-            }
-
-            @media screen and (min-width: 1024px) {
-                background-size: 1200px;
-            }
-            
 
             .heading {
-                font-size: 50px;
-                margin: 0px;
-                max-width: 349px;
-                padding-top: 20px;
+                padding-bottom: 230px;
+                font-size: 40px;
             }
-    
-            p {
-                padding: 10px 0 0 0;
-                font-weight: normal;
-            }
-    
-            span {
-                color: #5BBE42;
-                font-weight: 900;
-            }
-    
-            @media (min-width: 767px) {
-                .logo-mobile {
-                    display: none;
-                }
-            }
-        }
-    
-        section:nth-child(2) {
-            background-color: #404144;
-            padding-bottom: 10px;
-            color: #FFFF;
-            li{
-                list-style-type: square;
-            }
-        }
-    
-        section:nth-child(3) {
-            padding: 20px 0;
-            background-position: center;
-            background-size: auto;
-            background-repeat: no-repeat;
-        }
 
-        section:nth-child(4) {
-            background-color: #404144;
-            color: #FFFF;
-        }
+            .text-1 {
+                margin-top: 60px;
+            }
 
-        section:nth-child(6) {
-            background-color: #404144;
-            color: #FFFF;
-        }
-        
-        .logo {
-            margin: 20px;
+            .reach-your-goals {
+                padding-top: 0px;
+                padding-bottom: 10px;
+                font-size: 25px;
+            }
+
         }
 
         section:nth-child(7) {
-            padding: 20px 0;
-            background-image: url('../../img/landingBackgroundSection3.png');
-            background-position: center;
-            background-size: auto;
-            background-repeat: no-repeat;
-        }
-    
-        .title {
-            font-size: 18px;
-            padding: 5px;
-            text-align: left;
-        }
-    
-        p {
-            font-size: 18px;
-            margin-bottom: 2px;
-            padding: 10px;
-        }
-    
-        .text-align-left {
-            text-align: left;
-        }
-    
-        .text-align-right {
-            text-align: right;
+            padding-top: 500px;
+            background-position: 50% 9%;
+            background-image: url('../../img/landingBackgroundSection3Mobile.png');
         }
 
-        .text-accordion {
-            color: #FFFF;
+        .price-and-benefits {
+            flex-wrap: wrap-reverse;
         }
-    
-        input {
-            width: 100%;
-            color: #292929;
-            font-size: 18px;
-            background-color: #E9E9E9;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            height: 40px;
-            margin-bottom: 10px;
-            text-indent: 20px;
-        }
-    
-        button {
-            width: 100%;
-            font-size: 18px;
-            font-weight: 600;
-            border-radius: 5px;
-            align-items: center;
-            color: #FFFF;
-            height: 40px;
-            margin-bottom: 20px;
-            cursor: pointer;
-            background: #5BBE42;
-            border: none;
-            display: block;
-            margin-top: 15px;
-            margin-bottom: 15px;
-        }
-    
-        .button:hover {
-            box-shadow: 0px 0px 46px 14px #5BBE42;
-        }
-    
-        .end-line {
-            height: 5px;
-            background-color: #5BBE42;
-        }
-    
-        @media screen and (max-width: 767px) {
-    
-            //MOBILE
-            .display-none-mobile {
-                display: none;
-            }
-    
-            .container {
-                max-width: 360px;
-            }
-    
-            section:first-child {
-                background-image: url('../../img/landingBackgroundSection1Mobile.png');
-                background-position: center top;
-                background-size: 800px;
-                background-repeat: no-repeat;
-    
-                .heading {
-                    padding-bottom: 210px;
-                    font-size: 40px;
-                }
+    }
 
-                .text-1 {
-                    margin-top: 60px;
-                }
-    
-                .reach-your-goals {
-                    padding-top: 0px;
-                    padding-bottom: 10px;
-                    font-size: 25px;
-                }
+    .price-part {
+        color: #5BBE42;
+        font-family: 'EXEPixelPerfect', sans-serif;
+        font-size: 40px;
+    }
 
-            }
-
-                section:nth-child(7) {
-                    padding-top: 500px;
-                    background-position: 50% 9%;
-                    background-image: url('../../img/landingBackgroundSection3Mobile.png');
-                }
-        }
-
-        .padding {
-            padding-top: 40px;
-        }
-    
-        .animate-left {
-            position: relative;
-            animation: animateleft 2s;
-        }
-    
-        @keyframes animateleft {
-            from {
-                left: -100px;
-                opacity: 0;
-            }
-    
-            to {
-                left: 0;
-                opacity: 1;
-            }
-        }
-    
-        .animate-right {
-            position: relative;
-            animation: animateright 2s;
-        }
-    
-        @keyframes animateright {
-            from {
-                left: 100px;
-                opacity: 0;
-            }
-    
-            to {
-                left: 0;
-                opacity: 1;
-            }
-        }
-
-        .double-div div {
-            min-height: 135px;
-        }
-        
-        @media screen and (max-width: 767px) {
-            #one {
-                float: none;
-                margin-right: 0;
-                width: auto;
-                border: 0;
-            }
-        }
-
-        .price-part {
-            color: #5BBE42;
-            font-family: 'EXEPixelPerfect',sans-serif;
-            font-size: 40px;
-        }
-
-        .price {
-            color: #5BBE42;
+    .price {
+        span {
             font-family: 'EXEPixelPerfect', sans-serif;
-            font-size: 75px;
+            font-size: 100px;
         }
+        padding-top: 20px;
+        color: #5BBE42;
+        font-family: 'EXEPixelPerfect',
+        sans-serif;
+        font-size: 45px;
+    }
 
-        .space {
-            font-family: 'EXEPixelPerfect',
-            sans-serif;
-            letter-spacing: 10px;
-        }
+    .space {
+        font-family: 'EXEPixelPerfect', msans-serif;
+        font-size: 45px;
+        display: inline;
+    }
 
 }
 
@@ -385,4 +346,38 @@
 ::-webkit-scrollbar-thumb {
     background: #404144;
     border-radius: 15px;
+}
+
+.animate-left {
+    position: relative;
+    animation: animateleft 2s;
+}
+
+@keyframes animateleft {
+    from {
+        left: -100px;
+        opacity: 0;
+    }
+
+    to {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+.animate-right {
+    position: relative;
+    animation: animateright 2s;
+}
+
+@keyframes animateright {
+    from {
+        left: 100px;
+        opacity: 0;
+    }
+
+    to {
+        left: 0;
+        opacity: 1;
+    }
 }

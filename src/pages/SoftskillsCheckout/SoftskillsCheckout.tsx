@@ -10,7 +10,6 @@ import archIcon from '../../img/svgs/arch.svg';
 import calendarIcon from '../../img/calendar.png';
 import Accordion from '../../components/Accordion/Accordion';
 import stepChangerGreen from '../../img/logos/stepChanger.png';
-import stepChangerWhite from '../../img/logos/stepChanger-white.png';
 import CountdownTimer from '../../components/CountdownTimer/CountdownTimer';
 
 interface Question {
@@ -22,29 +21,32 @@ interface Questions extends Array<Question> { }
 
 const questions: Questions = [
     {
-        title: "Como funciona o mercado da tecnologia?",
+        title: "1 - Faça sua Oportunidade!",
         description:
-            "Tenetur ullam rerum ad iusto possimus sequi mollitia dolore sunt quam praesentium. Tenetur ullam rerum ad iusto possimus sequi mollitia dolore sunt quam praesentium.Tenetur ullam rerum ad iusto possimus sequi mollitia dolore sunt quam praesentium.",
+            `Vou dar um overview das oportunidades em tecnologia, 
+            o que é esperado de um profissional de TI, 
+            como criar a sua oportunidade e por fim
+            como definir e atingir metas 🎯`,
     },
     {
-        title: "Como se organizar da melhor forma?",
+        title: "2 - Ajuste seu Comportamentamento",
         description:
-            "Aperiam ab atque incidunt dolores ullam est, earum ipsa recusandae velit cumque. Aperiam ab atque incidunt dolores ullam est, earum ipsa recusandae velit cumque.",
+            "Aprenda como se organizar, lidar com a síndrome do impostor, e hackear seu corpo e mente 👨‍💻👩‍💻",
     },
     {
-        title: "Tudo sobre Linkedin",
+        title: "3 - Chame atenção com seu Linkedin",
         description:
-            "Blanditiis aliquid adipisci quisquam reiciendis voluptates itaque.",
+            "O Linkedin é a forma dos recrutadores te acharem! Vou te ensinar como construir um bom currículo e como deixar seu Linkedin da melhor forma para você ser encontrado!",
     },
     {
-        title: "Mandando a ver nas entrevistas",
+        title: "4 - Surpreenda na Entrevista",
         description:
-            "Blanditiis aliquid adipisci quisquam reiciendis voluptates itaque.",
+            "Depois de chamar a atenção do recrutador, você precisa saber se vender! Vou dar as melhores dicas para entrevitas de emprego, como se preparar e lidar com o nervosismo!",
     },
     {
-        title: "Bônus sobre mercado de tecnologia com convidados",
+        title: "5 - Bônus",
         description:
-            "Blanditiis aliquid adipisci quisquam reiciendis voluptates itaque.",
+            "Tem vontade de ganhar em dólar/euro? Tem vontade de trabalhar em uma Big Tech? Nessa aula vou chamar 2 convidados super especiais para falar das experiências deles!",
     },
 ];
 
@@ -71,7 +73,7 @@ function SoftskillsCheckout() {
                             <div className="col-md-5 animate-left">
                                 <div className="text-align-left">
                                     <h2 className='heading'>Prepare-se para uma das profissões mais promissoras do mercado</h2>
-                                    <p className='text-1'>Eu vou te orientar e acompanhar de perto para você conseguir uma vaga ou conquistar uma promoção em Tecnologia.<br></br></p>
+                                    <p className='text-1'>Eu vou te orientar e acompanhar de perto para você conseguir uma vaga ou conquistar uma promoção em Tecnologia.<br /></p>
                                     <a href='https://sun.eduzz.com/1392148'>
                                         <button type='submit' className='button'>QUERO FAZER PARTE !</button>
                                     </a>
@@ -108,19 +110,19 @@ function SoftskillsCheckout() {
                 </section>
                 <section>
                     <div className='container'>
-                        <div className='row justify-content-center mt-3'>
-                            <div className="col-md-6 animate-left mb-3">
-                                <img src={stepChangerWhite} alt='step changer logo white' className="logo-step-changer" />
+                        <div className='row justify-content-center pt-3'>
+                            <div className="col-md-6 mb-3">
+                                <img src={stepChangerGreen} alt='step changer logo white' className="logo-step-changer" />
                             </div>
                         </div>
                         <div className='row'>
-                            <div className='col-md-6 arch-mobile justify-content-center mt-3 mt-3'>
+                            <div className='col-md-6 arch-mobile justify-content-center mt-3 mt-3 animate-right'>
                                 <img src={archIcon} alt='arch svg' />
                             </div>
-                            <div className="col-md-6 animate-left mt-3">
-                                <p>
+                            <div className="col-md-6 mt-3">
+                                <h3>
                                     Na mentoria você vai:
-                                </p>
+                                </h3>
                                 <ul>
                                     <li>
                                         Direcionar sua carreira para onde você quer chegar. No distraction!
@@ -132,20 +134,20 @@ function SoftskillsCheckout() {
                                         Colocar na prática o que foi aprendido através de desafios;
                                     </li>
                                     <li>
-                                        Ter o meu acompanhamento semanal.
+                                        Ter o meu acompanhamento semanal;
                                     </li>
                                 </ul>
                             </div>
-                            <div className='col-md-6'>
+                            <div className='col-md-6 animate-right justify-content-center d-flex'>
                                 <img src={archIcon} alt='arch icon' className='arch-desktop' />
                             </div>
-                            <div className='col-md-6 mt-5 justify-content-center d-flex'>
+                            <div className='col-md-6 align-items-center justify-content-center d-flex animate-left'>
                                 <img src={calendarIcon} alt='calendar icon' className='calendar' />
                             </div>
-                            <div className="col-md-6 animate-left mt-3">
-                                <p>
+                            <div className="col-md-6 mt-3">
+                                <h3>
                                     O StepChanger é para você que:
-                                </p>
+                                </h3>
                                 <ul>
                                     <li>
                                         Se sente perdido e não sabe por onde começar;
@@ -162,13 +164,13 @@ function SoftskillsCheckout() {
                                 </ul>
                             </div>
                             <div className='col-md-6'></div>
-                            <div className='col-md-6 mt-5'>
+                            <div className='col-md-6 mt-5 animate-right d-flex justify-content-center'>
                                 <img src={mountIcon} alt='mountain icon' className='mountain-mobile' />
                             </div>
-                            <div className="col-md-6 animate-left mt-3 pr-3">
-                                <p>
+                            <div className="col-md-6 mt-3 pr-3">
+                                <h3>
                                     Qual etapa você está?
-                                </p>
+                                </h3>
                                 <ul>
                                     <li>
                                         Quer entrar no mercado da tecnologia;
@@ -181,62 +183,71 @@ function SoftskillsCheckout() {
                                     </li>
                                 </ul>
                             </div>
-                            <div className='col-md-6'>
+                            <div className='col-md-6 animate-right d-flex justify-content-center'>
                                 <img src={mountIcon} alt='mountain icon' className='mountain-desktop' />
                             </div>
                         </div>
-                        <a href='https://sun.eduzz.com/1392148'>
-                            <button type='submit' className='button'>QUERO FAZER PARTE !</button>
-                        </a>
+                        <div className='row'>
+
+                            <div className='col-md-3'></div>
+                            <div className='col-md-6'>
+                                <a href='https://sun.eduzz.com/1392148'>
+                                    <button type='submit' className='button'>QUERO FAZER PARTE !</button>
+                                </a>
+                            </div>
+                            <div className='col-md-3'></div>
+                        </div>
                     </div>
                 </section>
                 <section>
                     <div className='container'>
-                        <h2>Módulos</h2>
-                        <div className='row justify-content-center mt-3'>
-                            Serão 5 encontros nos sábados, ao vivo e em grupo pelo Zoom, e em cada encontro vamos falar dos temas:
+                        <div className='col-md-12'>
 
-                            <div className='mt-3 mb-3'>
-                                {questions.map((item: Question, i: number) => (
-                                    <Accordion title={item.title} description={item.description} key={i} />
-                                ))}
-                            </div>
-                            <p>
-                                A cada encontro, teremos um tempo para conversarmos e te orientar nas suas dificuldades. Também vai ser enviado toda semana um desafio para você já colocar isso em prática.
+                            <h2>Módulos</h2>
+                            <div className='row justify-content-center mt-3'>
+                                Serão 5 encontros nos sábados, ao vivo e em grupo pelo Zoom, e em cada encontro vamos falar dos temas:
 
-                                As gravações dos encontros vão ficar por 1 mês para você rever.
-
-                                Teremos um servidor no Discord: você vai poder interagir comigo e outros participantes na comunidade exclusiva da mentoria
-                            </p>
-                            <div className='col-md-6 mb-3 d-flex align-items-center'>
-                                <div className='w-100'>
-                                    <div className='d-flex align-items-center'>
-                                        <CountdownTimer />
-                                    </div>
+                                <div className='mt-3 mb-3'>
+                                    {questions.map((item: Question, i: number) => (
+                                        <Accordion title={item.title} description={item.description} key={i} />
+                                    ))}
                                 </div>
+                                <p>
+                                    A cada encontro, teremos um tempo para conversarmos e te orientar nas suas dificuldades. Também vai ser enviado toda semana um desafio para você já colocar isso em prática.
+                                    As gravações dos encontros vão ficar por 1 mês para você rever.
+                                    Teremos um servidor no Discord: você vai poder interagir comigo e outros participantes na comunidade exclusiva da mentoria
+                                </p>
+                            </div>
+                        </div>
+                        <br/>
+                        <div className='mb-3 d-flex align-items-center justify-content-center'>
+                            <div>
+                                <CountdownTimer />
                             </div>
                         </div>
                     </div>
-
                 </section>
                 <section>
                     <div className='container'>
-                        <div className='row justify-content-center mb-3 mt-3'>
+                        <div className='row justify-content-center mb-3 pt-3'>
                             <h2>O que você vai ter na mentoria?</h2>
                         </div>
-                        <div className='row'>
+                        <div className='row price-and-benefits'>
                             <div className='col-md-6'>
-                                <h2 className='price'>
-                                    <span className='price-part'>12x de </span>
-                                    R<span className='space'>$</span>29,70
-                                    <br></br>
-                                    <span className='price-part'>Ou:</span>
-                                </h2>
-                                <div>
-                                    <h2 className='price'>
-                                        R<span className='space'>$</span>297,00
-                                    </h2>
+                                <div className='d-flex justify-content-center'>
+                                    <p className='display-none-desktop'>Pague em:</p>
+                                    <br/>
+                                    <p className='price'>
+                                        12x de
+                                        <br />
+                                        R<p className='space'>$ </p><span>29,70</span>
+                                        <br />
+                                        ou R<p className='space'>$</p>297,00
+                                    </p>
                                 </div>
+                                <a href='https://sun.eduzz.com/1392148' className='display-none-desktop'>
+                                    <button type="submit" className="button">QUERO COMPRAR !</button>
+                                </a>
                             </div>
                             <div className='col-md-6'>
                                 <ul className='mt-3'>
@@ -269,7 +280,7 @@ function SoftskillsCheckout() {
                                         Certificado de conclusão
                                     </li>
                                 </ul>
-                                <a href='https://sun.eduzz.com/1392148'>
+                                <a href='https://sun.eduzz.com/1392148' className='display-none-mobile'>
                                     <button type="submit" className="button">QUERO COMPRAR !</button>
                                 </a>
                             </div>
@@ -278,17 +289,15 @@ function SoftskillsCheckout() {
                     </div>
                 </section>
                 <section>
-                    <div className='container'>
-                        feedbacks
-                    </div>
+                    <div className='end-line'></div>
                 </section>
                 <section>
                     <div className='container'>
-                        <h2 className='text-center mt-3 mb-3'>Empresas que já trabalhei:</h2>
+                        <h2 className='text-center pt-3 mb-3'>Empresas que já trabalhei:</h2>
                         <div className='row justify-content-center'>
                             <img src={itauIcon} className="logo" alt='Itau logo' />
-                            <img src={accentureIcon} className="logo" alt='Accenture logo' />
                             <img src={santanderIcon} className="logo" alt='Santander logo' />
+                            <img src={accentureIcon} className="logo" alt='Accenture logo' />
                         </div>
                     </div>
                 </section>
@@ -296,7 +305,7 @@ function SoftskillsCheckout() {
                     <div className='container'>
                         <div className='row'>
                             <div className="col-md-5 animate-left">
-                                <h2 className="animate-right">Eu sou a <br></br> Adriana Saty</h2>
+                                <h2 className="animate-right">Eu sou a <br /> Adriana Saty</h2>
                                 <div className="text-align-left animate-right">
                                     <p>Você pode me conhecer pelos meus tutoriais de programação do Youtube, pelos meus stories do Instagram ou vídeos de humor no Tiktok. Eu mostro o que eu sou e o que eu sei nas minhas redes sociais!</p>
                                     <p>O que talvez você não saiba é que eu já trabalhei nas maiores empresas de tecnologia do Brasil, como Itaú, Santander e Accenture!</p>
