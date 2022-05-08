@@ -58,8 +58,8 @@ function SoftskillsCheckout() {
                     <div className="col-md-6">
                         <img src={stepChangerGreen} alt="step changer logo green" className="logo-step-changer" />
                     </div>
-                    <div className="col-md-6 d-flex align-items-center">
-                        <p>Saty Mentoria - Inscrições até domingo 08/05!</p>
+                    <div className="col-md-6 d-flex align-items-center justify-content-center">
+                        <p>Saty Mentoria - Inscrições até hoje!</p>
                     </div>
                 </div>
             </header>
@@ -237,13 +237,13 @@ function SoftskillsCheckout() {
                                 <div className='d-flex justify-content-center'>
                                     <p className='display-none-desktop'>Pague em:</p>
                                     <br/>
-                                    <p className='price'>
+                                    <div className='price'>
                                         12x de
                                         <br />
                                         R<p className='space'>$ </p><span>29,70</span>
                                         <br />
                                         ou R<p className='space'>$</p>297,00
-                                    </p>
+                                    </div>
                                 </div>
                                 <a href='https://sun.eduzz.com/1392148' className='display-none-desktop'>
                                     <button type="submit" className="button">QUERO COMPRAR !</button>
