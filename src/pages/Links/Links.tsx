@@ -20,7 +20,12 @@ function Links() {
             </div>
             <ul>
                 <li>
-                    <a className='highlight' href="/subscription">Mentoria e eventos!
+                    <a className='highlight' href="https://bit.ly/b_semanahackeretico">Semana Hacker Ético!
+                        <small>100% gratuito <span role="img" aria-label="blink">🔥</span></small>
+                    </a>
+                </li>
+                <li>
+                    <a className='' href="/subscription">Mentoria comigo!
                         <small>Increva-se na lista de espera <span role="img" aria-label="blink">😉</span></small>
                     </a>
                 </li>
@@ -28,7 +33,7 @@ function Links() {
                     <a href="https://www.youtube.com/channel/UCPhVBS-1Uy-wIzj4hmjkcmA" target="_blank" rel="noopener noreferrer">
                         <img alt='youtube logo' className='img-logo' src={youtube} />
                         YOUTUBE
-                        <small>Vídeos em breve!</small>
+                        <small>Conteúdo gratuito!</small>
                     </a>
                 </li>
                 <li>
