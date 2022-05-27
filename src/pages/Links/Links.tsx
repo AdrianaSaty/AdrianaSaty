@@ -20,7 +20,7 @@ function Links() {
             </div>
             <ul>
                 <li>
-                    <a className='highlight' href="https://bit.ly/b_semanahackeretico">Semana Hacker Ético!
+                    <a className='highlight' href="https://bit.ly/SemanaHacker_bas">Semana Hacker Ético!
                         <small>100% gratuito <span role="img" aria-label="blink">🔥</span></small>
                     </a>
                 </li>
