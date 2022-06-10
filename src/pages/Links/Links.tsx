@@ -20,13 +20,8 @@ function Links() {
             </div>
             <ul>
                 <li>
-                    <a className='highlight' href="https://bit.ly/SemanaHacker_bas">Semana Hacker Ético!
-                        <small>100% gratuito <span role="img" aria-label="blink">🔥</span></small>
-                    </a>
-                </li>
-                <li>
-                    <a className='' href="/subscription">Mentoria comigo!
-                        <small>Increva-se na lista de espera <span role="img" aria-label="blink">😉</span></small>
+                    <a className='highlight' href="/subscription">StepChanger - Mentoria em Grupo comigo!
+                        <small>Increva-se na lista de espera <span role="img" aria-label="blink">🔥</span></small>
                     </a>
                 </li>
                 <li>
@@ -37,10 +32,9 @@ function Links() {
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.twitch.tv/adrianasaty" target="_blank" rel="noopener noreferrer">
-                        <img alt='twitch logo' className='img-logo-twitch' src={twitch} />
-                        Twitch
-                        <small>Live Coding e Game Coding</small>
+                    <a href="mailto:info@adrianasaty.com" target="_blank" rel="noopener noreferrer">
+                        <span role="img" aria-label="blink">📩</span> Me envie um E-mail!
+                        <small>Parcerias ou mentoria individual</small>
                     </a>
                 </li>
                 <li className='two-links'>
@@ -58,9 +52,10 @@ function Links() {
                     </a>
                 </li>
                 <li>
-                    <a href="mailto:info@adrianasaty.com" target="_blank" rel="noopener noreferrer">
-                        CONTATO
-                        <small>Parcerias ou mentoria individual</small>
+                    <a href="https://www.twitch.tv/adrianasaty" target="_blank" rel="noopener noreferrer">
+                        <img alt='twitch logo' className='img-logo-twitch' src={twitch} />
+                        Twitch
+                        <small>Live Coding e Game Coding</small>
                     </a>
                 </li>
             </ul>
