@@ -32,10 +32,9 @@ function Links() {
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.twitch.tv/adrianasaty" target="_blank" rel="noopener noreferrer">
-                        <img alt='twitch logo' className='img-logo-twitch' src={twitch} />
-                        Twitch
-                        <small>Live Coding e Game Coding</small>
+                    <a href="mailto:info@adrianasaty.com" target="_blank" rel="noopener noreferrer">
+                        <span role="img" aria-label="blink">📩</span> Me envie um E-mail!
+                        <small>Parcerias ou mentoria individual</small>
                     </a>
                 </li>
                 <li className='two-links'>
@@ -53,9 +52,10 @@ function Links() {
                     </a>
                 </li>
                 <li>
-                    <a href="mailto:info@adrianasaty.com" target="_blank" rel="noopener noreferrer">
-                        CONTATO
-                        <small>Parcerias ou mentoria individual</small>
+                    <a href="https://www.twitch.tv/adrianasaty" target="_blank" rel="noopener noreferrer">
+                        <img alt='twitch logo' className='img-logo-twitch' src={twitch} />
+                        Twitch
+                        <small>Live Coding e Game Coding</small>
                     </a>
                 </li>
             </ul>
