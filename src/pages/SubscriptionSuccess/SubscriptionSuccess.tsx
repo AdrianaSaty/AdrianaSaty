@@ -16,7 +16,7 @@ function SubscriptionSuccess() {
                         </div>
                         <div className='header-txt-success'>
                             <h3>Entrar no grupo do Whatsapp!</h3>
-                            <Link to={{ pathname: "https://chat.whatsapp.com/BdgMVyVkDH00QyPArkIEfz" }} target="_blank" >
+                            <Link to={{ pathname: "https://chat.whatsapp.com/Jk51VNON37c7fJlOPgJXiH" }} target="_blank" >
                                 <button >Entrar</button>
                             </Link>
                         </div>
