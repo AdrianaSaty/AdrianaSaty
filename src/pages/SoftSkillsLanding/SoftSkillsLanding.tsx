@@ -98,7 +98,7 @@ function SoftSkillsLanding() {
                             <div className='col-md-6 mb-3 d-flex align-items-center'>
                                 <div className='w-100'>
                                     <div className='d-flex align-items-center'>
-                                        <CountdownTimer />
+                                        {/* <CountdownTimer /> */}
                                     </div>
                                     <a href='#softskills-form'>
                                         <button type="submit" className="button">QUERO ENTRAR NA LISTA</button>

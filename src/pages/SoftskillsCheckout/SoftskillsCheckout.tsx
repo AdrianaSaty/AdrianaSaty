@@ -222,7 +222,7 @@ function SoftskillsCheckout() {
                         <br/>
                         <div className='mb-3 d-flex align-items-center justify-content-center'>
                             <div>
-                                <CountdownTimer />
+                                {/* <CountdownTimer /> */}
                             </div>
                         </div>
                     </div>
