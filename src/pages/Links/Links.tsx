@@ -20,7 +20,12 @@ function Links() {
             </div>
             <ul>
                 <li>
-                    <a className='highlight' href="/subscription">StepChanger - Mentoria em Grupo comigo!
+                    <a className='highlight' href="https://bit.ly/3bD3mHL">Programa de Estágio Oi | 2022
+                        <small>Participe!</small>
+                    </a>
+                </li>
+                <li>
+                    <a className='' href="/subscription">StepChanger - Mentoria em Grupo comigo!
                         <small>Increva-se na lista de espera <span role="img" aria-label="blink">🔥</span></small>
                     </a>
                 </li>
