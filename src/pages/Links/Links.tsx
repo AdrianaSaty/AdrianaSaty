@@ -20,8 +20,8 @@ function Links() {
             </div>
             <ul>
                 <li>
-                    <a className='highlight' href="https://bit.ly/3bD3mHL">Programa de Estágio Oi | 2022
-                        <small>Participe!</small>
+                    <a className='highlight' href="https://empresas.americanas.com.br/?utm_medium=brdevento&utm_source=instagram&utm_campaign=marca:acomemp%3Bmidia:brdevento%3Bformato:influenciador%3Bsubformato:redesocial%3Bidcampanha:Influenciadores_saldaotech_22_acomempresas_adriana&epar=BR_IN_RS_IT_Influenciadores_saldaotech_22_acomempresas_adriana">Ofertas Saldão TECH
+                        <small>Americanas Empresas</small>
                     </a>
                 </li>
                 <li>
