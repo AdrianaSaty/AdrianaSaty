@@ -20,8 +20,8 @@ function Links() {
             </div>
             <ul>
                 <li>
-                    <a className='highlight' href="https://www.ambevtechandcheers.com.br/capa?utm_source=Instagram&utm_medium=CPM&utm_campaign=Ambev+Tech">Ambev Tech
-                        <small>03/08 - Bora participar!!</small>
+                    <a className='highlight' href="https://go.hotmart.com/B74446773X?ap=ef52">Evento: Carreira Tech_Day
+                        <small>01/10 - Bora participar!!</small>
                     </a>
                 </li>
                 <li>
