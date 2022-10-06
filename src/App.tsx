@@ -53,9 +53,9 @@ function App() {
                         <Route path={`/links`} component={Links} />
                         <Route path={`/about`} component={About} />
                         <Route path={`/background`} component={Background} />
-                        {/* <Route path={`/softskills-landing`} component={SoftSkillsLanding} /> */}
-                        {/* <Route path={`/softskills-checkout`} component={SoftskillsCheckout} /> */}
-                        {/* <Route path={`/softskills-landing-success`} component={SoftSkillsLandingSuccess} /> */}
+                        <Route path={`/softskills-landing`} component={SoftSkillsLanding} />
+                        <Route path={`/softskills-checkout`} component={SoftskillsCheckout} />
+                        <Route path={`/softskills-landing-success`} component={SoftSkillsLandingSuccess} />
                         <Route path={`/subscription`} component={Subscription} />
                         <Route path={`/subscription-success`} component={SubscriptionSuccess} />
                         {/* <Route path={`/project`} component={Project} /> */}

@@ -20,13 +20,13 @@ function Links() {
             </div>
             <ul>
                 <li>
-                    <a className='highlight' href="https://go.hotmart.com/B74446773X?ap=ef52">Evento: Carreira Tech_Day
-                        <small>01/10 - Bora participar!!</small>
+                    <a className='highlight' href="/subscription">Vem novidade aí!
+                        <small>Increva-se na lista de espera <span role="img" aria-label="blink">🔥</span></small>
                     </a>
                 </li>
                 <li>
-                    <a className='' href="/subscription">StepChanger - Mentoria em Grupo comigo!
-                        <small>Increva-se na lista de espera <span role="img" aria-label="blink">🔥</span></small>
+                    <a className='' href="https://www.sympla.com.br/transformando-um-produto-em-uma-empresa-de-mais-de-r100m__1740326?afid=72014" target="_blank">Transforme seu produto ou idéia em um negócio valioso!
+                        <small>Para devs que querem empreender! <span role="img" aria-label="blink">🔥</span></small>
                     </a>
                 </li>
                 <li>
