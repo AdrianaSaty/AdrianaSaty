@@ -20,13 +20,8 @@ function Links() {
             </div>
             <ul>
                 <li>
-                    <a className='highlight' href="https://www.sympla.com.br/transformando-um-produto-em-uma-empresa-de-mais-de-r100m__1740326?afid=72014" target="_blank">Transforme seu produto/idéia em um negócio valioso!
-                        <small>Para devs que querem empreender! <span role="img" aria-label="blink">🤑</span></small>
-                    </a>
-                </li>
-                <li>
-                    <a className='' href="/subscription">Vem novidade aí!
-                        <small>Increva-se na lista de espera <span role="img" aria-label="blink">🔥</span></small>
+                    <a className='highlight' href="https://websaty.com.br/comecando-como-dev/">Aulão 'Começando como se dev'
+                        <small>dia 31/out - gratuito <span role="img" aria-label="blink">🔥</span></small>
                     </a>
                 </li>
                 <li>
