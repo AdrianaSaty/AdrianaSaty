@@ -20,13 +20,18 @@ function Links() {
             </div>
             <ul>
                 <li>
-                    <a className='highlight' href="https://websaty.com.br/comecando-como-dev/">Aulão 'Começando como se dev'
-                        <small>dia 31/out - gratuito <span role="img" aria-label="blink">🔥</span></small>
+                    <a className='highlight' href="https://bit.ly/3DG4WTM">Tendências para Startups em 2023
+                        <small>quero participar!</small>
                     </a>
                 </li>
                 <li>
-                    <a className='' href="https://bit.ly/3CpTJWz" target="_blank">Quer trabalhar como freelancer?
-                        <small>Confere o site da BossaBox!</small>
+                    <a className='' href="https://www.elumini-it.com/reconecti-se">ReconecTI-se +50
+                        <small>realocação de profissionais com +50 anos!</small>
+                    </a>
+                </li>
+                <li>
+                    <a className='' href="/subscription">StepOne: inscrições encerradas!
+                        <small>lista de espera <span role="img" aria-label="blink">🔥</span></small>
                     </a>
                 </li>
                 <li>
