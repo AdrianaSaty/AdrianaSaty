@@ -8,7 +8,7 @@ import santanderIcon from '../../img/svgs/santander.svg';
 import mountIcon from '../../img/svgs/mountain.svg';
 import archIcon from '../../img/svgs/arch.svg';
 import calendarIcon from '../../img/calendar.png';
-import Accordion from '../../components/Accordion/Accordion';
+//import Accordion from '../../components/Accordion/Accordion';
 import stepChangerGreen from '../../img/logos/stepChanger.png';
 import CountdownTimer from '../../components/CountdownTimer/CountdownTimer';
 
@@ -208,10 +208,10 @@ function SoftskillsCheckout() {
                                 Serão 5 encontros nos sábados, ao vivo e em grupo pelo Zoom, e em cada encontro vamos falar dos temas:
 
                                 <div className='mt-3 mb-3'>
-                                    {questions.map((item: Question, i: number) => (
+                                 {/*   {questions.map((item: Question, i: number) => (
                                         <Accordion title={item.title} description={item.description} key={i} />
-                                    ))}
-                                </div>
+                                    ))}*/}
+                                 </div>
                                 <p>
                                     A cada encontro, teremos um tempo para conversarmos e te orientar nas suas dificuldades. Também vai ser enviado toda semana um desafio para você já colocar isso em prática.
                                     As gravações dos encontros vão ficar disponíveis por 1 mês para você rever.
