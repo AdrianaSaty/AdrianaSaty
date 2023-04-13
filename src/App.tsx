@@ -18,6 +18,7 @@ function App() {
     const Footer = React.lazy(() => import('./components/Footer/Footer'));
     const Home = React.lazy(() => import('./pages/Home/Home'));
     const Links = React.lazy(() => import('./pages/Links/Links'));
+    const Products = React.lazy(() => import('./pages/Products/Products'));
     const About = React.lazy(() => import('./pages/About/About'));
     const Background = React.lazy(() => import('./pages/Background/Background'));
     const Subscription = React.lazy(() => import('./pages/Subscription/Subscription'));
@@ -51,6 +52,7 @@ function App() {
                     <Switch>
                         <Route path={"/"} exact={true} component={Home} />
                         <Route path={`/links`} component={Links} />
+                        <Route path={`/products`} component={Products} />
                         <Route path={`/about`} component={About} />
                         <Route path={`/background`} component={Background} />
                         <Route path={`/softskills-landing`} component={SoftSkillsLanding} />

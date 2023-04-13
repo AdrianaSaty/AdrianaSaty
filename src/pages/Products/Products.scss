@@ -1,0 +1,43 @@
+.products {
+    background-color: black;
+    padding: 20px 30px;
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .txt-center {
+        text-align: center;
+    }
+    .img-avatar {
+        width: 120px;
+        height: 120px;
+        border-radius: 100px;
+        opacity: 1;
+        border: 2px solid rgb(255, 255, 255);
+    }
+    .img-logo {
+        width: 30px;
+        margin-right: 5px;
+    }
+
+    h1 {
+        padding: 0;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+    }
+    h2 {
+        font-size: 18px;
+        color: #b8b8bb;
+        padding: 5px;
+        text-align: left;
+    }
+    h3 {
+        font-size: 16px;
+        color: #b8b8bb;
+        padding: 5px;
+        text-align: left;
+    }
+
+}

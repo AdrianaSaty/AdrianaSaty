@@ -25,6 +25,12 @@ function Links() {
                     </a>
                 </li>
                 <li>
+                    <a href="/products" target="_blank" rel="noopener noreferrer">
+                        Comprinhas 
+                        <small>Itens do meu setup, livros e muito mais!</small>
+                    </a>
+                </li>
+                <li>
                     <a href="https://www.youtube.com/channel/UCPhVBS-1Uy-wIzj4hmjkcmA" target="_blank" rel="noopener noreferrer">
                         <img alt='youtube logo' className='img-logo' src={youtube} />
                         YOUTUBE
