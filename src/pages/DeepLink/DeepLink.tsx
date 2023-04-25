@@ -1,27 +1,27 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Loading from '../../components/Loading/Loading';
 
 
 function DeepLink() {
     const getParameterByName = (name: string, url = window.location.href) => {
         name = name.replace(/[\[\]]/g, '\\$&');
-        var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+        const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
             results = regex.exec(url);
         if (!results) return null;
         if (!results[2]) return '';
         return decodeURIComponent(results[2].replace(/\+/g, ' '));
     }
-    
+
     const useDeeplink = () => {
         console.log('use deeplink')
-        var youtubeVideoLongLink = 'www.youtube.com/watch?v=';
-        var youtubeChannelLink = 'www.youtube.com/c/';
-        var youtubeShortLink = 'https://youtu.be/';
-        var https = 'https://';
-        var www = 'www.';
-        var fallbackURL = getParameterByName('u');
-        var channelFallback: any = getParameterByName('c');
-    
+        const youtubeVideoLongLink = 'www.youtube.com/watch?v=';
+        const youtubeChannelLink = 'www.youtube.com/c/';
+        const youtubeShortLink = 'https://youtu.be/';
+        const https = 'https://';
+        const www = 'www.';
+        let fallbackURL = getParameterByName('u');
+        let channelFallback: any = getParameterByName('c');
+
         if (channelFallback) {
             if (channelFallback.includes(https)) {
                 if (channelFallback.includes(www))
@@ -42,10 +42,10 @@ function DeepLink() {
                 fallbackURL = youtubeVideoLongLink + fallbackURL;
             }
         } else return;
-    
-        var androidApp = `intent://${fallbackURL}#Intent;package=com.google.android.youtube;scheme=https;end`;
-        var iosApp = `vnd.youtube://${fallbackURL}`;
-    
+
+        const androidApp = `intent://${fallbackURL}#Intent;package=com.google.android.youtube;scheme=https;end`;
+        const iosApp = `vnd.youtube://${fallbackURL}`;
+
         if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
             window.location.href = iosApp;
             window.setTimeout(function () {
@@ -59,17 +59,15 @@ function DeepLink() {
         } else {
             window.location.href = https + fallbackURL;
         }
-    
+
         function killPopup() {
             window.removeEventListener('pagehide', killPopup);
         }
-    
+
         window.addEventListener('pagehide', killPopup);
     };
 
-    useEffect(() => {
-        console.log(useDeeplink())
-    })
+    useDeeplink();
 
     return (
         <Loading></Loading>
