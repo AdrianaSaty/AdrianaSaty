@@ -13,13 +13,12 @@ function DeepLink() {
     }
 
     const useDeeplink = () => {
-        console.log('use deeplink')
-        const youtubeVideoLongLink = 'www.youtube.com/watch?v=';
-        const youtubeChannelLink = 'www.youtube.com/c/';
-        const youtubeShortLink = 'https://youtu.be/';
-        const https = 'https://';
-        const www = 'www.';
-        let fallbackURL = getParameterByName('u');
+        const youtubeVideoLongLink: string = 'www.youtube.com/watch?v=';
+        const youtubeChannelLink: string = 'www.youtube.com/c/';
+        const youtubeShortLink: string = 'https://youtu.be/';
+        const https: string = 'https://';
+        const www: string = 'www.';
+        let fallbackURL: any = getParameterByName('u');
         let channelFallback: any = getParameterByName('c');
 
         if (channelFallback) {
@@ -43,8 +42,8 @@ function DeepLink() {
             }
         } else return;
 
-        const androidApp = `intent://${fallbackURL}#Intent;package=com.google.android.youtube;scheme=https;end`;
-        const iosApp = `vnd.youtube://${fallbackURL}`;
+        const androidApp: string = `intent://${fallbackURL}#Intent;package=com.google.android.youtube;scheme=https;end`;
+        const iosApp: string = `vnd.youtube://${fallbackURL}`;
 
         if (/iPhone|iPad|iPod/i.test(navigator.userAgent)) {
             window.location.href = iosApp;
