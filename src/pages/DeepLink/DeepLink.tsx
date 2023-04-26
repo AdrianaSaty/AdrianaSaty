@@ -18,8 +18,8 @@ function DeepLink() {
         const youtubeShortLink: string = 'https://youtu.be/';
         const https: string = 'https://';
         const www: string = 'www.';
-        let fallbackURL: any = getParameterByName('u');
-        let channelFallback: any = getParameterByName('c');
+        let fallbackURL: string | null = getParameterByName('u');
+        let channelFallback: string | null = getParameterByName('c');
 
         if (channelFallback) {
             if (channelFallback.includes(https)) {
