@@ -25,6 +25,7 @@ function App() {
     const ErrorPage = React.lazy(() => import('./pages/ErrorPage/ErrorPage'));
     const SoftSkillsLanding = React.lazy(() => import('./pages/SoftSkillsLanding/SoftSkillsLanding'));
     const SoftskillsCheckout = React.lazy(() => import('./pages/SoftskillsCheckout/SoftskillsCheckout'));
+    const DeepLink = React.lazy(() => import('./pages/DeepLink/DeepLink'));
 
     let language = i18next.use(LanguageDetector).language || 'en';
 
@@ -60,6 +61,7 @@ function App() {
                         <Route path={`/softskills-landing-success`} component={SoftSkillsLandingSuccess} />
                         <Route path={`/subscription`} component={Subscription} />
                         <Route path={`/subscription-success`} component={SubscriptionSuccess} />
+                        <Route path={`/deeplink`} component={DeepLink} />
                         {/* <Route path={`/project`} component={Project} /> */}
                         <Route path='*' component={ErrorPage} />
                     </Switch>
