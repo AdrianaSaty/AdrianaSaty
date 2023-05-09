@@ -20,7 +20,7 @@ function Links() {
             </div>
             <ul>
                 <li>
-                    <a className='highlight' href="/subscription">StepOne: inscrições encerradas!
+                    <a className='highlight' href="https://websaty.com.br/stepone-lista-de-espera/">StepOne: inscrições encerradas!
                         <small>lista de espera <span role="img" aria-label="blink">🔥</span></small>
                     </a>
                 </li>
