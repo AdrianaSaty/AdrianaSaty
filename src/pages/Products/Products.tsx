@@ -1,6 +1,32 @@
 import React from 'react';
 import avatar from '../../img/avatar.png';
+import Accordion from '../../components/Accordion/Accordion';
 import './Products.scss';
+
+
+interface Product {
+    title: string,
+    description: string,
+    ad_encoding: string,
+    ad_linktree: string
+}
+
+interface Products extends Array<Product> { }
+
+const products: Products = [
+    {
+        title: "Monitor Gamer LG Ultrawide",
+        description: "https://www.amazon.com.br/Monitor-LG-29UM69G-UltraWide-FreeSync/dp/B078TPLC2X?keywords=monitor+lg+29+ultrawide&qid=1681353057&sprefix=ultrawide+l%2Caps%2C231&sr=8-2&linkCode=li2&tag=insta-linktree-20&linkId=9f8a4ba59990407f88f9374e819f2528&language=pt_BR&ref_=as_li_ss_il",
+        ad_encoding: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078TPLC2X&Format=_SL160_&ID=AsinImage&MarketPlace=BR&ServiceVersion=20070822&WS=1&tag=insta-linktree-20&language=pt_BR",
+        ad_linktree: "https://ir-br.amazon-adsystem.com/e/ir?t=insta-linktree-20&language=pt_BR&l=li2&o=33&a=B0B11LJ69K"
+    },
+    {
+        title: "Mouse Logitech MX Master",
+        description: "https://www.amazon.com.br/Logitech-MX-Master-3S-Superf%C3%ADcie/dp/B0B11LJ69K?keywords=mouse+mx+master+3s&qid=1681353579&sprefix=mouse+mx+m%2Caps%2C251&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyMzZKNUxYT1NNUFRDJmVuY3J5cHRlZElkPUEwODUwNTAxMktHTTEzTDhKRlA2RSZlbmNyeXB0ZWRBZElkPUEwNzg2OTIzMTdQUDZXTTZHMjRORiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU%3D&linkCode=li2&tag=insta-linktree-20&linkId=9401a655a8bda314547b9f8f0b7f204e&language=pt_BR&ref_=as_li_ss_il",
+        ad_encoding: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B11LJ69K&Format=_SL160_&ID=AsinImage&MarketPlace=BR&ServiceVersion=20070822&WS=1&tag=insta-linktree-20&language=pt_BR",
+        ad_linktree: "https://ir-br.amazon-adsystem.com/e/ir?t=insta-linktree-20&language=pt_BR&l=li2&o=33&a=B0B11LJ69K"
+    }
+]
 
 function Products() {
     return (
@@ -16,17 +42,27 @@ function Products() {
                 </header>
             </div>
             <section>
-                <h2>Meu Setup</h2>
+                <h1 className='setup'>Meu Setup</h1>
+                <div className='row justify-content-center'>
+                    <div className='mt-3 mb-3'>
+                        {products.map((item: Product, i: number) => (
+                            <Accordion title={item.title} description={item.description} ad_encoding={item.ad_encoding} ad_linktree={item.ad_linktree} key={i} />
+                        ))}
+                    </div>
+                </div>
                 <div>
-                    <h3>Monitor</h3>
+                    <h3>Monitor Gamer LG Ultrawide</h3>
                     <a href="https://www.amazon.com.br/Monitor-LG-29UM69G-UltraWide-FreeSync/dp/B078TPLC2X?keywords=monitor+lg+29+ultrawide&qid=1681353057&sprefix=ultrawide+l%2Caps%2C231&sr=8-2&linkCode=li2&tag=insta-linktree-20&linkId=9f8a4ba59990407f88f9374e819f2528&language=pt_BR&ref_=as_li_ss_il" target="_blank">
                         <img src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B078TPLC2X&Format=_SL160_&ID=AsinImage&MarketPlace=BR&ServiceVersion=20070822&WS=1&tag=insta-linktree-20&language=pt_BR" />
                     </a>
                     <img src="https://ir-br.amazon-adsystem.com/e/ir?t=insta-linktree-20&language=pt_BR&l=li2&o=33&a=B078TPLC2X" width="1" height="1" alt="" />
                 </div>
                 <div>
-                    <h3>Mouse</h3>
-                    {/* <a href="https://www.amazon.com.br/Logitech-MX-Master-3S-Superf%C3%ADcie/dp/B0B11LJ69K?keywords=mouse+mx+master+3s&qid=1681353579&sprefix=mouse+mx+m%2Caps%2C251&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyMzZKNUxYT1NNUFRDJmVuY3J5cHRlZElkPUEwODUwNTAxMktHTTEzTDhKRlA2RSZlbmNyeXB0ZWRBZElkPUEwNzg2OTIzMTdQUDZXTTZHMjRORiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU%3D&linkCode=li2&tag=insta-linktree-20&linkId=9401a655a8bda314547b9f8f0b7f204e&language=pt_BR&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B11LJ69K&Format=_SL160_&ID=AsinImage&MarketPlace=BR&ServiceVersion=20070822&WS=1&tag=insta-linktree-20&language=pt_BR" ></a><img src="https://ir-br.amazon-adsystem.com/e/ir?t=insta-linktree-20&language=pt_BR&l=li2&o=33&a=B0B11LJ69K" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> */}
+                    <h3>Mouse Logitech MX Master</h3>
+                    <a href="https://www.amazon.com.br/Logitech-MX-Master-3S-Superf%C3%ADcie/dp/B0B11LJ69K?keywords=mouse+mx+master+3s&qid=1681353579&sprefix=mouse+mx+m%2Caps%2C251&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyMzZKNUxYT1NNUFRDJmVuY3J5cHRlZElkPUEwODUwNTAxMktHTTEzTDhKRlA2RSZlbmNyeXB0ZWRBZElkPUEwNzg2OTIzMTdQUDZXTTZHMjRORiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU%3D&linkCode=li2&tag=insta-linktree-20&linkId=9401a655a8bda314547b9f8f0b7f204e&language=pt_BR&ref_=as_li_ss_il" target="_blank">
+                        <img src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0B11LJ69K&Format=_SL160_&ID=AsinImage&MarketPlace=BR&ServiceVersion=20070822&WS=1&tag=insta-linktree-20&language=pt_BR" />
+                    </a>
+                    <img src="https://ir-br.amazon-adsystem.com/e/ir?t=insta-linktree-20&language=pt_BR&l=li2&o=33&a=B0B11LJ69K" width="1" height="1" alt="" />
                 </div>
                 <div>
                     <h3>Macbook Pro M1</h3>
@@ -76,17 +112,17 @@ function Products() {
             </section>
             <section>
                 <h2>Acessórios</h2>
-                 <div>
+                <div>
                     <h3>Kit limpador de setup</h3>
                     {/* <a href="https://www.amazon.com.br/dp/B09NBTW79W?psc=1&linkCode=li2&tag=insta-linktree-20&linkId=ca7bc27f289cc36f99040800e61a1ff9&language=pt_BR&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B09NBTW79W&Format=_SL160_&ID=AsinImage&MarketPlace=BR&ServiceVersion=20070822&WS=1&tag=insta-linktree-20&language=pt_BR" ></a><img src="https://ir-br.amazon-adsystem.com/e/ir?t=insta-linktree-20&language=pt_BR&l=li2&o=33&a=B09NBTW79W" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> */}
-                 </div>
-                 <div>
+                </div>
+                <div>
                     <h3>Pano Limpa Telas</h3>
                     {/* <a href="https://www.amazon.com.br/dp/B0779NJH7F?psc=1&linkCode=li2&tag=insta-linktree-20&linkId=43f0b22985612ba23fa7baa50553875a&language=pt_BR&ref_=as_li_ss_il" target="_blank"><img border="0" src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B0779NJH7F&Format=_SL160_&ID=AsinImage&MarketPlace=BR&ServiceVersion=20070822&WS=1&tag=insta-linktree-20&language=pt_BR" ></a><img src="https://ir-br.amazon-adsystem.com/e/ir?t=insta-linktree-20&language=pt_BR&l=li2&o=33&a=B0779NJH7F" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /> */}
-                 </div>
-                 <div>
+                </div>
+                <div>
                     <h3></h3>
-                 </div>
+                </div>
             </section>
         </div>
 

@@ -27,17 +27,27 @@
         color: white;
         text-align: center;
     }
+    .setup{
+        background-color: #5BBE42;
+        padding: 10px 20px;
+        border-radius: 10px;
+        width: 250px;
+        margin: 0 auto;
+    }
     h2 {
         font-size: 18px;
         color: #b8b8bb;
         padding: 5px;
-        text-align: left;
+        text-align: center;
     }
     h3 {
         font-size: 16px;
         color: #b8b8bb;
         padding: 5px;
-        text-align: left;
+        text-align: center;
+    }
+    div{
+        text-align: center;
     }
 
 }
